@@ -10,14 +10,15 @@ import Team from "@components/team"
 import Footer from "@components/footer"
 import Testimonials from "@components/testimonials"
 import { SectionTitle } from "@components/sections"
-
+import Container from "@components/container"
+import Link from "next/link"
 
 
 export default function Home() {
   return (
     <div>
       <Head>
-        <title>Dentist Gyor - Perident Dental Clinic Gyor</title>
+        <title>Dental Services - Perident Dental Clinic Gyor</title>
 
         <meta
           name="description"
@@ -27,18 +28,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="xl:mx-12 mx-4">
+      <main>
         <Navbar/>
-        <Hero/>
         <SectionTitle title={services.title} subtitle={services.desc}/>
         <Services data={services} />
-        <SectionTitle title={benefits.title} subtitle={benefits.desc}/>
-        <Benefits data={benefits}/>
-        <SectionTitle title="Meet the team"
-          subtitle="Our team of experienced professionals is here to help you"/>
-        <Team data={team}/>
-        <SectionTitle title="Here's what our customers said"/>
-        <Testimonials/>
         <Footer/>
       </main>
     </div>
