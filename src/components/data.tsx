@@ -1,12 +1,17 @@
-import { EmojiHappyIcon } from "@heroicons/react/outline";
-import doctorImg from "../../public/img/DR-Peresztegi-Szabolcs.jpeg"
-import szabolcsImg from "../../public/img/dr-peresztegi-szabolcs-fogorvosi-szek.jpeg"
-import assistantImg from "../../public/img/kinga-asszisztens.jpeg"
-import { faTooth, faTeethOpen, faClipboardCheck, faUserDoctor } from '@fortawesome/free-solid-svg-icons'
-import { faUncharted } from '@fortawesome/free-brands-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faUncharted } from "@fortawesome/free-brands-svg-icons"
+import {
+  faTooth,
+  faTeethOpen,
+  faClipboardCheck,
+  faUserDoctor,
+} from "@fortawesome/free-solid-svg-icons"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { EmojiHappyIcon } from "@heroicons/react/outline"
 
-  
+import szabolcsImg from "../../public/img/dr-peresztegi-szabolcs-fogorvosi-szek.jpeg"
+import doctorImg from "../../public/img/DR-Peresztegi-Szabolcs.jpeg"
+import assistantImg from "../../public/img/kinga-asszisztens.jpeg"
+
 export const services = {
   title: "Dental Services",
   desc: "Some of the expert dental treatments offered at the Perident Dental Clinic:",
@@ -46,7 +51,6 @@ export const services = {
       desc: "Then explain the first point breifly in one or two lines.",
       icon: <EmojiHappyIcon />,
     },
-    
   ],
 }
 export const benefits = {
@@ -59,27 +63,27 @@ export const benefits = {
     },
     {
       title: "Best materials",
-      desc: "We use the best materials to provide top quality results"
+      desc: "We use the best materials to provide top quality results",
     },
     {
       title: "Friendly atmosphere",
-      desc: "We provide caring dentistry in a comfortable and friendly environment"
+      desc: "We provide caring dentistry in a comfortable and friendly environment",
     },
     {
       title: "Reasonable prices",
-      desc: "Our pricing is designed to be affordable"
+      desc: "Our pricing is designed to be affordable",
     },
     {
       title: "Painless procedure",
-      desc: "Our dental procedures is pain-free"
+      desc: "Our dental procedures is pain-free",
     },
     {
       title: "Short waiting time",
-      desc: "Call us, and we can typically give you an appointment within a week"
+      desc: "Call us, and we can typically give you an appointment within a week",
     },
     {
       title: "Fast, precise work",
-      desc: "We won't keep you waiting on your new beautiful smile :)"
+      desc: "We won't keep you waiting on your new beautiful smile :)",
     },
   ],
 }
@@ -88,15 +92,15 @@ export const team = {
   title: "Meet the team",
   members: [
     {
-        image: szabolcsImg,
-        name: "Dr. Peresztegi Szabolcs",
-        title: "Dentist",
-        linkedin: "https://www.linkedin.com/in/szabolcs-peresztegi-nagy-b16a3a23"
+      image: szabolcsImg,
+      name: "Dr. Peresztegi Szabolcs",
+      title: "Dentist",
+      linkedin: "https://www.linkedin.com/in/szabolcs-peresztegi-nagy-b16a3a23",
     },
     {
-        image: assistantImg,
-        name: "Mehrmann Kinga",
-        title: "Assistant"
+      image: assistantImg,
+      name: "Mehrmann Kinga",
+      title: "Assistant",
     },
   ],
 }

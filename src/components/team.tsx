@@ -1,59 +1,56 @@
-import React from "react";
-import Container from "./container";
-import Image from "next/image";
-import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import Link from "next/link";
+import React from "react"
+
+import { faLinkedin } from "@fortawesome/free-brands-svg-icons"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import Image from "next/image"
+
+import Container from "./container"
 
 export default function Team(props) {
-  const { data } = props;
+  const { data } = props
 
   return (
     <>
-      <Container className="flex flex-wrap items-center w-full ">
-      <div className="flex flex-row flex-wrap gap-6 w-full place-content-center">
-        {data.members.map((item, index) => (
-          <TeamMember key={index} image={item.image} name={item.name} title={item.title} linkedinLink={item.linkedin}/>
-        ))}
-      </div>
+      <Container className="flex w-full flex-wrap items-center ">
+        <div className="flex w-full flex-row flex-wrap place-content-center gap-6">
+          {data.members.map((item, index) => (
+            <TeamMember
+              key={index}
+              image={item.image}
+              name={item.name}
+              title={item.title}
+              linkedinLink={item.linkedin}
+            />
+          ))}
+        </div>
       </Container>
     </>
-  );
+  )
 }
 
 function TeamMember({ image, name, title, linkedinLink }) {
   return (
-    <div className="shadow hover:shadow-md w-full bg-white rounded-lg basis-1/2 lg:basis-1/4 xl:basis-1/4 3xl:basis-1/4">
-      
-      <Image
-           layout="responsive"
-           src={image}
-           alt="Flower and sky"
-           />
-
+    <div className="3xl:basis-1/4 w-full basis-1/2 rounded-lg bg-white shadow hover:shadow-md lg:basis-1/4 xl:basis-1/4">
+      <Image layout="responsive" src={image} alt="Flower and sky" />
 
       <div className="relative p-4">
-        <h3 className="text-base md:text-xl font-medium text-gray-800">
+        <h3 className="text-base font-medium text-gray-800 md:text-xl">
           {name}
         </h3>
 
-        
         <div className="mt-1 inline-flex items-center text-base">
-            { (linkedinLink === null || typeof linkedinLink === "undefined") ? "" :
-                <a target="_blank" href={linkedinLink} rel="noopener noreferrer">
-                {React.cloneElement(<FontAwesomeIcon icon={faLinkedin} />, {
-                    className: "w-6 h-6 text-blue-600 mr-2",
-                })}
-                </a>
-            }
-            
+          {linkedinLink === null || typeof linkedinLink === "undefined" ? (
+            ""
+          ) : (
+            <a target="_blank" href={linkedinLink} rel="noopener noreferrer">
+              {React.cloneElement(<FontAwesomeIcon icon={faLinkedin} />, {
+                className: "w-6 h-6 text-blue-600 mr-2",
+              })}
+            </a>
+          )}
 
-            <p className="text-gray-600">
-            {title}
-            </p>
+          <p className="text-gray-600">{title}</p>
         </div>
-        
-        
       </div>
     </div>
   )

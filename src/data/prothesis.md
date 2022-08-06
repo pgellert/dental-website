@@ -1,4 +1,3 @@
-
 ## Mi a stégprotézis, mit érdemes tudni róla?
 
 A teljes foghiány pótlására alkalmazott kivehető fogsorok ugyan megoldják a rágóképesség problémáját, ennek ellenére azonban sokan nem tudnak megbarátkozni velük. A legfőbb oka az, hogy a protézisek sajnos nem teljesen stabilak, elmozdulhatnak. Annak ellenére, hogy a páciens fogsorragasztó vagy alábélelést használ.
@@ -36,13 +35,11 @@ A következő lépés a rugalmas műanyagból álló fogsor elkészítése, amit
 ## Melyek a stégprotézis előnyei
 
 A stégfogsor legfontosabb előnyei a következők:
- - Kedvező az ára: az egyéni adottságoktól függően 2-4 implantátumra van csak szükség hozzá egy-egy állkapcson. Gazdaságosabb, mint a műgyökérre elkészített körhíd.
- - Nagyobb a siker esélye: egy olyan biztonságosan megvalósítható megoldásról van szó, ami a megfelelő ápolás mellet egy életen át kitarthat.
- - Nem szükséges a csontpótlás: azaz az idősebb korosztály esetén is jól megvalósítható.
- - Kényelmes, Komfortos a viselése.
- - Nem kell többé fogsorragasztót használni.
- - Stabilan a helyén marad
- - Kitűnő esztétikai hatása van: természetes a kinézete, nem is lehet észrevenni, hogy kivehető fogsorról van szó.
 
-
-
+- Kedvező az ára: az egyéni adottságoktól függően 2-4 implantátumra van csak szükség hozzá egy-egy állkapcson. Gazdaságosabb, mint a műgyökérre elkészített körhíd.
+- Nagyobb a siker esélye: egy olyan biztonságosan megvalósítható megoldásról van szó, ami a megfelelő ápolás mellet egy életen át kitarthat.
+- Nem szükséges a csontpótlás: azaz az idősebb korosztály esetén is jól megvalósítható.
+- Kényelmes, Komfortos a viselése.
+- Nem kell többé fogsorragasztót használni.
+- Stabilan a helyén marad
+- Kitűnő esztétikai hatása van: természetes a kinézete, nem is lehet észrevenni, hogy kivehető fogsorról van szó.
