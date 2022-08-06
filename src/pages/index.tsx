@@ -10,6 +10,7 @@ import Team from "@components/team"
 import Footer from "@components/footer"
 import Testimonials from "@components/testimonials"
 import { SectionTitle } from "@components/sections"
+import BasePage from "@components/base-page"
 
 
 
@@ -27,8 +28,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="xl:mx-12 mx-4">
-        <Navbar/>
+      <BasePage>
         <Hero/>
         <SectionTitle title={services.title} subtitle={services.desc}/>
         <Services data={services} />
@@ -39,8 +39,7 @@ export default function Home() {
         <Team data={team}/>
         <SectionTitle title="Here's what our customers said"/>
         <Testimonials/>
-        <Footer/>
-      </main>
+      </BasePage>
     </div>
   )
 }

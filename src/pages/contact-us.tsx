@@ -14,6 +14,7 @@ import Container from "@components/container"
 import Link from "next/link"
 
 import { GoogleMap, LoadScript } from '@react-google-maps/api';
+import BasePage from "@components/base-page"
 
 export default function Home() {
   return (
@@ -29,11 +30,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main>
-        <Navbar/>
-        <Content />
-        <Footer/>
-      </main>
+      <BasePage>
+        <Content/>
+      </BasePage>
     </div>
   )
 }

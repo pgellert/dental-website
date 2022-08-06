@@ -12,6 +12,7 @@ import Testimonials from "@components/testimonials"
 import { SectionTitle } from "@components/sections"
 import Container from "@components/container"
 import Link from "next/link"
+import BasePage from "@components/base-page"
 
 
 export default function Home() {
@@ -28,12 +29,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main>
-        <Navbar/>
+      <BasePage>
         <SectionTitle title={services.title} subtitle={services.desc}/>
         <Services data={services} />
-        <Footer/>
-      </main>
+      </BasePage>
     </div>
   )
 }
