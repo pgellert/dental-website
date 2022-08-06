@@ -23,13 +23,13 @@ export const services = {
       title: "Implants",
       desc: "Here you can add the next benefit point.",
       icon: <FontAwesomeIcon icon={faTooth} />,
-      link: "dental-services/implants",
+      link: "/dental-services/implants",
     },
     {
       title: "Prothesis",
       desc: "This will be your last bullet point in this section.",
       icon: <FontAwesomeIcon icon={faTeethOpen} />,
-      link: "dental-services/prothesis",
+      link: "/dental-services/prothesis",
     },
     {
       title: "General checkup",

@@ -9,10 +9,10 @@ import Services from "@components/services"
 import Team from "@components/team"
 import Testimonials from "@components/testimonials"
 
-export default function Home() {
+export default function Home(props) {
   return (
     <div>
-      <BasePage title="Dentist Gyor">
+      <BasePage title="Dentist Gyor" locale={props.locale}>
         <Hero />
         <SectionTitle title={services.title} subtitle={services.desc} />
         <Services data={services} />
@@ -28,4 +28,15 @@ export default function Home() {
       </BasePage>
     </div>
   )
+}
+
+export async function getStaticProps({ locale }) {
+
+  // By returning { props: posts }, the Blog component
+  // will receive `posts` as a prop at build time
+  return {
+    props: {
+      locale: locale,
+    },
+  }
 }
