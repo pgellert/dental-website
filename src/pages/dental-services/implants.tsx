@@ -16,7 +16,7 @@ function Content({ markdown }) {
 }
 
 export async function getStaticProps() {
-  const markdown = await require("../../data/implants.md").default
+  const markdown = await require("../../markdown/dental-services/implants.md").default
 
   return {
     props: {

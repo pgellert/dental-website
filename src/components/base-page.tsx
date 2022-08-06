@@ -19,7 +19,7 @@ export default function BasePage(props) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="mx-0 xl:mx-12">
-        <Navbar locale={props.locale}/>
+        <Navbar/>
         {props.children}
         <Footer />
       </main>

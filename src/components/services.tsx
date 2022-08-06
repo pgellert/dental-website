@@ -49,7 +49,7 @@ function Service(props) {
         {props.children}
       </p>
 
-      <Link href={props.link || "#"}>
+      <Link href={props.link || "/"}>
         <a className="cursor-pointer py-6 text-sky-600 transition duration-300 ease-in-out focus:text-blue-700 focus:outline-none active:text-blue-800">
           Learn more
         </a>

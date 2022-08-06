@@ -57,7 +57,7 @@ export default function Footer(props) {
                 <h6 className="mb-4 flex justify-center font-semibold uppercase md:justify-start">
                   Useful links
                 </h6>
-                <UsefulLink href="/#" title="Home" />
+                <UsefulLink href="/" title="Home" />
                 <UsefulLink href="/about-us" title="About us" />
                 <UsefulLink href="/dental-services" title="Dental Services" />
                 <UsefulLink href="/contact-us" title="Contact us" last={true} />
@@ -143,7 +143,7 @@ export default function Footer(props) {
           </div>
           <div className="p-6 text-center">
             <span>© 2022 Copyright:</span>
-            <Link href="/#">
+            <Link href="/">
               <a className="font-semibold text-gray-600">
                 {" "}
                 Perinvest Ker. & Szolg Kft
