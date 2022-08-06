@@ -14,7 +14,7 @@ export default function Hero() {
     <>
       <Container className="flex flex-wrap xl:flex-nowrap w-full">
         <div className="shrink flex flex-wrap items-center">
-          <div className="">
+          <div className="px-4">
             <h1 className="text-4xl font-bold leading-snug tracking-tight text-gray-800 lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight dark:text-white">
               {content.title}
             </h1>
@@ -23,7 +23,7 @@ export default function Hero() {
             </p>
           </div>
 
-          <div className="flex flex-col items-start space-y-3 xl:space-x-4 xl:space-y-0 xl:items-center xl:flex-row">
+          <div className="flex flex-col items-start px-4 space-y-3 xl:space-x-4 xl:space-y-0 xl:items-center xl:flex-row">
             <a
               href={content.booking_link}
               className="px-8 py-4 text-lg font-medium text-center text-white bg-sky-600 rounded-md ">
@@ -36,10 +36,8 @@ export default function Hero() {
             </a>
           </div>
         </div>
-        <div className="grow flex items-center justify-center ">
-          <div className="">
-            <Video/>
-          </div>
+        <div className="grow flex items-center justify-center xl:p-0 lg:p-12 lg:min-w-[50%] aspect-video">
+          <Video/>
         </div>
       </Container>
     </>
@@ -49,8 +47,8 @@ export default function Hero() {
 
 function Video() {
   return (
-    <div className="relative p-4">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/Zf2-imQ02rY" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+    <div className="relative p-4 w-full h-full">
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/Zf2-imQ02rY" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
     </div>
   );
 }
