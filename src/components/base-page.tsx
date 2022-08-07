@@ -17,7 +17,8 @@ export default function BasePage(props) {
   return (
     <div>
       <Head>
-        <title>Perident Dental Clinic Gyor, Hungary</title>
+          <link rel="icon" href="/favicon.ico" />
+          <title>Perident Dental Clinic Gyor, Hungary</title>
 
         <meta
           name="description"
