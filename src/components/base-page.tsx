@@ -12,7 +12,7 @@ export default function BasePage(props) {
   const content = data[locale];
 
   const hostname = process.env['HOST'] || process.env['NEXT_PUBLIC_HOST'];
-  console.log("Host:", hostname);
+  const ga_tracking_id = process.env['GA_TRACKING_ID'] || process.env['NEXT_PUBLIC_GA_TRACKING_ID'];
 
   return (
     <div>
@@ -41,6 +41,19 @@ export default function BasePage(props) {
                     )
                 })}
         <link key="x-default" rel="alternate" hrefLang="x-default" href={`https://${hostname}/${asPath.substring(1)}`} />
+        <script
+          async
+          src='https://www.googletagmanager.com/gtag/js?id=TRACKING-ID'
+        ></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+           window.dataLayer = window.dataLayer || [];
+           function gtag(){dataLayer.push(arguments);}
+           gtag('js', new Date());
+           gtag('config', '${ga_tracking_id}');`
+          }}
+        ></script>
       </Head>
       <main className="mx-0 xl:mx-12">
         <Navbar/>
