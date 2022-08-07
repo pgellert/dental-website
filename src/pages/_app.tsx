@@ -7,7 +7,7 @@ import { useEffect } from 'react'
 
 function MyApp({ Component, pageProps }: AppProps): JSX.Element {
   useEffect(() => {
-    hotjar.initialize(Number(process.env["HOTJAR_HJID"]), Number(process.env["HOTJAR_HJSV"]))
+    hotjar.initialize(Number(process.env["NEXT_PUBLIC_HOTJAR_HJID"]), Number(process.env["NEXT_PUBLIC_HOTJAR_HJSV"]))
   }, [])
   return <Component {...pageProps} />
 }
