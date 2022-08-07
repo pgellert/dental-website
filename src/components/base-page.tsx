@@ -43,7 +43,7 @@ export default function BasePage(props) {
         <link key="x-default" rel="alternate" hrefLang="x-default" href={`https://${hostname}/${asPath.substring(1)}`} />
         <script
           async
-          src='https://www.googletagmanager.com/gtag/js?id=TRACKING-ID'
+          src={`https://www.googletagmanager.com/gtag/js?id=${ga_tracking_id}`}
         ></script>
         <script
           dangerouslySetInnerHTML={{
