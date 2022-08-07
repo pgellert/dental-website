@@ -68,7 +68,7 @@ function Mark(props) {
   return (
     <>
       {" "}
-      <mark className="rounded-md bg-indigo-100 text-indigo-800 ring-4 ring-indigo-100 dark:bg-indigo-900 dark:text-indigo-200 dark:ring-indigo-900">
+      <mark className="rounded-md bg-sky-100 text-sky-800 ring-4 ring-sky-100 dark:bg-sky-900 dark:text-sky-200 dark:ring-sky-900">
         {props.children}
       </mark>{" "}
     </>

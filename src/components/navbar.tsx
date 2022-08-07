@@ -20,41 +20,46 @@ export default function Navbar() {
             <>
               <div className="flex w-full flex-wrap items-center justify-between lg:w-auto">
                 <Link href="/">
-                  <a className="flex items-center space-x-2 text-2xl font-medium text-indigo-500 dark:text-gray-100">
+                  <a className="flex items-center space-x-2 text-2xl font-medium text-sky-500 dark:text-gray-100">
                     <Image src={logoImg} alt="Logo" height="49" width="150" />
                   </a>
                 </Link>
 
-                <Disclosure.Button
-                  aria-label="Toggle Menu"
-                  className="dark:focus:bg-trueGray-700 ml-auto rounded-md px-2 py-1 text-gray-500 hover:text-indigo-500 focus:bg-sky-100 focus:text-indigo-500 focus:outline-none dark:text-gray-300 lg:hidden"
-                >
-                  <svg
-                    className="h-6 w-6 fill-current"
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
+                <div className="justify-end flex flex-nowrap align-middle  item-center lg:hidden">
+                  <LanguageSwitcher locales={locales} asPath={asPath}/>
+                  <Disclosure.Button
+                    aria-label="Toggle Menu"
+                    className="dark:focus:bg-trueGray-700 ml-auto rounded-md px-2 py-1 text-gray-500 hover:text-sky-500 focus:bg-sky-100 focus:text-sky-500 focus:outline-none dark:text-gray-300"
                   >
-                    {open && (
-                      <path
-                        fillRule="evenodd"
-                        clipRule="evenodd"
-                        d="M18.278 16.864a1 1 0 0 1-1.414 1.414l-4.829-4.828-4.828 4.828a1 1 0 0 1-1.414-1.414l4.828-4.829-4.828-4.828a1 1 0 0 1 1.414-1.414l4.829 4.828 4.828-4.828a1 1 0 1 1 1.414 1.414l-4.828 4.829 4.828 4.828z"
-                      />
-                    )}
-                    {!open && (
-                      <path
-                        fillRule="evenodd"
-                        d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"
-                      />
-                    )}
-                  </svg>
-                </Disclosure.Button>
+                    <svg
+                      className="h-6 w-6 fill-current"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                    >
+                      {open && (
+                        <path
+                          fillRule="evenodd"
+                          clipRule="evenodd"
+                          d="M18.278 16.864a1 1 0 0 1-1.414 1.414l-4.829-4.828-4.828 4.828a1 1 0 0 1-1.414-1.414l4.828-4.829-4.828-4.828a1 1 0 0 1 1.414-1.414l4.829 4.828 4.828-4.828a1 1 0 1 1 1.414 1.414l-4.828 4.829 4.828 4.828z"
+                        />
+                      )}
+                      {!open && (
+                        <path
+                          fillRule="evenodd"
+                          d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"
+                        />
+                      )}
+                    </svg>
+                  </Disclosure.Button>
+                </div>
+
+                
 
                 <Disclosure.Panel className="my-5 flex w-full flex-wrap lg:hidden">
                   <>
                     {content.nav_items.map((item, index) => (
                       <Link key={index} href={item.href}>
-                        <a className="dark:focus:bg-trueGray-700 -ml-4 w-full rounded-md px-4 py-2 text-gray-500 hover:text-indigo-500 focus:bg-sky-100 focus:text-indigo-500 focus:outline-none dark:text-gray-300 dark:focus:bg-gray-800">
+                        <a className="dark:focus:bg-trueGray-700 -ml-4 w-full rounded-md px-4 py-2 text-gray-500 hover:text-sky-500 focus:bg-sky-100 focus:text-sky-500 focus:outline-none dark:text-gray-300 dark:focus:bg-gray-800">
                           {item.title}
                         </a>
                       </Link>
@@ -64,9 +69,6 @@ export default function Navbar() {
                         {content.call_to_action.title}
                       </a>
                     </Link>
-                    <div className="mt-4">
-                      <LanguageSwitcher locales={locales} asPath={asPath}/>
-                    </div>
                     
                   </>
                 </Disclosure.Panel>
@@ -81,7 +83,7 @@ export default function Navbar() {
             {content.nav_items.map((menu, index) => (
               <li className="nav__item mr-3" key={index}>
                 <Link href={menu.href}>
-                  <a className="inline-block rounded-md px-4 py-2 text-lg font-normal text-gray-800 no-underline hover:text-indigo-500 focus:bg-sky-100 focus:text-indigo-500 focus:outline-none dark:text-gray-200 dark:focus:bg-gray-800">
+                  <a className="inline-block rounded-md px-4 py-2 text-lg font-normal text-gray-800 no-underline hover:text-sky-500 focus:bg-sky-100 focus:text-sky-500 focus:outline-none dark:text-gray-200 dark:focus:bg-gray-800">
                     {menu.title}
                   </a>
                 </Link>
@@ -117,7 +119,7 @@ const LangIcon = ({ lang }) => {
 
 export const LanguageSwitcher = ({ locales, asPath }) => {
   return (
-    <ul className="flex flex-nowrap">
+    <ul className="flex flex-nowrap items-center">
       {locales.map((lang) => {
         return (
           <li key={lang} className="px-1">

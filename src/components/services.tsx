@@ -9,7 +9,7 @@ export default function Services(props) {
 
   return (
     <>
-      <Container className="mb-20 flex flex-wrap lg:flex-nowrap lg:gap-10 ">
+      <Container className="mb-4  flex flex-wrap lg:flex-nowrap lg:gap-10 ">
         <div
           className={`flex w-full flex-wrap items-center ${
             props.imgPos === "right" ? "lg:justify-end" : ""

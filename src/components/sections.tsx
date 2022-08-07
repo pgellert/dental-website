@@ -5,7 +5,7 @@ export function SectionTitle(props) {
         {props.title}
       </h3>
 
-      <p className="py-4 text-lg leading-normal text-gray-500 dark:text-gray-300 lg:text-xl xl:text-xl">
+      <p className="py-4 px-12 text-lg leading-normal text-gray-500 dark:text-gray-300 lg:text-xl xl:text-xl">
         {props.subtitle}
       </p>
     </div>
