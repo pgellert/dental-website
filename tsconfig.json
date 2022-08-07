@@ -20,6 +20,6 @@
     },
     "incremental": true
   },
-  "exclude": ["node_modules", ".next", "out"],
+  "exclude": ["node_modules", ".next", "out", "lib"],
   "include": ["next-env.d.ts", "src/**/*.tsx", "src/**/*.ts"]
 }

@@ -4,7 +4,7 @@ import { AppProps } from "next/app"
 import "../styles/tailwind.scss"
 import { hotjar } from 'react-hotjar'
 import { useEffect } from 'react'
-import * as gtag from 'src/lib/gtag'
+import * as gtag from 'lib/gtag'
 import { useRouter } from "next/router"
 
 function MyApp({ Component, pageProps }: AppProps): JSX.Element {

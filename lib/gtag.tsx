@@ -1,4 +1,4 @@
-export const pageview = ({ url, tracking_id }) => {
+export const pageview = (url, tracking_id) => {
     window.gtag('config', tracking_id, {
       page_path: url
     })
