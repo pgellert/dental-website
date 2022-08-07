@@ -8,7 +8,7 @@ import { useRouter } from "next/router";
 import { data } from "@content/components/base-page";
 
 export default function BasePage(props) {
-  const { locale, locales, asPath, pathname, basePath, defaultLocale } = useRouter();
+  const { locale, locales, asPath, defaultLocale } = useRouter();
   const content = data[locale];
 
   const hostname = process.env['HOST'] || process.env['NEXT_PUBLIC_HOST'];
