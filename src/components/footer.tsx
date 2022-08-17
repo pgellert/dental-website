@@ -3,9 +3,14 @@ import React from "react"
 import Link from "next/link"
 
 import Container from "./container"
+import { data } from "@content/components/footer";
+import { global_data } from "@content/global";
+import { useRouter } from "next/router";
 
 export default function Footer(props) {
-  const { data } = props
+  const { locale } = useRouter();
+  const content = data[locale];
+  const global_content = global_data[locale];
 
   return (
     <>
@@ -30,41 +35,40 @@ export default function Footer(props) {
                       d="M488.6 250.2L392 214V105.5c0-15-9.3-28.4-23.4-33.7l-100-37.5c-8.1-3.1-17.1-3.1-25.3 0l-100 37.5c-14.1 5.3-23.4 18.7-23.4 33.7V214l-96.6 36.2C9.3 255.5 0 268.9 0 283.9V394c0 13.6 7.7 26.1 19.9 32.2l100 50c10.1 5.1 22.1 5.1 32.2 0l103.9-52 103.9 52c10.1 5.1 22.1 5.1 32.2 0l100-50c12.2-6.1 19.9-18.6 19.9-32.2V283.9c0-15-9.3-28.4-23.4-33.7zM358 214.8l-85 31.9v-68.2l85-37v73.3zM154 104.1l102-38.2 102 38.2v.6l-102 41.4-102-41.4v-.6zm84 291.1l-85 42.5v-79.1l85-38.8v75.4zm0-112l-102 41.4-102-41.4v-.6l102-38.2 102 38.2v.6zm240 112l-85 42.5v-79.1l85-38.8v75.4zm0-112l-102 41.4-102-41.4v-.6l102-38.2 102 38.2v.6z"
                     ></path>
                   </svg>
-                  Perident Dentist Clinic Gyor
+                  {global_content.title}
                 </h6>
                 <p>
-                  Magas kvalitású szakembereink a legjobbat nyújtják Önnek!
-                  Barátságos, kényelmes környezetben várjuk Önt rendelőnkben!
+                  {content.description}
                 </p>
               </div>
               <div className="center">
                 <h6 className="mb-4 flex justify-center font-semibold uppercase md:justify-start">
-                  Opening Hours
+                  {content.opening_hours.title}
                 </h6>
                 <table className="w-full table-auto items-center">
                   <tbody>
-                    <OpeningsRow day="Monday" times="8:00-15:00" />
-                    <OpeningsRow day="Tuesday" times="14:00-19:00" />
-                    <OpeningsRow day="Wednesday" times="8:00-15:00" />
-                    <OpeningsRow day="Thursday" times="14:00-19:00" />
-                    <OpeningsRow day="Friday" times="8:00-13:00" />
-                    <OpeningsRow day="Saturday" times="Closed" />
-                    <OpeningsRow day="Sunday" times="Closed" />
+                    <OpeningsRow day={content.opening_hours.monday} times="8:00-15:00" />
+                    <OpeningsRow day={content.opening_hours.tuesday} times="14:00-19:00" />
+                    <OpeningsRow day={content.opening_hours.wednesday} times="8:00-15:00" />
+                    <OpeningsRow day={content.opening_hours.thursday} times="14:00-19:00" />
+                    <OpeningsRow day={content.opening_hours.friday} times="8:00-13:00" />
+                    <OpeningsRow day={content.opening_hours.saturday} times={content.opening_hours.closed} />
+                    <OpeningsRow day={content.opening_hours.sunday} times={content.opening_hours.closed} />
                   </tbody>
                 </table>
               </div>
               <div className="">
                 <h6 className="mb-4 flex justify-center font-semibold uppercase md:justify-start">
-                  Useful links
+                  {content.links.title}
                 </h6>
-                <UsefulLink href="/" title="Home" />
-                <UsefulLink href="/about-us" title="About us" />
-                <UsefulLink href="/dental-services" title="Dental Services" />
-                <UsefulLink href="/contact-us" title="Contact us" last={true} />
+                <UsefulLink href="/" title={content.links.home} />
+                <UsefulLink href="/about-us" title={content.links.about_us} />
+                <UsefulLink href="/dental-services" title={content.links.dental_services} />
+                <UsefulLink href="/contact-us" title={content.links.contact_us} last={true} />
               </div>
               <div className="">
                 <h6 className="mb-4 flex justify-center font-semibold uppercase md:justify-start">
-                  Contact
+                  {content.contact}
                 </h6>
                 <p className="mb-4 flex items-center justify-center md:justify-start">
                   <svg

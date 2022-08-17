@@ -1,6 +1,5 @@
 import React from "react"
 
-import { GoogleMap, LoadScript } from "@react-google-maps/api"
 import Link from "next/link"
 
 import BasePage from "@components/base-page"

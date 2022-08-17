@@ -6,12 +6,14 @@ import Footer from "@components/footer"
 import Navbar from "@components/navbar"
 import Router, { useRouter } from "next/router";
 import { data } from "@content/components/base-page";
-import CookieConsent, { resetCookieConsentValue } from "react-cookie-consent";
+import { global_data } from "@content/global";
+import CookieConsent from "react-cookie-consent";
 
 
 export default function BasePage(props) {
   const { locale, locales, asPath, defaultLocale } = useRouter();
   const content = data[locale];
+  const global_content = global_data[locale];
 
   const hostname = process.env['HOST'] || process.env['NEXT_PUBLIC_HOST'];
   const ga_tracking_id = process.env['GA_TRACKING_ID'] || process.env['NEXT_PUBLIC_GA_TRACKING_ID'];
@@ -20,7 +22,7 @@ export default function BasePage(props) {
     <div>
       <Head>
           <link rel="icon" href="/favicon.ico" />
-          <title>Perident Dental Clinic Gyor, Hungary</title>
+          <title>{global_content.title}</title>
 
         <meta
           name="description"

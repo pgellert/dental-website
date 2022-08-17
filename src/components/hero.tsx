@@ -1,15 +1,12 @@
+import { data } from "@content/components/hero";
+import { useRouter } from "next/router";
 import Container from "./container"
 
-const content = {
-  title: "Welcome to Perident Dental Clinic Gyor",
-  subtitle: "Dr. Peresztegi Szabolcs's dental practice",
-  booking: "Book an appointment",
-  booking_link: "/contact-us",
-  call: "Call us",
-  call_link: "tel:+36205675678",
-}
 
 export default function Hero() {
+  const { locale } = useRouter();
+  const content = data[locale];
+
   return (
     <>
       <Container className="flex w-full flex-wrap xl:flex-nowrap">
@@ -25,13 +22,13 @@ export default function Hero() {
 
           <div className="flex flex-col items-start space-y-3 px-4 xl:flex-row xl:items-center xl:space-x-4 xl:space-y-0">
             <a
-              href={content.booking_link}
+              href="/contact-us"
               className="rounded-md bg-sky-600 px-8 py-4 text-center text-lg font-medium text-white "
             >
               {content.booking}
             </a>
             <a
-              href={content.call_link}
+              href="tel:+36205675678"
               className="bg-grey-600 rounded-md border-2 border-sky-600 px-8 py-4 text-center text-lg font-medium text-sky-600"
             >
               {content.call}

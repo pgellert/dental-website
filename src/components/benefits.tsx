@@ -2,18 +2,21 @@ import React from "react"
 
 import { faCheck } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { data } from "@content/components/benefits";
 
 import Container from "./container"
+import { useRouter } from "next/router";
 
 export default function Benefits(props) {
-  const { data } = props
+  const { locale } = useRouter();
+  const content = data[locale];
 
   return (
     <>
       <Container className="flex w-full flex-wrap items-center ">
         <div className="mt-4 flex w-full flex-col">
           <FeatureList>
-            {data.bullets.map((item, index) => (
+            {content.bullets.map((item, index) => (
               <Feature key={index} title={item.title} desc={item.desc} />
             ))}
           </FeatureList>

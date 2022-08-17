@@ -26,15 +26,15 @@ export const data = {
   hu: {
     nav_items: [
       {
-        title: "Fooldal",
+        title: "Főoldal",
         href: "/",
       },
       {
-        title: "Rolunk",
+        title: "Rólunk",
         href: "/about-us",
       },
       {
-        title: "Fogaszati szolgaltatasaink",
+        title: "Fogászati szolgáltatásaink",
         href: "/dental-services",
       },
       {
