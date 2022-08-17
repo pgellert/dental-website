@@ -4,7 +4,7 @@ import ServicePage from "@components/service-page"
 export default function Home({ markdown }) {
   return (
     <div>
-      <BasePage title="About Us">
+      <BasePage>
         <Content markdown={markdown} />
       </BasePage>
     </div>

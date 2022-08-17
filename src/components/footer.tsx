@@ -43,17 +43,17 @@ export default function Footer(props) {
               </div>
               <div className="center">
                 <h6 className="mb-4 flex justify-center font-semibold uppercase md:justify-start">
-                  {content.opening_hours.title}
+                  {global_content.opening_hours.title}
                 </h6>
                 <table className="w-full table-auto items-center">
                   <tbody>
-                    <OpeningsRow day={content.opening_hours.monday} times="8:00-15:00" />
-                    <OpeningsRow day={content.opening_hours.tuesday} times="14:00-19:00" />
-                    <OpeningsRow day={content.opening_hours.wednesday} times="8:00-15:00" />
-                    <OpeningsRow day={content.opening_hours.thursday} times="14:00-19:00" />
-                    <OpeningsRow day={content.opening_hours.friday} times="8:00-13:00" />
-                    <OpeningsRow day={content.opening_hours.saturday} times={content.opening_hours.closed} />
-                    <OpeningsRow day={content.opening_hours.sunday} times={content.opening_hours.closed} />
+                    <OpeningsRow day={global_content.opening_hours.monday} times="8:00-15:00" />
+                    <OpeningsRow day={global_content.opening_hours.tuesday} times="14:00-19:00" />
+                    <OpeningsRow day={global_content.opening_hours.wednesday} times="8:00-15:00" />
+                    <OpeningsRow day={global_content.opening_hours.thursday} times="14:00-19:00" />
+                    <OpeningsRow day={global_content.opening_hours.friday} times="8:00-13:00" />
+                    <OpeningsRow day={global_content.opening_hours.saturday} times={global_content.opening_hours.closed} />
+                    <OpeningsRow day={global_content.opening_hours.sunday} times={global_content.opening_hours.closed} />
                   </tbody>
                 </table>
               </div>

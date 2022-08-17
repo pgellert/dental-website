@@ -1,16 +1,20 @@
 import React from "react"
 
 import BasePage from "@components/base-page"
-import { services } from "@components/data"
 import { SectionTitle } from "@components/sections"
 import Services from "@components/services"
+import { useRouter } from "next/router"
+import { data } from "@content/pages"
 
 export default function Home() {
+  const { locale } = useRouter();
+  const content = data[locale];
+  
   return (
     <div>
-      <BasePage title="Dental Services">
-        <SectionTitle title={services.title} subtitle={services.desc} />
-        <Services data={services} />
+      <BasePage>
+        <SectionTitle title={content.services.title} subtitle={content.services.description} />
+        <Services />
       </BasePage>
     </div>
   )
