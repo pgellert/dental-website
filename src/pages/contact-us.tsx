@@ -5,6 +5,7 @@ import Link from "next/link"
 
 import BasePage from "@components/base-page"
 import Container from "@components/container"
+import dynamic from "next/dynamic"
 
 export default function Home() {
   return (
@@ -50,7 +51,9 @@ function Content() {
             <li>Vasárnap Zárva</li>
           </ul>
         </article>
-        <MyMap />
+        <div className="m-8 w-7/8 md:w-1/2">
+          <MyMap />
+        </div>
       </Container>
     </>
   )
@@ -67,12 +70,12 @@ const center = {
 }
 
 function MyMap(props) {
-  return (
-    <LoadScript googleMapsApiKey="YOUR_API_KEY">
-      <GoogleMap mapContainerStyle={containerStyle} center={center} zoom={10}>
-        {/* Child components, such as markers, info windows, etc. */}
-        <></>
-      </GoogleMap>
-    </LoadScript>
-  )
+  const Map = React.useMemo(() => dynamic(
+    () => import('@components/map'), // replace '@components/map' with your component's location
+    { 
+      loading: () => <p>A map is loading</p>,
+      ssr: false // This line is important. It's what prevents server-side render
+    }
+  ), [/* list variables which should trigger a re-render here */])
+  return <Map />
 }
