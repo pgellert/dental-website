@@ -4,8 +4,10 @@ import Head from "next/head"
 
 import Footer from "@components/footer"
 import Navbar from "@components/navbar"
-import { useRouter } from "next/router";
+import Router, { useRouter } from "next/router";
 import { data } from "@content/components/base-page";
+import CookieConsent, { resetCookieConsentValue } from "react-cookie-consent";
+
 
 export default function BasePage(props) {
   const { locale, locales, asPath, defaultLocale } = useRouter();
@@ -59,6 +61,13 @@ export default function BasePage(props) {
         <Navbar/>
         {props.children}
         <Footer />
+        <CookieConsent 
+        enableDeclineButton
+        onDecline={() => {Router.reload()}}
+        onAccept={() => {Router.reload()}}
+        buttonText={content.cookie.accept}
+        declineButtonText={content.cookie.decline}
+        >{content.cookie.description}</CookieConsent>
       </main>
     </div>
   )

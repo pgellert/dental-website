@@ -8,6 +8,7 @@ import { SectionTitle } from "@components/sections"
 import Services from "@components/services"
 import Team from "@components/team"
 import Testimonials from "@components/testimonials"
+import CookieConsent from "react-cookie-consent"
 
 export default function Home() {
   return (
