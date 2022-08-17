@@ -6,7 +6,7 @@ export const data = {
     call: "Call us",
   },
   hu: {
-    title: "Üdvözöljük a Győri Perident Fogászati Klinikán",
+    title: "Üdvözöljük a Győri Perident Fogászatban",
     subtitle: "Dr. Peresztegi Szabolcs fogorvosi rendelője",
     booking: "Időpont foglalás",
     call: "Hívjon minket",

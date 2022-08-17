@@ -3,9 +3,12 @@ import React from "react"
 import Link from "next/link"
 
 import Container from "./container"
+import { useRouter } from "next/router";
+import { data } from "@content/components/services";
 
 export default function Services(props) {
-  const { data } = props
+  const { locale } = useRouter();
+  const content = data[locale];
 
   return (
     <>
@@ -16,12 +19,13 @@ export default function Services(props) {
           }`}
         >
           <div className="grid w-full grid-cols-1 gap-6 bg-white p-4 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4">
-            {data.bullets.map((item, index) => (
+            {content.bullets.map((item, index) => (
               <Service
                 key={index}
                 title={item.title}
                 icon={item.icon}
                 link={item.link}
+                learn_more={content.learn_more}
               >
                 {item.desc}
               </Service>
@@ -51,7 +55,7 @@ function Service(props) {
 
       <Link href={props.link || "/"}>
         <a className="cursor-pointer py-6 text-sky-600 transition duration-300 ease-in-out focus:text-blue-700 focus:outline-none active:text-blue-800">
-          Learn more
+          {props.learn_more}
         </a>
       </Link>
     </div>

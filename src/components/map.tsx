@@ -6,6 +6,8 @@ const PRACTICE_LOCATION: LatLngTuple = [47.666309, 17.6449138]
 
 import { icon } from "leaflet"
 import Link from 'next/link'
+import { useRouter } from 'next/router'
+import { global_data } from '@content/global'
 
 const ICON = icon({
   iconUrl: "/img/marker-icon-2x.png",
@@ -15,6 +17,9 @@ const ICON = icon({
 })
 
 const Map = () => {
+  const { locale } = useRouter();
+  const global_content = global_data[locale];
+
   return (
     <MapContainer center={PRACTICE_LOCATION} zoom={13} scrollWheelZoom={false} style={{height: 400, width: "100%"}} closePopupOnClick={false}>
       <TileLayer
@@ -23,7 +28,7 @@ const Map = () => {
       />
       <Marker position={PRACTICE_LOCATION} icon={ICON} alt="Map marker" >
         <Popup >
-          Perident Dental Clinic <br/> 
+          {global_content.title} <br/> 
           <Link href="https://www.google.com/maps/place/Perident+-+Implantol%C3%B3gia+%C3%A9s+eszt%C3%A9tikai+fog%C3%A1szat/@47.666309,17.6427251,17z/data=!3m1!4b1!4m5!3m4!1s0x476bc076b0720ea7:0xad6af353cd9eaf75!8m2!3d47.666309!4d17.6449138">
             9024 GYŐR, Nagy Imre út 93.</Link>
         </Popup>

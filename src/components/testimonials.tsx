@@ -1,38 +1,41 @@
+import { data } from "@content/components/testimonials";
+import { useRouter } from "next/router";
 import React from "react"
 
 import Container from "./container"
 
 export default function Testimonials() {
+  const { locale } = useRouter();
+  const content = data[locale];
+
   return (
     <Container>
       <div className="grid gap-10 lg:grid-cols-2 xl:grid-cols-3">
         <div className="lg:col-span-2 xl:col-auto">
           <div className="dark:bg-trueGray-800 flex w-full flex-col rounded-2xl bg-gray-100 px-14 py-14">
             <p className="text-2xl leading-normal ">
-              Correct dental care, I recommend to everyone!
+              {content.testimonial_1}
             </p>
 
-            <Avatar name="Nicolette K" />
+            <Avatar name="Nicolette K." />
           </div>
         </div>
         <div className="">
           <div className="dark:bg-trueGray-800 flex w-full flex-col rounded-2xl bg-gray-100 px-14 py-14">
             <p className="text-2xl leading-normal ">
-              If you come to Perident Dentistry, you will find the kind, very
-              knowledgeable, high quality, quick care professionals.
+              {content.testimonial_2}
             </p>
 
-            <Avatar name="Sandor Haboczky" />
+            <Avatar name="Sándor H." />
           </div>
         </div>
         <div className="">
           <div className="dark:bg-trueGray-800 flex w-full flex-col rounded-2xl bg-gray-100 px-14 py-14">
             <p className="text-2xl leading-normal ">
-              I was here for tooth extraction, completely painlessly and quickly
-              resolved the matter.
+              {content.testimonial_2}
             </p>
 
-            <Avatar name="Csaba Fulop" />
+            <Avatar name="Csaba F." />
           </div>
         </div>
       </div>

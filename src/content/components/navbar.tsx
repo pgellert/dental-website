@@ -43,7 +43,7 @@ export const data = {
       },
     ],
     call_to_action: {
-      title: "Hivj most",
+      title: "Hívjon minket",
       href: "tel:+36205675678",
     },
   },

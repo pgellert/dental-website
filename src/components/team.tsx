@@ -5,15 +5,18 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import Image from "next/image"
 
 import Container from "./container"
+import { useRouter } from "next/router"
+import { data } from "@content/components/team"
 
 export default function Team(props) {
-  const { data } = props
+  const { locale } = useRouter();
+  const content = data[locale];
 
   return (
     <>
       <Container className="flex w-full flex-wrap items-center ">
         <div className="flex w-full flex-row flex-wrap place-content-center gap-6">
-          {data.members.map((item, index) => (
+          {content.members.map((item, index) => (
             <TeamMember
               key={index}
               image={item.image}
