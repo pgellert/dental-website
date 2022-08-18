@@ -1,5 +1,5 @@
 import BasePage from "@components/base-page"
-import ServicePage from "@components/service-page"
+import ServicePage, { Content } from "@components/service-page"
 
 export default function Home({ markdown }) {
   return (
@@ -9,10 +9,6 @@ export default function Home({ markdown }) {
       </BasePage>
     </div>
   )
-}
-
-function Content({ markdown }) {
-  return ServicePage(markdown)
 }
 
 export async function getStaticProps() {

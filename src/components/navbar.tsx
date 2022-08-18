@@ -25,7 +25,7 @@ export default function Navbar() {
                   </a>
                 </Link>
 
-                <div className="justify-end flex flex-nowrap align-middle  item-center lg:hidden">
+                <div className="justify-end flex flex-nowrap align-middle item-center lg:hidden">
                   <LanguageSwitcher locales={locales} asPath={asPath}/>
                   <Disclosure.Button
                     aria-label="Toggle Menu"
@@ -83,7 +83,7 @@ export default function Navbar() {
             {content.nav_items.map((menu, index) => (
               <li className="nav__item mr-3" key={index}>
                 <Link href={menu.href}>
-                  <a className="inline-block rounded-md px-4 py-2 text-lg font-normal text-gray-800 no-underline hover:text-sky-500 focus:bg-sky-100 focus:text-sky-500 focus:outline-none dark:text-gray-200 dark:focus:bg-gray-800">
+                  <a className="inline-block rounded-md px-4 py-2 text-lg font-normal text-gray-800 no-underline hover:text-sky-500">
                     {menu.title}
                   </a>
                 </Link>

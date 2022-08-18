@@ -26,7 +26,7 @@ function Content() {
   return (
     <>
       <Container className="w-full justify-evenly md:flex">
-        <article className="prose prose-stone mx-4 max-w-none pb-0 prose-a:text-blue-600 prose-img:rounded-xl md:pb-8 lg:prose-xl">
+        <article className="prose prose-stone mx-4 max-w-none pb-0 prose-a:text-blue-600 prose-img:rounded-xl md:pb-8 lg:prose-lg">
           <h1>{content.contact_us}</h1>
 
           <h3>{content.our_address}:</h3>
