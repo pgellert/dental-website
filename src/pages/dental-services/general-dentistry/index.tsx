@@ -15,12 +15,11 @@ function Content({ markdown }) {
   return ServicePage(markdown)
 }
 
-export async function getStaticProps() {
-  const markdown = await require("../../markdown/dental-services/prothesis.md").default
-
+export async function getStaticProps({locale}) {
   return {
     props: {
-      markdown: markdown,
+      markdown: await require(`../../../markdown/${locale}/dental-services/general-dentistry/index.md`).default,
     },
   }
 }
+

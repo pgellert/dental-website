@@ -8,14 +8,14 @@ For more details about each service we offer, click on the service's link below 
 
 - [Emergency dentistry](/dental-services/emergency-dentistry)
 - [General dentistry](/dental-services/general-dentistry)
-    - [Oral Hygiene](/dental-services/oral-hygiene)
+    - [Oral Hygiene](/dental-services/general-dentistry/oral-hygiene)
     - Fissure sealants
     - White fillings
     - Gum Disease
     - Endodonthics / gyokerkezeles
-- Cosmetic dentistry / Prostodonthics
-    - Implants
-    - Crowns and Bridges
+- [Cosmetic dentistry](/dental-services/cosmetic-dentistry)
+    - [Implants](/dental-services/cosmetic-dentistry/implants)
+    - [Crowns and Bridges](/dental-services/cosmetic-dentistry/crowns-and-bridges)
     - Inlays and Onlays
     - Teeth Whitening
     - Smile Makeovers

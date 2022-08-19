@@ -13,10 +13,11 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
-    "baseUrl": ".",
     "checkJs": false,
+    "baseUrl": ".",
     "paths": {
-      "@*": ["./src/*"]
+      "@markdowns": ["./src/markdown"],
+      "@*": ["./src/*"],
     },
     "incremental": true
   },

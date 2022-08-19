@@ -1,20 +1,24 @@
 import BasePage from "@components/base-page"
-import { Content } from "@components/service-page"
+import ServicePage from "@components/service-page"
 
 export default function Home({ markdown }) {
   return (
     <div>
-      <BasePage>
+      <BasePage title="Implants">
         <Content markdown={markdown} />
       </BasePage>
     </div>
   )
 }
 
+function Content({ markdown }) {
+  return ServicePage(markdown)
+}
+
 export async function getStaticProps({locale}) {
   return {
     props: {
-      markdown: await require(`../markdown/${locale}/about-us.md`).default,
+      markdown: await require(`../../../markdown/${locale}/dental-services/cosmetic-dentistry/implants.md`).default,
     },
   }
 }
