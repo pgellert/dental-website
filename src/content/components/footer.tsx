@@ -7,6 +7,7 @@ export const data = {
       about_us: "About us",
       dental_services: "Dental Services",
       contact_us: "Contact us",
+      privacy_policy: "Privacy Policy",
     },
     contact: "Contact"
   },
@@ -18,6 +19,7 @@ export const data = {
       about_us: "Rólunk",
       dental_services: "Fogászati szolgáltatás",
       contact_us: "Kapcsolat",
+      privacy_policy: "Adatvédelmi irányelvek",
     },
     contact: "Forduljon hozzánk"
   },
@@ -29,7 +31,8 @@ export const data = {
       about_us: "Über uns",
       dental_services: "Zahnärztliche Leistungen",
       contact_us: "Kontaktiere uns",
+      privacy_policy: "Kontaktiere uns",
     },
-    contact: "Kontaktiere uns"
+    contact: "Datenschutz-Bestimmungen"
   },
 }

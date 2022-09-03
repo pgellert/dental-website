@@ -64,7 +64,8 @@ export default function Footer(props) {
                 <UsefulLink href="/" title={content.links.home} />
                 <UsefulLink href="/about-us" title={content.links.about_us} />
                 <UsefulLink href="/dental-services" title={content.links.dental_services} />
-                <UsefulLink href="/contact-us" title={content.links.contact_us} last={true} />
+                <UsefulLink href="/contact-us" title={content.links.contact_us} />
+                <UsefulLink href="/privacy-policy" title={content.links.privacy_policy} last={true} />
               </div>
               <div className="">
                 <h6 className="mb-4 flex justify-center font-semibold uppercase md:justify-start">
