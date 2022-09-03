@@ -30,7 +30,3 @@ For more details about each service we offer, click on the service's link below 
     - 3D conebeam CT
     - Panoramic XRay
     - Digital XRay
-
-### Contact us
-
-If you have any questions or would like to make an appointment, please contact us at [+36-20-567-5678](tel:+36-20-567-5678) or [info@perident.hu](mailto:info@perident.hu).

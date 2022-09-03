@@ -13,9 +13,10 @@ export default function ServicePage({title, markdown}) {
       <Container className="w-full">
         <Content markdown={markdown} />
         <article className="prose prose-stone max-w-none prose-img:rounded-xl lg:prose-lg">
-          <h3>Contact us</h3>
           <p>
-            If you have any questions or would like to make an appointment, please contact us at <a href="tel:+36-20-567-5678">+36-20-567-5678</a> or <a href="mailto:info@perident.hu">info@perident.hu</a>.
+            <b>
+              If you have any questions or would like to make an appointment, please contact us at <a href="tel:+36-20-567-5678">+36-20-567-5678</a> or <a href="mailto:info@perident.hu">info@perident.hu</a>.
+            </b>
           </p>
         </article>
       </Container>
