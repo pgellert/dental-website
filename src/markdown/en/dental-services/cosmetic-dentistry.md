@@ -2,11 +2,11 @@
 
 Perident Dentostry offers a wide range of cosmetic dentistry services including implants, crowns and bridges, inlays/onlays and more.
 
-### Implants
+### [Implants](/dental-services/cosmetic-dentistry/dental-implants)
 
 A dental implant is a small titanium post that is surgically placed into the jawbone beneath the gum line to serve as the root of a tooth. There are several different materials, techniques and dental implant structures that patients can choose from. This page describes some of the options you can choose with us. For more information about dental implants, click [here](/dental-services/cosmetic-dentistry/dental-implants).
 
-### Crowns and Bridges
+### [Crowns and Bridges](/dental-services/cosmetic-dentistry/crowns-and-bridges)
 
 A dental crown is a cap that is placed over a tooth. It can be used to protect a tooth that has been damaged, to hold a dental bridge in place or to cover a tooth that has been deeply stained.
 
@@ -14,7 +14,7 @@ A bridge can be used to replace a missing tooth ot teeth, they are usually made 
 
 There are many benefits of dental crowns and bridges. They can help to restore the function of your teeth, improve your appearance and make it easier to clean your teeth. For more information about dental crowns and bridges, click [here](/dental-services/cosmetic-dentistry/crowns-and-bridges).
 
-### Inlays and Onlays
+### [Inlays and Onlays](/dental-services/cosmetic-dentistry/inlays-and-onlays)
 If you're looking for a way to restore your teeth that's both aesthetically pleasing and functional, dental inlays and onlays may be the right choice for you. Inlays and onlays are made of composite resin, ceramic or gold, and are custom-made to fit your tooth. They are bonded to the tooth using dental adhesive, and can last for many years with proper care.
 
 For more information about dental inlays and onlays, click [here](/dental-services/cosmetic-dentistry/inlays-and-onlays).

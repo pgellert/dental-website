@@ -9,7 +9,7 @@ export default function Home({ markdown }) {
 export async function getStaticProps({locale}) {
   return {
     props: {
-      markdown: await require(`../../markdown/${locale}/dental-services/oral-surgery.md`).default,
+      markdown: await require(`@markdowns/${locale}/dental-services/oral-surgery.md`).default,
     },
   }
 }

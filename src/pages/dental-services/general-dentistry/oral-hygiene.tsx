@@ -18,7 +18,7 @@ function Content({ markdown }) {
 export async function getStaticProps({locale}) {
   return {
     props: {
-      markdown: await require(`../../../markdown/${locale}/dental-services/general-dentistry/oral-hygiene.md`).default,
+      markdown: await require(`@markdowns/${locale}/dental-services/general-dentistry/oral-hygiene.md`).default,
     },
   }
 }
