@@ -12,10 +12,10 @@ export default function ServicePage({title, markdown}) {
     <BasePage title={title}>
       <Container className="w-full">
         <Content markdown={markdown} />
-        <article className="prose prose-stone max-w-none prose-img:rounded-xl lg:prose-lg">
+        <article className="prose prose-stone max-w-none prose-img:rounded-xl lg:prose-lg prose-p:leading-relaxed mt-8">
           <p>
             <b>
-              If you have any questions or would like to make an appointment, please contact us at <a href="tel:+36-20-567-5678">+36-20-567-5678</a> or <a href="mailto:info@perident.hu">info@perident.hu</a>.
+              If you have any questions about the dental procedures at Perident Dentistry, or if you would like to make an appointment, please call us at <a href="tel:+36-20-567-5678">+36-20-567-5678</a> or email us at <a href="mailto:info@perident.hu">info@perident.hu</a>. Our Gyor-based dental practice is always at your service.
             </b>
           </p>
         </article>
@@ -26,7 +26,7 @@ export default function ServicePage({title, markdown}) {
 
 export function Content(props) {
   var markdown = props.markdown
-  return <article className="prose prose-stone max-w-none prose-img:rounded-xl lg:prose-lg">
+  return <article className="prose prose-stone max-w-none prose-img:rounded-xl lg:prose-lg prose-p:leading-relaxed">
     <ReactMarkdown 
     rehypePlugins={[rehypeRaw]}
     components={{

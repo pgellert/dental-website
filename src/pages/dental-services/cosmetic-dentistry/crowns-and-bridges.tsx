@@ -2,7 +2,7 @@ import ServicePage from "@components/service-page"
 
 export default function Home({ markdown }) {
   return (
-    <ServicePage title="Crowns and Bridges in Gyor" markdown={markdown} />
+    <ServicePage title="Crowns and Bridges in Gyor, Hungary" markdown={markdown} />
   )
 }
 

@@ -8,25 +8,9 @@ For more details about each service we offer, click on the service's link below 
 
 - [Emergency dentistry](/dental-services/emergency-dentistry)
 - [General dentistry](/dental-services/general-dentistry)
-    - [Oral Hygiene](/dental-services/general-dentistry/oral-hygiene)
-    - Fissure sealants
-    - White fillings
-    - Gum Disease
-    - Endodonthics / gyokerkezeles
 - [Cosmetic dentistry](/dental-services/cosmetic-dentistry)
-    - [Implants](/dental-services/cosmetic-dentistry/implants)
+    - [Implants](/dental-services/cosmetic-dentistry/dental-implants)
     - [Crowns and Bridges](/dental-services/cosmetic-dentistry/crowns-and-bridges)
-    - Inlays and Onlays
-    - Teeth Whitening
-    - Smile Makeovers
-- Oral surgery
-    - Root removal (betort gyokerek kibanyaszasa)
-    - Bone grafting / csontpotlas
-    - Sinus lift / arcureg emeles
-    - Wisdom teeth removal
-    - Root resection
-    - Small cists removal
-- Diagnostics
-    - 3D conebeam CT
-    - Panoramic XRay
-    - Digital XRay
+    - [Inlays and Onlays](/dental-services/cosmetic-dentistry/inlays-and-onlays)
+- [Oral surgery](/dental-services/oral-surgery)
+- [Diagnostics](/dental-services/dental-diagnostics)

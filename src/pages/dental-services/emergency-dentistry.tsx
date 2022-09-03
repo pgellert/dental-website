@@ -1,4 +1,3 @@
-import BasePage from "@components/base-page"
 import ServicePage from "@components/service-page"
 
 export default function Home({ markdown }) {
