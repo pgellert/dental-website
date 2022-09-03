@@ -6,11 +6,11 @@ Welcome to our dental services page! We are committed to providing high-quality 
 
 For more details about each service we offer, click on the service's link below to read more.
 
-- [Emergency dentistry](/dental-services/emergency-dentistry)
-- [General dentistry](/dental-services/general-dentistry)
+- [Emergency dentistry](/dental-services/emergency-dentistry-gyor)
+- [General dentistry](/dental-services/general-dentistry-gyor)
 - [Cosmetic dentistry](/dental-services/cosmetic-dentistry)
-    - [Implants](/dental-services/cosmetic-dentistry/dental-implants)
-    - [Crowns and Bridges](/dental-services/cosmetic-dentistry/crowns-and-bridges)
-    - [Inlays and Onlays](/dental-services/cosmetic-dentistry/inlays-and-onlays)
-- [Oral surgery](/dental-services/oral-surgery)
-- [Diagnostics](/dental-services/dental-diagnostics)
+    - [Implants](/dental-services/cosmetic-dentistry/dental-implants-gyor)
+    - [Crowns and Bridges](/dental-services/cosmetic-dentistry/crowns-and-bridges-gyor)
+    - [Inlays and Onlays](/dental-services/cosmetic-dentistry/inlays-and-onlays-gyor)
+- [Oral surgery](/dental-services/oral-surgery-gyor)
+- [Diagnostics](/dental-services/dental-diagnostics-gyor)
