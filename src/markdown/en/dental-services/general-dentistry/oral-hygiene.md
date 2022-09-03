@@ -1,2 +1,0 @@
-# Oral hygiene in Gyor
-

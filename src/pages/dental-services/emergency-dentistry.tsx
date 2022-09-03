@@ -7,7 +7,7 @@ export default function Home({ markdown }) {
 }
 
 export async function getStaticProps({locale}) {
-  const markdown = await require(`@markdowns/${locale}/dental-services/emergency-dentistry.md`).default;
+  const markdown = await require(`@markdowns/${locale == "en" ? locale : "en"}/dental-services/emergency-dentistry.md`).default;
     return {
     props: {
       markdown: markdown,
