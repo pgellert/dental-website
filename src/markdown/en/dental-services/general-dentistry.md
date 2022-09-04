@@ -42,12 +42,12 @@ Gum disease is treated by removing the plaque and tartar from the teeth. This ca
 
 You can schedule an appointment with us to assess your oral hygiene and we can perform a gum disease treatment for you if that is required.
 
-### Endodonthics
+### Endodontics
 
-Endodonthics, also known as root canal therapy, is a treatment used to save a tooth that is badly decayed or infected. The procedure involves removing the damaged or infected tissue from inside the tooth, and then filling and sealing the tooth.
+Endodontics, also known as root canal therapy, is a treatment used to save a tooth that is badly decayed or infected. The procedure involves removing the damaged or infected tissue from inside the tooth, and then filling and sealing the tooth.
 
-Endodonthics is usually needed when the tooth decay or infection has reached the pulp, which is the innermost layer of the tooth. The pulp contains the blood vessels and nerves, and when it becomes damaged or infected, it can be very painful.
+Endodontics is usually needed when the tooth decay or infection has reached the pulp, which is the innermost layer of the tooth. The pulp contains the blood vessels and nerves, and when it becomes damaged or infected, it can be very painful.
 
-In most cases, endodonthics can be performed in one or two visits to the dentist. First, the dentist will numb the tooth and surrounding area. Then, they will use special instruments to remove the damaged or infected tissue from inside the tooth. Once the tooth is clean, they will fill it with a sealing material.
+In most cases, endodontics can be performed in one or two visits to the dentist. First, the dentist will numb the tooth and surrounding area. Then, they will use special instruments to remove the damaged or infected tissue from inside the tooth. Once the tooth is clean, they will fill it with a sealing material.
 
-If you have a tooth that is badly decayed or infected, endodonthics may be the best option to save it. The procedure can be performed in one or two visits to the dentist, and it can help relieve the pain and restore the function of the tooth.
+If you have a tooth that is badly decayed or infected, endodontics may be the best option to save it. The procedure can be performed in one or two visits to the dentist, and it can help relieve the pain and restore the function of the tooth.
