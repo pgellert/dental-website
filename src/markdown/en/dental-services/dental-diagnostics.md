@@ -8,6 +8,8 @@ Therefore, our dentistry is equipped with some of the highest fidelity dental di
 
 A dental cone beam CT is a special type of X-ray equipment used to take 3D images of your teeth, soft tissues, nerve pathways, and bone in a single scan. Images obtained with CBCT allow for more precise treatment planning and diagnosis. CBCT is especially useful for planning dental implants, as it can provide detailed information about the jawbone and surrounding structures.
 
+![Image showing a dental 3D cone beam CT](/img/dental-ct.jpg)
+
 ### Panoramic X-Ray
 
 A dental panoramic X-Ray takes a 180-degree image of the teeth, jaws, and surrounding structures. With Panoramic X-Rays, a very small dose of ionizing radiation is used to create a single image of the entire mouth. This type of X-ray gives a broad overview of the teeth and mouth, and can be helpful in identifying problems such as Crowding of teeth or impacted wisdom teeth.
