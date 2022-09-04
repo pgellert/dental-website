@@ -1,17 +1,5 @@
 # Oral Surgery in Gyor, Hungary
 
-## Root canal therapy
-
-Root canal therapy (also called Endodontics) is a dental procedure to treat the inside of a tooth. It is a painless procedure and its aim is to save the tooth by removing the infection from the root canal. Without root canal therapy, the infection may spread through the root canal system, which could eventually lead to an abscess, causing a great deal of discomfort.
-
-Our dentist performs the treatment in three simple steps. First, the local anaesthetic is used to ensure the treatment is painless. Next, the root is cleaned. Finally, a temporary filling is put in to prevent any further infection. At a later visit, the tooth is checked to confirm the infection has cleared. At that point, a permanent filling is put in.
-
-Root canal treatment is a skilled procedure, which our dentist has over 20 years of experienced in. Don't hesitate to call us to schedule a free appointment where we can answer your questions about root canal therapy.
-
-Click on the following image for a video on how root canal therapy works:
-
-[![Video showing how root canal therapy works](https://img.youtube.com/vi/_oP7Zx52H90/0.jpg)](https://www.youtube.com/watch?v=_oP7Zx52H90&t=40)
-
 ## Bone grafting
 
 Implants require a certain amount of bone in the jaw to be effective.
@@ -29,6 +17,12 @@ Click on the following image for a video on how bone grafting works:
 There is less bone available at the back of our oral cavity due to the sinuses. The maxillary sinus is largest air space in the body and it often makes installing a dental implant hard because it encroaches on the area of bone in which we wish to place an implant. In this case, a sinus lift can be performed to increase the amount of bone for the implant. During this treatment, we lift the floor of the sinus and place bone (from your mouth or a substitute material) in the created space. This allows longer, more stable and durable implants to be fitted. Rest assured that this treatment does not affect the functioning of your sinuses.
 
 This procedure requires a precise treatment, and you can rely on our dentist's over 20 years of experience in oral surgery. 
+
+## Tooth removal
+
+If the tooth is demaged to a degree that it cannot be saved using endodothics (root canal therapy), or if the tooth is in a bad position we may have to remove the tooth.
+
+We offer a tooth removal service that is quick and painless. We use the latest technology to remove your tooth quickly and efficiently.
 
 ## Wisdom teeth removal
 

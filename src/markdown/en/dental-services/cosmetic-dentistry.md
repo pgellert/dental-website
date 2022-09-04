@@ -1,6 +1,6 @@
 # Cosmetic dentistry in Gyor, Hungary
 
-Perident Dentostry offers a wide range of cosmetic dentistry services including implants, crowns and bridges, inlays/onlays and more.
+Perident Dentistry offers a wide range of cosmetic dentistry services including implants, crowns and bridges, inlays/onlays and more.
 
 ### [Implants](/dental-services/cosmetic-dentistry/dental-implants-gyor)
 
