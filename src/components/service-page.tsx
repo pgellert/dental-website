@@ -7,9 +7,9 @@ import Container from "@components/container"
 import Link from "next/link"
 import BasePage from "./base-page"
 
-export default function ServicePage({title, markdown}) {
+export default function ServicePage({title, meta_description, markdown}) {
   return <Fragment>
-    <BasePage title={title}>
+    <BasePage title={title} meta_description={meta_description}>
       <Container className="w-full">
         <Content markdown={markdown} />
         <article className="prose prose-stone max-w-none prose-img:rounded-xl lg:prose-lg prose-p:leading-relaxed mt-8">

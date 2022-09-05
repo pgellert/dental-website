@@ -4,7 +4,7 @@ import ServicePage from "@components/service-page"
 
 export default function Home({markdown}) {
   return (
-    <ServicePage title="Dental Services in Gyor, Hungary" markdown={markdown}/>
+    <ServicePage title="Dental Services in Gyor, Hungary" markdown={markdown} meta_description={undefined}/>
   )
 }
 

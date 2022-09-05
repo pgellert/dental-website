@@ -18,15 +18,18 @@ export default function BasePage(props) {
   const hostname = process.env['HOST'] || process.env['NEXT_PUBLIC_HOST'];
   const ga_tracking_id = process.env['GA_TRACKING_ID'] || process.env['NEXT_PUBLIC_GA_TRACKING_ID'];
 
+  const title = props.title ?? global_content.title
+  const meta_description = props.meta_description ?? content.meta_description
+
   return (
     <div>
       <Head>
           <link rel="icon" href="/favicon.ico" />
-          <title>{global_content.title}</title>
+          <title>{title}</title>
 
         <meta
           name="description"
-          content={content.meta_description}
+          content={meta_description}
         />
         <meta
           name="description"
