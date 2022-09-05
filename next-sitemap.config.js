@@ -6,6 +6,10 @@ const config = {
   generateIndexSitemap: false,
   alternateRefs: [
     {
+      href: SITE_BASE,
+      hreflang: 'hu',
+    },
+    {
       href: SITE_BASE + "/en",
       hreflang: 'en',
     },
