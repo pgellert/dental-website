@@ -14,9 +14,10 @@ export default function ServicePage({title, markdown}) {
         <Content markdown={markdown} />
         <article className="prose prose-stone max-w-none prose-img:rounded-xl lg:prose-lg prose-p:leading-relaxed mt-8">
           <p>
-            <b>
-              If you have any questions about the dental procedures at Perident Dentistry, or if you would like to make an appointment, please call us at <a href="tel:+36-20-567-5678">+36-20-567-5678</a> or email us at <a href="mailto:info@perident.hu">info@perident.hu</a>. Our Gyor-based dental practice is always at your service.
-            </b>
+            If you have any questions about the dental procedures at Perident Dentistry, or if you would like to make an appointment, please call us at <a href="tel:+36-20-567-5678">+36-20-567-5678</a> or email us at <a href="mailto:info@perident.hu">info@perident.hu</a>.
+          </p>
+          <p>
+            Our dental praxis is located at Gyor in the wester part of Hungary. Our address is 9024 GYŐR, Nagy Imre út 93. For more information on how you can contact us and how to get to our praxis, click <Link href="/contact-us"><a>here</a></Link>.
           </p>
         </article>
       </Container>

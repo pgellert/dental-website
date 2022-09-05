@@ -1,5 +1,7 @@
 # Oral Surgery in Gyor, Hungary
 
+Our dentist has over 20 years of experience in oral surgery, so you can trust that our service is of the highest quality. We are here to help in our dental praxis in Gyor, Hungary.
+
 ## Bone grafting
 
 Implants require a certain amount of bone in the jaw to be effective.
