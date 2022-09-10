@@ -10,7 +10,7 @@ import { useRouter } from "next/router"
 import { data } from "@content/components/service-page"
 
 export default function ServicePage({title, meta_description, markdown}) {
-  const { locale, locales, asPath, defaultLocale } = useRouter();
+  const { locale } = useRouter();
   const content = data[locale];
 
   return <Fragment>
