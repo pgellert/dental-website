@@ -6,7 +6,7 @@ Our dentist has over 20 years of experience in oral surgery, so you can trust th
 
 Implants require a certain amount of bone in the jaw to be effective.
 
-If the amount of bone is insufficient, we can use bone grafting to increase the height and width of the bone to make sure that we can fit an implant.
+If the amount of bone is insufficient, we can use bone grafting to increase the height and width of the bone to ensure that we can fit an implant.
 
 There are multiple ways and techniques used for bone grafting. We can include bone from your mouth or use a mineral substitute. Our dentist will discuss with you the best option for your particular case.
 
@@ -22,7 +22,7 @@ This procedure requires a precise treatment, and you can rely on our dentist's o
 
 ## Tooth removal
 
-If the tooth is demaged to a degree that it cannot be saved using endodothics (root canal therapy), or if the tooth is in a bad position we may have to remove the tooth.
+If the tooth is demaged to a degree that it cannot be saved using endodontics (root canal therapy), or if the tooth is in a bad position we may have to remove the tooth.
 
 We offer a tooth removal service that is quick and painless. We use the latest technology to remove your tooth quickly and efficiently.
 
@@ -38,7 +38,7 @@ If you are considering wisdom teeth removal, schedule a free appointment with us
 
 ## Root resection
 
-Root resection is a type of surgery that is used to remove part of a tooth's root. This procedure is typically needed when the root is damaged or infected. This type of srugery is often recommended when the tooth is already fitted with a dental crown or a bridge. The surgery is performed by making an incision in the gums and then removing the damaged or infected root.
+Root resection is a type of surgery that is used to remove part of a tooth's root. This procedure is typically needed when the root is damaged or infected. This type of surgery is often recommended when the tooth is already fitted with a dental crown or a bridge. The surgery is performed by making an incision in the gums and then removing the damaged or infected root.
 
 ## Small cyst removal
 

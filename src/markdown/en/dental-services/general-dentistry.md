@@ -33,7 +33,7 @@ The advantages of white fillings over traditional silver fillings include:
 - White fillings are less likely to cause sensitivity to hot and cold temperatures.
 - White fillings can be used to restore small cavities and minor tooth damage.
 
-If you are considering getting a white filling, our skilled dentists at our state-of-the-art dental facility can help you decide if a white filling is the best option for you. We offer a wide range of dental services, including teeth whitening, so we can help you find the most appropriate dental treatment for you. Call us today to schedule a consultation.
+If you are considering getting a white filling, our skilled dentists at our state-of-the-art dental facility can help you decide if a white filling is the best option for you. We offer a wide range of dental services, including white fillings, so we can help you find the most appropriate dental treatment for you. Call us today to schedule a consultation.
 
 ### Gum Disease
 Gum disease is an infection of the gums that can progress to affect the bone supporting the teeth. It is caused by plaque, a sticky film of bacteria that forms on teeth. If not removed, plaque can harden into tartar, which promotes gum disease. Symptoms of gum disease include bleeding, red, and swollen gums. If left untreated, gum disease can lead to tooth loss.

@@ -5,7 +5,9 @@ export default function Home({ markdown }) {
   return (
     <div>
       <BasePage>
-        <Content markdown={markdown} />
+        <div className="p-8 md:p-12">
+          <Content markdown={markdown} />
+        </div>
       </BasePage>
     </div>
   )
@@ -14,7 +16,7 @@ export default function Home({ markdown }) {
 export async function getStaticProps({locale}) {
   return {
     props: {
-      markdown: await require(`@markdowns/${locale == "en" ? locale : "en"}/about-us.md`).default,
+      markdown: await require(`@markdowns/${locale}/about-us.md`).default,
     },
   }
 }

@@ -6,19 +6,19 @@ import rehypeRaw from "rehype-raw"
 import Container from "@components/container"
 import Link from "next/link"
 import BasePage from "./base-page"
+import { useRouter } from "next/router"
+import { data } from "@content/components/service-page"
 
 export default function ServicePage({title, meta_description, markdown}) {
+  const { locale, locales, asPath, defaultLocale } = useRouter();
+  const content = data[locale];
+
   return <Fragment>
     <BasePage title={title} meta_description={meta_description}>
       <Container className="w-full">
         <Content markdown={markdown} />
         <article className="prose prose-stone max-w-none prose-img:rounded-xl lg:prose-lg prose-p:leading-relaxed mt-8">
-          <p>
-            If you have any questions about the dental procedures at Perident Dentistry, or if you would like to make an appointment, please call us at <a href="tel:+36-20-567-5678">+36-20-567-5678</a> or email us at <a href="mailto:info@perident.hu">info@perident.hu</a>.
-          </p>
-          <p>
-            Our dental praxis is located at Gyor in the wester part of Hungary. Our address is 9024 GYŐR, Nagy Imre út 93. For more information on how you can contact us and how to get to our praxis, click <Link href="/contact-us"><a>here</a></Link>.
-          </p>
+          {content.end_of_article}
         </article>
       </Container>
     </BasePage>

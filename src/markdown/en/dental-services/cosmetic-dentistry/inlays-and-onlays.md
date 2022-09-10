@@ -8,4 +8,4 @@ If you think inlays or onlays might be right for you, call us to find out more.
 
 The following video shows how inlays and onlays are installed.
 
-[![Video showing how an all-on-4 dental implant](https://img.youtube.com/vi/ntiQm0Njbow/0.jpg)](https://www.youtube.com/watch?v=ntiQm0Njbow&t=40)
+[![Video showing how an inlay/onlay](https://img.youtube.com/vi/ntiQm0Njbow/0.jpg)](https://www.youtube.com/watch?v=ntiQm0Njbow&t=40)

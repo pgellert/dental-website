@@ -1,5 +1,6 @@
 export const data = {
   en: {
+    meta_description: "For a range of dental treatments visit our dental practice in Győr, Hungary. The Perident Dental Clinic boast a friendly team who offer a variety of services.",
     services: {
         title: "Dental Services",
         description: "Some of the expert dental treatments offered at the Perident Dental Clinic:",
@@ -17,6 +18,7 @@ export const data = {
     },
   },
   hu: {
+    meta_description: "Teljes körű fogászati kezeléseinkért látogasson el Győri fogászati rendelőnkbe. A Perident Fogászat barátságos csapata szeleskoru fogaszati szolgáltatásokat kínál.",
     services: {
         title: "Fogászati szolgáltatásaink",
         description: "Néhány a Perident Dental Klinikán kínált szakértő fogászati kezelések közül:",
@@ -34,6 +36,7 @@ export const data = {
     },
   },
   de: {
+    meta_description: "Für eine Reihe von Zahnbehandlungen besuchen Sie unsere Zahnarztpraxis in Győr, Ungarn. Die Perident Dental Clinic verfügt über ein freundliches Team, das eine Vielzahl von Dienstleistungen anbietet.",
     services: {
         title: "Zahnärztliche Leistungen",
         description: "Einige der fachkundigen Zahnbehandlungen, die in der Zahnklinik Perident angeboten werden:",

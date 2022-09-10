@@ -9,7 +9,6 @@ import { data } from "@content/components/base-page";
 import { global_data } from "@content/global";
 import CookieConsent from "react-cookie-consent";
 
-
 export default function BasePage(props) {
   const { locale, locales, asPath, defaultLocale } = useRouter();
   const content = data[locale];
@@ -24,17 +23,15 @@ export default function BasePage(props) {
   return (
     <div>
       <Head>
-          <link rel="icon" href="/favicon.ico" />
-          <title>{title}</title>
+        <link rel="icon" href="/favicon.ico" />
+        <title>{title}</title>
 
-        <meta
-          name="description"
-          content={meta_description}
-        />
-        <meta
-          name="description"
-          content={content.meta_description}
-        />
+        {meta_description === undefined ? <></> : 
+          <meta
+            name="description"
+            content={meta_description}
+          />
+        }
         {locales.map((loc) => {
                     const prefix = loc === defaultLocale ? "" : loc;
                     const path = loc === defaultLocale ? asPath.substring(1) : asPath;

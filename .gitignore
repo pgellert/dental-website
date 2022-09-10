@@ -35,3 +35,4 @@ yarn-error.log*
 
 # generated sitemap
 public/sitemap*
+public/robots.txt

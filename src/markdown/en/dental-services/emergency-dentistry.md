@@ -5,7 +5,7 @@
 
 If you're looking for a welcoming and highly experienced emergency dentist near you in Gyor, Hungary who offers same day appointments, we can help.
 
-If you have a dental emergency in Gyor and require expert treatment then please call as early as possible to increase your chances of been seen that day. We aim to give all our registered patients a same-day emergency appointment wherever possible.
+If you have a dental emergency in Gyor and require expert treatment then please call as early as possible to increase your chances of been seen that day.
 
 If you’re unfortunate enough to be in need of emergency dental treatment then it is reassuring to know where to turn for help. At Perident Dentistry, we prioritise those experiencing severe pain and will endeavour to see them as quickly as possible.
 

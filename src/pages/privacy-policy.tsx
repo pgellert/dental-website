@@ -14,7 +14,7 @@ export default function Home({ markdown }) {
 export async function getStaticProps({locale}) {
   return {
     props: {
-      markdown: await require(`@markdowns/${locale == "en" ? locale : "en"}/privacy-policy.md`).default,
+      markdown: await require(`@markdowns/${locale}/privacy-policy.md`).default,
     },
   }
 }

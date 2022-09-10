@@ -15,7 +15,7 @@ export default function Home() {
   const content = data[locale];
   return (
     <div>
-      <BasePage>
+      <BasePage meta_description={content.meta_description}>
         <Hero />
         <SectionTitle title={content.services.title} subtitle={content.services.desciption} />
         <Services />
