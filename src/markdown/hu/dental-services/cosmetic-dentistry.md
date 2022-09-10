@@ -2,9 +2,9 @@
 
 A Perident fogászat kozmetikai fogászati ​​szolgáltatások széles választékát kínálja, többek között az implantátumokat, koronákat és hidakat, inlayeket és onlayeket.
 
-### [Implantátumok](/dental-services/cosmetic-dentistry/dental-implantants-gyor)
+### [Implantátumok](/dental-services/cosmetic-dentistry/dental-implants-gyor)
 
-A fogászati ​​implantátum egy kis fém (titánium) csavar, amelyet műtéti úton az ínyvonal alatti állcsontba helyeznek, hogy a fog gyökereként szolgáljon. Számos különböző anyag, technika és fogászati ​​implantátum felépítés közül választhatnak a páciensek. Ez az weboldal bemutat néhányat a nálunk választható lehetőségek közül. A fogászati ​​implantátumokkal kapcsolatos további információkért kattintson [ide](/dental-services/cosmetic-dentistry/dental-implantants-gyor).
+A fogászati ​​implantátum egy kis fém (titánium) csavar, amelyet műtéti úton az ínyvonal alatti állcsontba helyeznek, hogy a fog gyökereként szolgáljon. Számos különböző anyag, technika és fogászati ​​implantátum felépítés közül választhatnak a páciensek. Ez az weboldal bemutat néhányat a nálunk választható lehetőségek közül. A fogászati ​​implantátumokkal kapcsolatos további információkért kattintson [ide](/dental-services/cosmetic-dentistry/dental-implants-gyor).
 
 ### [Koronák és hidak](/dental-services/cosmetic-dentistry/crowns-and-bridges-gyor)
 
@@ -12,7 +12,7 @@ A fogkorona egy sapkaszerű fog alakú fedés, amelyet a fogra helyeznek. Haszn�
 
 A híd egy vagy több fog pótlására alkalmas. Általában nemes- vagy nem-nemesfém alapból készül, amelyet kívülről fogszínű kerámia porcelán borít, de készülhet teljes egészében fogszínű kerámia anyagból is. A hídat koronák tartják a helyén a kitöltendő rés két oldaláról.
 
-A fogkoronáknak és hidaknak számos előnye van. Segítenek a fogak működésének helyreállításában, javíthatják megjelenését és megkönnyíthetik a fogtisztítást. A fogkoronákkal és hidakkal kapcsolatos további információkért kattintson [ide](/dental-services/cosmetic-dentistry/crowns-and-bridges-gyor-gyor).
+A fogkoronáknak és hidaknak számos előnye van. Segítenek a fogak működésének helyreállításában, javíthatják megjelenését és megkönnyíthetik a fogtisztítást. A fogkoronákkal és hidakkal kapcsolatos további információkért kattintson [ide](/dental-services/cosmetic-dentistry/crowns-and-bridges-gyor).
 
 ### [Inlays and Onlays](/dental-services/cosmetic-dentistry/inlays-and-onlays-gyor)
 Ha olyan módszert keres a fogak helyreállítására, amely esztétikus és funkcionális is, a fogászati ​​inlay vagy onlay lehet a megfelelő választás. Az inlayek és onlayek kompozit gyantából, kerámiából vagy aranyból készülnek. Egyedileg készülnek, hogy illeszkedjenek az Ön fogához. Fogászati ​​ragasztóval ragasztják a foghoz, és megfelelő gondozás mellett hosszú évekig is eltarthatnak.

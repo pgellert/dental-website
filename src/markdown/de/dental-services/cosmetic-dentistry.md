@@ -12,7 +12,7 @@ Eine Zahnkrone ist eine Kappe, die über einen Zahn gesetzt wird. Es kann verwen
 
 Eine Brücke kann verwendet werden, um einen fehlenden Zahn oder Zähne zu ersetzen, sie bestehen normalerweise aus einer Edel- oder Nichtedelmetallbasis, die außen mit zahnfarbenem Keramikporzellanmaterial bedeckt ist, sie kann auch vollständig aus zahnfarbenem Keramikmaterial hergestellt werden. Es wird durch Zementieren von Kronen über den Zähnen auf beiden Seiten der zu füllenden Lücke gehalten.
 
-Kronen und Brücken haben viele Vorteile. Sie können helfen, die Funktion Ihrer Zähne wiederherzustellen, Ihr Aussehen zu verbessern und die Zahnreinigung zu erleichtern. Weitere Informationen zu Zahnkronen und -brücken finden Sie [hier](/dental-services/cosmetic-dentistry/crowns-and-bridges-gyor-gyor).
+Kronen und Brücken haben viele Vorteile. Sie können helfen, die Funktion Ihrer Zähne wiederherzustellen, Ihr Aussehen zu verbessern und die Zahnreinigung zu erleichtern. Weitere Informationen zu Zahnkronen und -brücken finden Sie [hier](/dental-services/cosmetic-dentistry/crowns-and-bridges-gyor).
 
 ### [Inlays und Onlays](/dental-services/cosmetic-dentistry/inlays-and-onlays-gyor)
 Wenn Sie nach einer Möglichkeit suchen, Ihre Zähne zu restaurieren, die sowohl ästhetisch ansprechend als auch funktionell ist, sind Inlays und Onlays möglicherweise die richtige Wahl für Sie. Inlays und Onlays bestehen aus Kompositharz, Keramik oder Gold und werden individuell an Ihren Zahn angepasst. Sie werden mit Zahnkleber auf den Zahn geklebt und können bei richtiger Pflege viele Jahre halten.

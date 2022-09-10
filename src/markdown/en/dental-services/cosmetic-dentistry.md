@@ -12,7 +12,7 @@ A dental crown is a cap that is placed over a tooth. It can be used to protect a
 
 A bridge can be used to replace a missing tooth ot teeth, they are usually made of a precious or non precious metal base covered on the outside by tooth-coloured ceramic porcelain material, it can also be made entirely of tooth coloured ceramic material. It is held in place by cementing crowns over the teeth either side of the gap being filled.
 
-There are many benefits of dental crowns and bridges. They can help to restore the function of your teeth, improve your appearance and make it easier to clean your teeth. For more information about dental crowns and bridges, click [here](/dental-services/cosmetic-dentistry/crowns-and-bridges-gyor-gyor).
+There are many benefits of dental crowns and bridges. They can help to restore the function of your teeth, improve your appearance and make it easier to clean your teeth. For more information about dental crowns and bridges, click [here](/dental-services/cosmetic-dentistry/crowns-and-bridges-gyor).
 
 ### [Inlays and Onlays](/dental-services/cosmetic-dentistry/inlays-and-onlays-gyor)
 If you're looking for a way to restore your teeth that's both aesthetically pleasing and functional, dental inlays and onlays may be the right choice for you. Inlays and onlays are made of composite resin, ceramic or gold, and are custom-made to fit your tooth. They are bonded to the tooth using dental adhesive, and can last for many years with proper care.
