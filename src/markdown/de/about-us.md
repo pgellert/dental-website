@@ -3,7 +3,7 @@
 Ich begrüße Sie herzlich auf unserer Website!
 
 <div style="display: flex; justify-content: center;">
-    <img src='https://fogorvosgyor.hu/wp-content/uploads/2020/01/DR-Peresztegi-Szabolcs-2-276x300.jpg' style="display:block;
+    <img src='/img/DR-Peresztegi-Szabolcs.jpeg' style="display:block;
     margin:auto;" alt=""/>
 </div>
 
@@ -40,5 +40,5 @@ Ich bin Dr. Szabolcs Peresztegi. Ich habe 1997 angefangen, Zahnmedizin zu prakti
 
 #### General Dental Council, Großbritannien
 
-![Logo der Generalzahnärztekammer](https://fogorvosgyor.hu/wp-content/uploads/2020/01/gdclogo.jpg)
+![Logo der Generalzahnärztekammer](/img/gdclogo.jpeg)
 Ausstellende Behörde: General Dental Council, U.K

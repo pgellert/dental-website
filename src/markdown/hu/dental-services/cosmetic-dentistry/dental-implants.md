@@ -13,7 +13,7 @@ Fogászati ​​implantátumaink titánból készülnek. Számos cég árul fog
 ## Hogyan épülnek fel a fogászati ​​implantátumok?
 Az all-on-4 fogászati ​​implantátum egyfajta fogászati ​​implantátum, amelyet teljes ívprotézis vagy műfogak alátámasztására használnak. Az all-on-4 fogászati ​​implantátum megfizethetőbb lehetőség azoknak a betegeknek, akiknek hiányzik minden foga, és egy nap alatt elkészíthető. Az alábbi képre kattintva megtekinthet egy Youtube-videót, amely bemutatja az all-on-4 implantátum működését.
 
-[![Videó, amely bemutatja, hogyan lehet egy négyes fogászati ​​implantátumot](https://img.youtube.com/vi/Nuam6mKczvs/0.jpg)](https://www.youtube.com/watch?v= Nuam6mKczvs)
+[![Videó, amely bemutatja, hogyan lehet egy négyes fogászati ​​implantátumot](https://img.youtube.com/vi/Nuam6mKczvs/0.jpg)](https://www.youtube.com/watch?v=Nuam6mKczvs)
 
 A patentokkal elhorgonyzott kivehető fogsor egyfajta fogászati ​​implantátum, amelyet a kivehető műfogsor alátámasztására használnak. A stéges fogsor megfizethetőbb megoldás azoknak a betegeknek, akiknek hiányzik minden foga, és ez is egy 1 nap alatt elkészíthető megoldás.
 

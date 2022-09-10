@@ -3,7 +3,7 @@
 Szeretettel köszöntöm Önt weboldalunkon!
 
 <div style="display: flex; justify-content: center;">
-    <img src='https://fogorvosgyor.hu/wp-content/uploads/2020/01/DR-Peresztegi-Szabolcs-2-276x300.jpg' style="display:block;
+    <img src='/img/DR-Peresztegi-Szabolcs.jpeg' style="display:block;
     margin:auto;" alt=""/>
 </div>
 
@@ -40,5 +40,5 @@ Dr. Peresztegi Szabolcs vagyok. A fogorvosi praktizálást 1997-ben kezdtem el. 
 
 #### General Dental Council,U.K
 
-![General Dental Council Logo](https://fogorvosgyor.hu/wp-content/uploads/2020/01/gdclogo.jpg)
+![General Dental Council Logo](/img/gdclogo.jpeg)
 Issuing authority : General Dental Council,U.K
