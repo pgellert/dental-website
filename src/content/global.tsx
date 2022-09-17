@@ -14,7 +14,7 @@ export const global_data = {
     },
   },
   hu: {
-    title: "Perident Fogászati Klinika Győr, Magyarország",
+    title: "Perident Fogászat Győr, Magyarország",
     opening_hours: {
       title: "Nyitvatartási idő",
       monday: "Hétfő",

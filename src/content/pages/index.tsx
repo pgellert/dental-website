@@ -18,7 +18,7 @@ export const data = {
     },
   },
   hu: {
-    meta_description: "Teljes körű fogászati kezeléseinkért látogasson el Győri fogászati rendelőnkbe. A Perident Fogászat barátságos csapata szeleskoru fogaszati szolgáltatásokat kínál.",
+    meta_description: "Magán fogorvos Győrben! Fogászatunk fogorvosai modern rendelőben várják foghúzásra, fogpótlásra, szájsebészeti beavatkozásra!",
     services: {
         title: "Fogászati szolgáltatásaink",
         description: "Néhány a Perident Dental Klinikán kínált szakértő fogászati kezelések közül:",

@@ -8,7 +8,7 @@ export const data = {
       }
     },
     hu: {
-      title: "Perident Fogászati Klinika Győr, Magyarország",
+      title: "Perident Fogászat Győr, Magyarország",
       cookie: {
         description: "Ez a weboldal cookie-kat használ a webhely használatának elemzésére.",
         accept: "Elfogadom",

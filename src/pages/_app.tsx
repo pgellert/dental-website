@@ -10,7 +10,6 @@ import { getCookieConsentValue } from "react-cookie-consent"
 
 function MyApp({ Component, pageProps }: AppProps): JSX.Element {
   if(getCookieConsentValue()) {
-    console.log("Now we're using analytics")
     setUpAnalytics()
   }
   return <Component {...pageProps} />
