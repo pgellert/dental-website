@@ -18,6 +18,13 @@ const config = {
       hreflang: 'de',
     },
   ],
+  exclude: [
+    'en/de/*',
+    'de/en/*',
+    'en/en/*',
+    'de/de/*',
+    '*404',
+  ],
 }
 
 module.exports = config
