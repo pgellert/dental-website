@@ -4,10 +4,13 @@ const PUBLIC_FILE = /\.(.*)$/
 
 export function middleware(req: NextRequest) {
   if (
-    (req.nextUrl.pathname.includes('/en/') || req.nextUrl.pathname.includes('/de/'))
-    &&
-    PUBLIC_FILE.test(req.nextUrl.pathname)
+    (req.nextUrl.locale != req.nextUrl.defaultLocale && PUBLIC_FILE.test(req.nextUrl.pathname))
+    ||
+    (req.nextUrl.pathname.includes("/en/") || req.nextUrl.pathname.includes("/de/"))
   ) {
-    return
+    const url = req.nextUrl;
+
+    url.pathname = `/404`;
+    return NextResponse.rewrite(url);
   }
 }
