@@ -2,9 +2,10 @@ import { NextRequest, NextResponse } from 'next/server'
 
 const PUBLIC_FILE = /\.(.*)$/
 
-export async function middleware(req: NextRequest) {
+export function middleware(req: NextRequest) {
   if (
-    req.nextUrl.pathname.includes('/api/') ||
+    (req.nextUrl.pathname.includes('/en/') || req.nextUrl.pathname.includes('/de/'))
+    &&
     PUBLIC_FILE.test(req.nextUrl.pathname)
   ) {
     return
