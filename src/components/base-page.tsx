@@ -10,11 +10,10 @@ import { global_data } from "@content/global";
 import CookieConsent from "react-cookie-consent";
 
 export default function BasePage(props) {
-  const { locale, locales, asPath, defaultLocale } = useRouter();
+  const { locale, locales } = useRouter();
   const content = data[locale];
   const global_content = global_data[locale];
 
-  const hostname = process.env['HOST'] || process.env['NEXT_PUBLIC_HOST'];
   const ga_tracking_id = process.env['GA_TRACKING_ID'] || process.env['NEXT_PUBLIC_GA_TRACKING_ID'];
 
   const title = props.title ?? global_content.title
@@ -30,6 +29,14 @@ export default function BasePage(props) {
         <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff" />
+        <meta property="og:title" content={title} />
+        {meta_description === undefined ? <></> : 
+          <meta property="og:description" content={meta_description} />
+        }
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content={urlForLocale(locale)} />
+        <meta property="og:image" content="https://www.fogaszatgyor.hu/img/dr-peresztegi-szabolcs-fogorvosi-szek.jpeg" />
+        <meta property="og:image:alt" content="An image showing Dr Peresztegi Szabolcs dentist in front of the dental chair in our dental clinic in Gyor." />
         <title>{title}</title>
 
         {meta_description === undefined ? <></> : 
@@ -39,14 +46,12 @@ export default function BasePage(props) {
           />
         }
         {locales.map((loc) => {
-                    const prefix = loc === defaultLocale ? "" : loc;
-                    const path = loc === defaultLocale ? asPath.substring(1) : asPath;
                     return (
                         <link
                             key={loc}
                             rel="alternate"
                             hrefLang={loc}
-                            href={`https://${hostname}/${prefix}${path}`}
+                            href={urlForLocale(loc)}
                         />
                     )
                 })}
@@ -78,4 +83,13 @@ export default function BasePage(props) {
       </main>
     </div>
   )
+}
+
+function urlForLocale(loc){
+  const { asPath, defaultLocale } = useRouter();
+  const hostname = process.env['HOST'] || process.env['NEXT_PUBLIC_HOST'];
+  
+  const prefix = loc === defaultLocale ? "" : loc;
+  const path = loc === defaultLocale ? asPath.substring(1) : asPath;
+  return `https://${hostname}/${prefix}${path}`
 }
