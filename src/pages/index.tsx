@@ -9,6 +9,7 @@ import Team from "@components/team"
 import Testimonials from "@components/testimonials"
 import { useRouter } from "next/router"
 import { data } from "@content/pages"
+import Dentist from "@components/dentist"
 
 export default function Home() {
   const { locale } = useRouter();
@@ -21,6 +22,7 @@ export default function Home() {
         <Services />
         <SectionTitle title={content.benefits.title} subtitle={content.benefits.description} />
         <Benefits />
+        <Dentist />
         <SectionTitle title={content.team.title} subtitle={content.team.desciption} />
         <Team />
         <SectionTitle title={content.team.testimonials} />
