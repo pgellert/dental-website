@@ -37,6 +37,7 @@ export default function BasePage(props) {
         <meta property="og:url" content={urlForLocale(locale)} />
         <meta property="og:image" content="https://www.fogaszatgyor.hu/img/dr-peresztegi-szabolcs-fogorvosi-szek.jpeg" />
         <meta property="og:image:alt" content="An image showing Dr Peresztegi Szabolcs dentist in front of the dental chair in our dental clinic in Gyor." />
+        <meta property="og:locale" content={ogLocale(locale)} />
         <title>{title}</title>
 
         {meta_description === undefined ? <></> : 
@@ -92,4 +93,14 @@ function urlForLocale(loc){
   const prefix = loc === defaultLocale ? "" : loc;
   const path = loc === defaultLocale ? asPath.substring(1) : asPath;
   return `https://${hostname}/${prefix}${path}`
+}
+
+function ogLocale(loc){
+  if(loc == "hu"){
+    return "hu_HU"
+  } else if (loc == "en"){
+    return "en_UK"
+  } else {
+    return "de_DE"
+  }
 }
