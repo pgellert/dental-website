@@ -18,7 +18,7 @@ export default function Dentist() {
               <article className="py-5 px-5 prose max-w-none lg:prose-xl lg:w-3/5 lg:px-12 items-center justify-items-center place-content-center place-items-center content-center">
                 {
                   content.paragraphs.map((parag, index) => {
-                    return (<p key={index} className="text-xl leading-normal text-gray-500 dark:text-gray-300 lg:text-xl xl:text-2xl">
+                    return (<p key={index} className="text-xl leading-normal dark:text-gray-300 lg:text-xl xl:text-2xl">
                       {parag}
                     </p>)
                   })
