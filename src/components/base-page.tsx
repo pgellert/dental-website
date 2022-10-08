@@ -92,7 +92,7 @@ function urlForLocale(loc){
   
   const prefix = loc === defaultLocale ? "" : loc;
   const path = loc === defaultLocale ? asPath.substring(1) : asPath;
-  return `https://${hostname}/${prefix}${path}`
+  return `https://${hostname}${prefix}${path}`
 }
 
 function ogLocale(loc){
