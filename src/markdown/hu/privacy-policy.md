@@ -1,5 +1,5 @@
 # Adatkezelési alapelvek
-A fogorvosgyor.hu honlapot a Perinvest Kereskedelmi Kft. üzemelteti (a továbbiakban, mint Adatkezelő). A honlap szolgáltatásait a Felhasználó önként veszi igénybe, így az ehhez szükséges adatok kezelése önkéntes adatszolgáltatáson alapul. Adatkezelő az átadott személyes adatokat bizalmasan kezeli, és minden technikai és szervezési intézkedést megtesz annak érdekében, hogy a kezelt adatokhoz illetéktelen személy ne férjen hozzá.
+A fogaszatgyor.hu honlapot a Perinvest Kereskedelmi Kft. üzemelteti (a továbbiakban, mint Adatkezelő). A honlap szolgáltatásait a Felhasználó önként veszi igénybe, így az ehhez szükséges adatok kezelése önkéntes adatszolgáltatáson alapul. Adatkezelő az átadott személyes adatokat bizalmasan kezeli, és minden technikai és szervezési intézkedést megtesz annak érdekében, hogy a kezelt adatokhoz illetéktelen személy ne férjen hozzá.
 
 ### Adatkezelő adatai
 - Perinvest Kereskedelmi Kft.
