@@ -88,10 +88,14 @@ export default function BasePage(props) {
 
 function urlForLocale(loc){
   const { asPath, defaultLocale } = useRouter();
-  const hostname = process.env['HOST'] || process.env['NEXT_PUBLIC_HOST'];
+  const hostname = process.env['NEXT_PUBLIC_HOST'] || process.env['HOST'];
   
   const prefix = loc === defaultLocale ? "" : loc;
-  const path = loc === defaultLocale ? asPath.substring(1) : asPath;
+  var path = loc === defaultLocale ? asPath.substring(1) : asPath;
+  
+  // Remove / suffix from the path:
+  path = path.replace(/\/$/, "")
+
   return `https://${hostname}${prefix}${path}`
 }
 
