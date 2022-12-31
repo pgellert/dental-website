@@ -1,5 +1,3 @@
-import { generateLocalUrl } from "lib/domain";
-
 /** @type {import('next-sitemap').IConfig} */
 const SITE_BASE = "https://" + process.env['NEXT_PUBLIC_HOST']
 const config = {
@@ -54,3 +52,19 @@ const config = {
 }
 
 module.exports = config
+
+
+// TODO: keep in sync with the copy in domain.tsx
+function generateLocalUrl(path, loc) {
+  // Note: here we hardcode that "hu" is the default locale
+  const isDefaultPath = loc === "hu"
+  const hostname = process.env['NEXT_PUBLIC_HOST'] || process.env['HOST'];
+  
+  const prefix = isDefaultPath ? "" : loc;
+  const languageSpecificPath = isDefaultPath ? path.substring(1) : path;
+  var result = `https://${hostname}/${prefix}${languageSpecificPath}`
+
+  // Remove / suffix from the path:
+  result = result.replace(/\/+$/, "")
+  return result
+}

@@ -1,4 +1,5 @@
 
+// TODO: keep in sync with the copy in next-sitemap.config.js
 export function generateLocalUrl(path: string, loc: string) {
     // Note: here we hardcode that "hu" is the default locale
     const isDefaultPath = loc === "hu"
