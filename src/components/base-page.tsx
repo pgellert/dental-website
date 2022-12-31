@@ -91,12 +91,12 @@ function urlForLocale(loc){
   const hostname = process.env['NEXT_PUBLIC_HOST'] || process.env['HOST'];
   
   const prefix = loc === defaultLocale ? "" : loc;
-  var path = loc === defaultLocale ? asPath.substring(1) : asPath;
-  
-  // Remove / suffix from the path:
-  path = path.replace(/\/$/, "")
+  const path = loc === defaultLocale ? asPath.substring(1) : asPath;
+  var result = `https://${hostname}${prefix}${path}`
 
-  return `https://${hostname}${prefix}${path}`
+  // Remove / suffix from the path:
+  result = result.replace(/\/+$/, "")
+  return result
 }
 
 function ogLocale(loc){
