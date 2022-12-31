@@ -51,7 +51,7 @@ module.exports = config
 
 function generateAlternateRef(path, locale) {
   // Note: here we assume that language locales are 2 characters
-  const pathWithoutLanguagePrefix = path.replace(/^\/\w{2}/, "")
+  const pathWithoutLanguagePrefix = path.replace(/^\/\w{2}\//, "/")
   return generateLocalUrl(pathWithoutLanguagePrefix, locale)
 }
 
