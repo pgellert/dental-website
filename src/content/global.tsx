@@ -1,6 +1,6 @@
 export const global_data = {
   en: {
-    title: "Perident Dental Clinic Gyor, Hungary",
+    title: "Private Dentist in Hungary - Perident Dental Clinic",
     opening_hours: {
       title: "Opening hours",
       monday: "Monday",
@@ -14,7 +14,7 @@ export const global_data = {
     },
   },
   hu: {
-    title: "Perident Fogászat Győr, Magyarország",
+    title: "Magán Fogorvos Győrben - Perident Fogászat",
     opening_hours: {
       title: "Nyitvatartási idő",
       monday: "Hétfő",
@@ -28,7 +28,7 @@ export const global_data = {
     },
   },
   de: {
-    title: "Perident Zahnklinik Györ, Ungarn",
+    title: "Privater Zahnarzt in Ungarn - Perident Zahnklinik",
     opening_hours: {
       title: "Öffnungszeiten",
       monday: "Montag",
