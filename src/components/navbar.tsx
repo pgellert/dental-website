@@ -21,7 +21,7 @@ export default function Navbar() {
               <div className="flex w-full flex-wrap items-center justify-between lg:w-auto">
                 <Link href="/">
                   <a className="flex items-center space-x-2 text-2xl font-medium text-sky-500 dark:text-gray-100">
-                    <Image src={logoImg} alt="Logo" height="49" width="150" />
+                    <Image src={logoImg} alt="Logo" height="49" width="150" priority />
                   </a>
                 </Link>
 
