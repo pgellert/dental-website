@@ -6,8 +6,8 @@ const data = {
     meta_description: "If you're in pain and need emergency dentistry, we can help. We offer emergency dental services for when you need it most. Call us today!",
   },
   hu: {
-    title: "Sürgősségi fogászat Győrben | Perident Fogászat",
-    meta_description: "Ha fájdalmai vannak, és sürgősségi fogászatra van szüksége, tudunk segíteni. Sürgősségi fogászati szolgáltatásunk segít, amikor a legnagyobb szüksége van rá. Hívjon minket még ma!",
+    title: "Azonnali Fogorvos Győrben | Perident Fogászat",
+    meta_description: "Ha fájdalmai vannak, és azonnal sürgősségi fogászatra van szüksége, tudunk segíteni. Azonnali sürgősségi fogászati szolgáltatásunk segít, amikor a legnagyobb szüksége van rá. Hívjon minket még ma!",
   },
   de: {
     title: "Notfallzahnmedizin in Györ | Zahnarztpraxis Perident",

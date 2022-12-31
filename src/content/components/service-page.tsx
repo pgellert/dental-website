@@ -9,13 +9,13 @@ export const data = {
   },
   hu: {
     end_of_article: [
-      <p>Ha bármilyen kérdése van a Perident Dentistry fogászati eljárásaival kapcsolatban, vagy időpontot szeretne foglalni, hívjon minket a <a href="tel:+36-20-567-5678">+36- 20-567-5678</a> vagy írjon nekünk e-mailt az <a href="mailto:info@perident.hu">info@perident.hu</a> címre.</p>,
+      <p>Ha kérdése van a Perident Dentistry fogászati eljárásaival kapcsolatban, vagy időpontot szeretne foglalni, hívjon minket a <a href="tel:+36-20-567-5678">+36-20-567-5678</a> vagy írjon nekünk e-mailt az <a href="mailto:info@perident.hu">info@perident.hu</a> címre.</p>,
       <p>Fogászati rendelőnk Magyarország nyugati részén, Győrben található. Címünk: 9024 GYŐR, Nagy Imre út 93. Ha többet szeretne megtudni arról, hogyan léphet kapcsolatba velünk, és hogyan juthat el praxisunkba, kattintson <Link href="/contact-us"><a>ide</a></ Link>.</p>,
     ],
   },
   de: {
     end_of_article: [
-      <p>Wenn Sie Fragen zu den zahnärztlichen Verfahren bei Perident Dentistry haben oder einen Termin vereinbaren möchten, rufen Sie uns bitte an unter <a href="tel:+36-20-567-5678">+36- 20-567-5678</a> oder senden Sie uns eine E-Mail an <a href="mailto:info@perident.hu">info@perident.hu</a>.</p>,
+      <p>Wenn Sie Fragen zu den zahnärztlichen Verfahren bei Perident Dentistry haben oder einen Termin vereinbaren möchten, rufen Sie uns bitte an unter <a href="tel:+36-20-567-5678">+36-20-567-5678</a> oder senden Sie uns eine E-Mail an <a href="mailto:info@perident.hu">info@perident.hu</a>.</p>,
       <p>Unsere Zahnarztpraxis befindet sich in Györ im Westen Ungarns. Unsere Adresse ist 9024 GYŐR, Nagy Imre út 93. Für weitere Informationen darüber, wie Sie uns kontaktieren können und wie Sie zu unserer Praxis gelangen, klicken Sie <Link href="/contact-us"><a>hier</a></ Link>.</p>,
     ]
   },

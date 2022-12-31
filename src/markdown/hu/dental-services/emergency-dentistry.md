@@ -1,15 +1,20 @@
-# Sürgősségi fogászati ellátás Győrben
+# Azonnali fogorvos Győrben
+
+Időpont foglalás: <a href="tel:+36-20-567-5678">+36-20-567-5678</a>
+
 ## Segítünk gyorsan megszüntetni fogfájását.
 
 <img src="/img/help.svg" alt="Súgó" width="100" height="100" style="float: left; margin: 14px;"/>
 
-Ha egy barátságos és nagy tapasztalattal rendelkező sürgősségi fogorvost keres az Ön közelében Győrben, Magyarországon, aki aznapi időpontot kínál, mi segítünk.
+Azonnali fogorvosi segítséget nyújtunk Önnek, Győri fogászati rendelőnkben.
 
-Ha fogászati ​​sürgősségi ellátásra van szüksége Győrben, és szakértői kezelésre van szüksége, kérjük, mielőbb hívjon minket, hogy még aznapra tudjunk időpontot adni.
+Ha egy barátságos és nagy tapasztalattal rendelkező sürgősségi fogorvost keres az Ön közelében Győrben, Magyarországon, akkor forduljon bátran a Perident fogaszathoz.
+
+Ha fogászati ​​sürgősségi ellátásra van szüksége Győrben, kérjük, mielőbb hívjon minket, hogy még aznapra tudjunk időpontot adni.
 
 Amennyiben sürgős fogászati ​​kezelésre szorul, megnyugtató, ha tudja, hová forduljon segítségért. A Perident fogászatnál előnyben részesítjük azokat, akik súlyos fájdalmat tapasztalnak, és igyekszünk a lehető leggyorsabban ellátni őket.
 
-Fogorvosaink számos sürgős fogászati ​​probléma kezelését tudják ellátni, beleértve a fogfájást, tályogokat, duzzanatot, baleseteket, szájsérüléseket, szájat érintő sportsérüléseket, sérült/törött fogsorokat, kilazult koronákat.
+Fogorvosaink számos sürgős fogászati ​​probléma kezelését tudják ellátni, beleértve a fogfájást, tályogokat, duzzanatot, baleseteket, szájsérüléseket, szájat érintő sportsérüléseket, sérült/törött fogsorokat, kilazult koronákat. Azonnal tudunk segíteni hogy enyhítsük a fájdalmát, és rögtön megtaláljuk az Önnek legmegfelelőbb fogorvosi kezelést.
 
 Csapatunk szakértelme és tapasztalata miatt Ön biztonságos kezekben van, és a lehető legjobb figyelmet és törődést kapja. Dr. Peresztegi több mint 20 éves széleskörű kozmetikai, általános és sürgősségi fogászati ​​tapasztalattal rendelkezik, amellyel segítségére lehet.
 

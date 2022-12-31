@@ -1,4 +1,7 @@
 # Notfallzahnheilkunde in Gyor, Ungarn
+
+Vereinbare einen Termin: <a href="tel:+36-20-567-5678">+36-20-567-5678</a>
+
 ## Wir können Ihnen helfen, Ihre Zahnschmerzen schnell zu stoppen.
 
 <img src="/img/help.svg" alt="Hilfe" width="100" height="100" style="float: left; margin: 14px;"/>

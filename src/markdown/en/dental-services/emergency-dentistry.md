@@ -1,4 +1,7 @@
 # Emergency Dentistry in Gyor, Hungary
+
+Book an appointment: <a href="tel:+36-20-567-5678">+36-20-567-5678</a>
+
 ## We can help to quickly stop your tooth pain.
 
 <img src="/img/help.svg" alt="Help" width="100" height="100" style="float: left; margin: 14px;"/>
