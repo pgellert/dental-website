@@ -8,6 +8,7 @@ import Router, { useRouter } from "next/router";
 import { data } from "@content/components/base-page";
 import { global_data } from "@content/global";
 import CookieConsent from "react-cookie-consent";
+import { generateLocalUrl } from "lib/domain";
 
 export default function BasePage(props) {
   const { locale, locales } = useRouter();
@@ -87,16 +88,8 @@ export default function BasePage(props) {
 }
 
 function urlForLocale(loc){
-  const { asPath, defaultLocale } = useRouter();
-  const hostname = process.env['NEXT_PUBLIC_HOST'] || process.env['HOST'];
-  
-  const prefix = loc === defaultLocale ? "" : loc;
-  const path = loc === defaultLocale ? asPath.substring(1) : asPath;
-  var result = `https://${hostname}/${prefix}${path}`
-
-  // Remove / suffix from the path:
-  result = result.replace(/\/+$/, "")
-  return result
+  const { asPath } = useRouter();
+  return generateLocalUrl(asPath, loc)
 }
 
 function ogLocale(loc){
