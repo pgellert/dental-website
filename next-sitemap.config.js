@@ -1,5 +1,5 @@
 /** @type {import('next-sitemap').IConfig} */
-const SITE_BASE = "https://" + process.env.HOST
+const SITE_BASE = "https://" + process.env['NEXT_PUBLIC_HOST']
 const config = {
   siteUrl: SITE_BASE,
   generateRobotsTxt: true, // (optional)

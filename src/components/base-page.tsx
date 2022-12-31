@@ -92,7 +92,7 @@ function urlForLocale(loc){
   
   const prefix = loc === defaultLocale ? "" : loc;
   const path = loc === defaultLocale ? asPath.substring(1) : asPath;
-  var result = `https://${hostname}${prefix}${path}`
+  var result = `https://${hostname}/${prefix}${path}`
 
   // Remove / suffix from the path:
   result = result.replace(/\/+$/, "")
