@@ -18,7 +18,7 @@ export default function Services(props) {
             props.imgPos === "right" ? "lg:justify-end" : ""
           }`}
         >
-          <div className="grid w-full grid-cols-1 gap-6 bg-white p-4 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4">
+          <div className="grid w-full grid-cols-1 gap-6 bg-white p-4 md:grid-cols-2 xl:grid-cols-3">
             {content.bullets.map((item, index) => (
               <Service
                 key={index}

@@ -2,7 +2,7 @@ export const data = {
   en: {
     meta_description: "Dr. Peresztegi-Nagy Szabolcs - Győr, Hungary. The Perident Dental Clinic boast a modern dental practice and a friendly team who offer a variety of dental services.",
     services: {
-        title: "Dental Services",
+        title: "Dental Treatments",
         description: "Some of the expert dental treatments offered at the Perident Dental Clinic:",
     },
     benefits: {
@@ -20,7 +20,7 @@ export const data = {
   hu: {
     meta_description: "Dr. Peresztegi-Nagy Szabolcs fogorvos - Győr. Magán fogászat Győrben, ahol fogorvosunk modern rendelőben várja foghúzásra, fogpótlásra, szájsebészeti beavatkozásra!",
     services: {
-        title: "Fogászati szolgáltatásaink",
+        title: "Fogászati kezeléseink",
         description: "Néhány a Perident Dental Klinikán kínált szakértő fogászati kezelések közül:",
     },
     benefits: {
@@ -38,7 +38,7 @@ export const data = {
   de: {
     meta_description: "Dr. Peresztegi-Nagy Szabolcs - Győr, Ungarn. Die Zahnklinik Perident verfügt über eine moderne Zahnarztpraxis und ein freundliches Team, das eine Vielzahl von zahnärztlichen Leistungen anbietet.",
     services: {
-        title: "Zahnärztliche Leistungen",
+        title: "Zahnärztliche Behandlungen",
         description: "Einige der fachkundigen Zahnbehandlungen, die in der Zahnklinik Perident angeboten werden:",
     },
     benefits: {
