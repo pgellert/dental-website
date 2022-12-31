@@ -5,10 +5,6 @@ const config = {
   generateRobotsTxt: true, // (optional)
   generateIndexSitemap: false,
   exclude: [
-    'en/de/*',
-    'de/en/*',
-    'en/en/*',
-    'de/de/*',
     '*404',
   ],
   // Note: alternateRefs don't work for path-based multilanguage sites, because, 
@@ -35,9 +31,9 @@ const config = {
   transform: async (config, path) => {
     // Generate alternate refs manually
     alternateRefs = [
-      {hreflang: "hu", href: generateLocalUrl(path, "hu")},
-      {hreflang: "en", href: generateLocalUrl(path, "en")},
-      {hreflang: "de", href: generateLocalUrl(path, "de")},
+      { hreflang: "hu", href: generateAlternateRef(path, "hu"), hrefIsAbsolute: true },
+      { hreflang: "en", href: generateAlternateRef(path, "en"), hrefIsAbsolute: true },
+      { hreflang: "de", href: generateAlternateRef(path, "de"), hrefIsAbsolute: true },
     ]
 
     // Use default transformation for all other cases
@@ -53,16 +49,23 @@ const config = {
 
 module.exports = config
 
+function generateAlternateRef(path, locale) {
+  // Note: here we assume that language locales are 2 characters
+  const pathWithoutLanguagePrefix = path.replace(/^\/\w{2}/, "")
+  return generateLocalUrl(pathWithoutLanguagePrefix, locale)
+}
 
 // TODO: keep in sync with the copy in domain.tsx
-function generateLocalUrl(path, loc) {
+function generateLocalUrl(path, locale) {
+  const hostname = process.env['NEXT_PUBLIC_HOST'] || process.env['HOST']
+
   // Note: here we hardcode that "hu" is the default locale
-  const isDefaultPath = loc === "hu"
-  const hostname = process.env['NEXT_PUBLIC_HOST'] || process.env['HOST'];
+  const isDefaultLocale = locale === "hu"
+    
+  const localePrefix = isDefaultLocale ? "" : `/${locale}`
+  // const languageSpecificPath = isDefaultLocale ? path.substring(1) : path
   
-  const prefix = isDefaultPath ? "" : loc;
-  const languageSpecificPath = isDefaultPath ? path.substring(1) : path;
-  var result = `https://${hostname}/${prefix}${languageSpecificPath}`
+  var result = `https://${hostname}${localePrefix}${path}`
 
   // Remove / suffix from the path:
   result = result.replace(/\/+$/, "")
