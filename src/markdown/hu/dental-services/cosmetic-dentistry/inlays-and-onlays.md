@@ -8,4 +8,4 @@ Ha úgy gondolja, hogy az inlay vagy onlay megfelelő lehet az Ön számára, h�
 
 A következő videó bemutatja az inlay-k és onlay-k telepítését.
 
-[![Videó, amely bemutat egy inlay-t/onlay-t](https://img.youtube.com/vi/ntiQm0Njbow/0.jpg)](https://www.youtube.com/watch?v= ntiQm0Njbow&t=40)
+[![Videó, amely bemutat egy inlay-t/onlay-t](https://img.youtube.com/vi/ntiQm0Njbow/0.jpg)](https://www.youtube.com/watch?v=ntiQm0Njbow&t=40)

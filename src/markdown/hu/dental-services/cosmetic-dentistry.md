@@ -14,7 +14,7 @@ A híd egy vagy több fog pótlására alkalmas. Általában nemes- vagy nem-nem
 
 A fogkoronáknak és hidaknak számos előnye van. Segítenek a fogak működésének helyreállításában, javíthatják megjelenését és megkönnyíthetik a fogtisztítást. A fogkoronákkal és hidakkal kapcsolatos további információkért kattintson [ide](/dental-services/cosmetic-dentistry/crowns-and-bridges-gyor).
 
-### [Inlays and Onlays](/dental-services/cosmetic-dentistry/inlays-and-onlays-gyor)
+### [Inlay-ek és Onlay-ek](/dental-services/cosmetic-dentistry/inlays-and-onlays-gyor)
 Ha olyan módszert keres a fogak helyreállítására, amely esztétikus és funkcionális is, a fogászati ​​inlay vagy onlay lehet a megfelelő választás. Az inlayek és onlayek kompozit gyantából, kerámiából vagy aranyból készülnek. Egyedileg készülnek, hogy illeszkedjenek az Ön fogához. Fogászati ​​ragasztóval ragasztják a foghoz, és megfelelő gondozás mellett hosszú évekig is eltarthatnak.
 
 A fogászati ​​inlayről és onlayről további információért kattintson [ide](/dental-services/cosmetic-dentistry/inlays-and-onlays-gyor).
