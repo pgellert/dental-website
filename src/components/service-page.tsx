@@ -27,22 +27,24 @@ export default function ServicePage({title, meta_description, markdown}) {
 
 export function Content(props) {
   var markdown = props.markdown
-  return <article className="prose prose-stone max-w-none prose-img:rounded-xl lg:prose-lg prose-p:leading-relaxed">
-    <ReactMarkdown 
-    rehypePlugins={[rehypeRaw]}
-    components={{
-      a: ({ node, ...props }) => {
-        return (
-          <Link href={props.href as string}>
-            <a>
+  return (
+    <article className="prose prose-stone max-w-none prose-img:rounded-xl lg:prose-lg prose-p:leading-relaxed">
+      <ReactMarkdown 
+      rehypePlugins={[rehypeRaw]}
+      components={{
+        a: ({ node, ...props }) => {
+          return (
+            (<Link href={props.href as string}>
+
               {props.children[0]}
-            </a>
-          </Link>
-        );
-      },
-    }}
-    >
-      {markdown}
-    </ReactMarkdown>
-  </article>
+
+            </Link>)
+          );
+        },
+      }}
+      >
+        {markdown}
+      </ReactMarkdown>
+    </article>
+  );
 }

@@ -19,10 +19,12 @@ export default function Navbar() {
           {({ open }) => (
             <>
               <div className="flex w-full flex-wrap items-center justify-between lg:w-auto">
-                <Link href="/">
-                  <a className="flex items-center space-x-2 text-2xl font-medium text-sky-500 dark:text-gray-100">
-                    <Image src={logoImg} alt={content.logo_alt} height="49" width="150" priority />
-                  </a>
+                <Link
+                  href="/"
+                  className="flex items-center space-x-2 text-2xl font-medium text-sky-500 dark:text-gray-100">
+
+                  <Image src={logoImg} alt={content.logo_alt} height="49" width="150" priority />
+
                 </Link>
 
                 <div className="justify-end flex flex-nowrap align-middle item-center lg:hidden">
@@ -58,16 +60,21 @@ export default function Navbar() {
                 <Disclosure.Panel className="my-5 flex w-full flex-wrap lg:hidden">
                   <>
                     {content.nav_items.map((item, index) => (
-                      <Link key={index} href={item.href}>
-                        <a className="dark:focus:bg-trueGray-700 -ml-4 w-full rounded-md px-4 py-2 text-gray-500 hover:text-sky-500 focus:bg-sky-100 focus:text-sky-500 focus:outline-none dark:text-gray-300 dark:focus:bg-gray-800">
-                          {item.title}
-                        </a>
-                      </Link>
+                      (<Link
+                        key={index}
+                        href={item.href}
+                        className="dark:focus:bg-trueGray-700 -ml-4 w-full rounded-md px-4 py-2 text-gray-500 hover:text-sky-500 focus:bg-sky-100 focus:text-sky-500 focus:outline-none dark:text-gray-300 dark:focus:bg-gray-800">
+
+                        {item.title}
+
+                      </Link>)
                     ))}
-                    <Link href={content.call_to_action.href}>
-                      <a className="mt-3 w-full rounded-md bg-sky-600 px-6 py-2 text-center text-white lg:ml-5">
-                        {content.call_to_action.title}
-                      </a>
+                    <Link
+                      href={content.call_to_action.href}
+                      className="mt-3 w-full rounded-md bg-sky-600 px-6 py-2 text-center text-white lg:ml-5">
+
+                      {content.call_to_action.title}
+
                     </Link>
                     
                   </>
@@ -82,10 +89,12 @@ export default function Navbar() {
           <ul className="flex-1 list-none items-center justify-end pt-6 lg:flex lg:pt-0">
             {content.nav_items.map((menu, index) => (
               <li className="nav__item mr-3" key={index}>
-                <Link href={menu.href}>
-                  <a className="inline-block rounded-md px-4 py-2 text-lg font-normal text-gray-800 no-underline hover:text-sky-500">
-                    {menu.title}
-                  </a>
+                <Link
+                  href={menu.href}
+                  className="inline-block rounded-md px-4 py-2 text-lg font-normal text-gray-800 no-underline hover:text-sky-500">
+
+                  {menu.title}
+
                 </Link>
               </li>
             ))}
@@ -94,10 +103,12 @@ export default function Navbar() {
         
         <div className="flex flex-nowrap justify-end content-center items-center">
           <div className="nav__item mr-5 hidden space-x-4 lg:flex">
-            <Link href={content.call_to_action.href}>
-              <a className="rounded-md bg-sky-600 px-6 py-2 text-white md:ml-5">
-                {content.call_to_action.title}
-              </a>
+            <Link
+              href={content.call_to_action.href}
+              className="rounded-md bg-sky-600 px-6 py-2 text-white md:ml-5">
+
+              {content.call_to_action.title}
+
             </Link>
             
           </div>
@@ -107,7 +118,7 @@ export default function Navbar() {
         </div>
       </nav>
     </div>
-  )
+  );
 }
 
 
@@ -128,11 +139,11 @@ export const LanguageSwitcher = ({ locales, asPath }) => {
               href={asPath} 
               locale={lang}
             >
-              <a><LangIcon lang={lang} /></a>
+              <LangIcon lang={lang} />
             </Link>
           </li>
-        )
+        );
       })}
     </ul>
-  )
+  );
 }
