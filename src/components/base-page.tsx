@@ -1,6 +1,7 @@
 import React from "react"
 
 import Head from "next/head"
+import Script from 'next/script'
 
 import Footer from "@components/footer"
 import Navbar from "@components/navbar"
@@ -57,11 +58,11 @@ export default function BasePage(props) {
                         />
                     )
                 })}
-        <script
+        <Script
           async
           src={`https://www.googletagmanager.com/gtag/js?id=${ga_tracking_id}`}
-        ></script>
-        <script
+        />
+        <Script
           dangerouslySetInnerHTML={{
             __html: `
            window.dataLayer = window.dataLayer || [];
@@ -69,7 +70,7 @@ export default function BasePage(props) {
            gtag('js', new Date());
            gtag('config', '${ga_tracking_id}');`
           }}
-        ></script>
+        />
       </Head>
       <main className="mx-0 xl:mx-12">
         <Navbar/>
