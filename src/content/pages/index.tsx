@@ -20,7 +20,7 @@ export const data = {
   },
   hu: {
     title: "Dr. Peresztegi Szabolcs fogorvos - Győr",
-    meta_description: "Szakképzett, gyakorlott és több idegennyelven is beszélő fogorvos Győrben. Teljes körű fogászati ellátás, szájsebészet, implantáció Győrben. Hívjon minket: +36-20-567-5678.",
+    meta_description: "Szakképzett, gyakorlott és több idegennyelven is beszélő fogorvos Győrben. Teljes körű fogászati ellátás, szájsebészet, implantáció Győrben.",
     services: {
         title: "Fogászati kezeléseink",
         description: "Néhány a Perident Dental Klinikán kínált szakértő fogászati kezelések közül:",
