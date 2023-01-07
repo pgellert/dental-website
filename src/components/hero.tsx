@@ -36,25 +36,72 @@ export default function Hero() {
           </div>
         </div>
         <div className="flex aspect-video grow items-center justify-center lg:min-w-[50%] lg:p-12 xl:p-0">
-          <Video />
+          <YouTubeLazyLoad youtubeID="Zf2-imQ02rY" title="Youtube video player" thumbnailOverride={undefined}  />
         </div>
       </Container>
     </>
   )
 }
 
-function Video() {
+import { useState } from "react";
+import NextImage from "next/image";
+
+function YouTubeLazyLoad({
+  youtubeID,
+  title,
+  thumbnailOverride,
+}) {
+  const [showVideo, setShowVideo] = useState(false);
+
   return (
     <div className="relative h-full w-full p-4">
-      <iframe
-        width="100%"
-        height="100%"
-        src="https://www.youtube.com/embed/Zf2-imQ02rY"
-        title="YouTube video player"
-        frameBorder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowFullScreen
-      ></iframe>
+      {showVideo ? (
+        <iframe
+          width="100%"
+          height="100%"
+          src={`https://www.youtube.com/embed/${youtubeID}`}
+          title={title}
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
+      ) : (
+        <button
+          type="button"
+          onClick={() => setShowVideo(true)}
+          className="group relative aspect-[16/9] w-full"
+          aria-label={`Play video ${title}`}
+        >
+          <NextImage
+            src={
+              thumbnailOverride ||
+              `https://img.youtube.com/vi/${youtubeID}/0.jpg`
+            }
+            alt={title}
+            sizes="100vw"
+            fill
+            className="h-full w-full object-cover"
+            loading="eager"
+          />
+          <div className="relative grid place-items-center text-xl text-white opacity-90">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              aria-hidden="true"
+              role="img"
+              width="1em"
+              height="1em"
+              preserveAspectRatio="xMidYMid meet"
+              viewBox="0 0 32 32"
+              className="h-2/5 w-1/2 transform transition group-hover:scale-105"
+            >
+              <path
+                fill="currentColor"
+                d="M7 28a1 1 0 0 1-1-1V5a1 1 0 0 1 1.482-.876l20 11a1 1 0 0 1 0 1.752l-20 11A1 1 0 0 1 7 28Z"
+              />
+            </svg>
+          </div>
+        </button>
+      )}
     </div>
-  )
+  );
 }

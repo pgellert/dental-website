@@ -19,4 +19,8 @@ module.exports = {
     // !! WARN !!
     ignoreBuildErrors: true,
   },
+  images: {
+    domains: ['img.youtube.com'],
+  },
+  
 }
