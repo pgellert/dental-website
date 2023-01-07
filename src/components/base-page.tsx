@@ -69,6 +69,12 @@ export default function BasePage({title, meta_description, children}) {
            gtag('config', '${ga_tracking_id}');`
           }}
         />
+
+        <script
+          key="structured-data"
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(structured_data) }}
+        />
       </Head>
       <main className="mx-0 xl:mx-12">
         <Navbar/>
@@ -99,4 +105,76 @@ function ogLocale(loc){
   } else {
     return "de_DE"
   }
+}
+
+const structured_data = {
+  "@context": "https://schema.org",
+  "@type": "Dentist",
+  "name": "Perident - Implantológia és esztétikai fogászat",
+  "description": "Győri fogorvosi rendelő, amelynek specialitása a fogászati implantáció, fogpótlás.",
+  "telephone": "+36205675678",
+  "email": "info@perident.hu",
+  "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "HU",
+      "addressLocality": "Győr",
+      "postalCode": "9024",
+      "streetAddress": "Nagy Imre út 93."
+  },
+  "paymentAccepted": "Cash, Credit Card",
+  "priceRange": "$$",
+  "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": 5.0,
+      "reviewCount": 3
+  },
+  "image": "https://www.fogaszatgyor.hu/img/dr-peresztegi-szabolcs-fogorvosi-szek.jpeg",
+  "logo": "https://www.fogaszatgyor.hu/img/logo.jpeg",
+  "review": [
+      {
+          "@type": "Review",
+          "author": {
+              "@type": "Person",
+              "name": "Nicolette",
+          },
+          "datePublished": "2021-08-23",
+          "reviewBody": "Korrekt fogászati ellátás, ajánlom mindenkinek!",
+          "reviewRating": {
+              "@type": "Rating",
+              "worstRating": 1,
+              "bestRating": 5,
+              "ratingValue": 5,
+          }
+      },
+      {
+          "@type": "Review",
+          "author": {
+              "@type": "Person",
+              "name": "Sándor",
+          },
+          "datePublished": "2021-09-02",
+          "reviewBody": "Ha Ön a Perident Fogászathoz jön, ott a kedves, nagyon hozzáértő, magas színvonalú, gyors ellátást nyújtó szakembereket találja.",
+          "reviewRating": {
+              "@type": "Rating",
+              "worstRating": 1,
+              "bestRating": 5,
+              "ratingValue": 5,
+          }
+      },
+      {
+          "@type": "Review",
+          "author": {
+              "@type": "Person",
+              "name": "Csaba",
+          },
+          "datePublished": "2021-11-07",
+          "reviewBody": "Itt voltam foghúzáson, teljesen fájdalommentesen és gyorsan megoldódott a dolog.",
+          "reviewRating": {
+              "@type": "Rating",
+              "worstRating": 1,
+              "bestRating": 5,
+              "ratingValue": 5,
+          }
+      },
+  ]
 }
