@@ -15,7 +15,7 @@ export const data = {
         description: "Our team of experienced professionals is here to help you",
     },
     testimonials: {
-        title: "Here's what our customers are saying about us",
+        title: "Patient reviews",
     },
   },
   hu: {
@@ -34,7 +34,7 @@ export const data = {
         description: "Tapasztalt szakemberekből álló csapatunk készséggel áll rendelkezésére",
     },
     testimonials: {
-        title: "Íme, mit mondanak rólunk ügyfeleink",
+        title: "Betegeink véleménye",
     },
   },
   de: {
@@ -53,7 +53,7 @@ export const data = {
         description: "Unser Team aus erfahrenen Fachleuten ist hier, um Ihnen zu helfen",
     },
     testimonials: {
-        title: "Das sagen unsere Kunden über uns",
+        title: "Patientenbewertungen",
     },
   },
 }

@@ -18,7 +18,7 @@ export default function Footer(props) {
         <div className="mx-6 border-t border-gray-300 py-10 text-center md:text-left">
           <div className="grid-1 grid gap-8 md:grid-cols-2 lg:grid-cols-4">
             <div className="">
-              <h6 className="mb-4 flex items-center justify-center font-semibold uppercase md:justify-start">
+              <h2 className="mb-4 flex items-center justify-center font-semibold uppercase md:justify-start">
                 <svg
                   aria-hidden="true"
                   focusable="false"
@@ -35,7 +35,7 @@ export default function Footer(props) {
                   ></path>
                 </svg>
                 {global_content.title}
-              </h6>
+              </h2>
               <p>
                 {content.description}
               </p>

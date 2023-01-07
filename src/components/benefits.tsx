@@ -43,9 +43,9 @@ function Feature({ title, desc }) {
     <li className="flex items-start">
       <CheckIcon />
       <div>
-        <p className="mt-4 text-lg font-medium text-gray-800 md:text-xl bold">
+        <h3 className="mt-4 text-lg font-medium text-gray-800 md:text-xl bold">
           {title}
-        </p>
+        </h3>
         <p className="mt-4 text-base text-gray-600 md:text-lg">{desc}</p>
       </div>
     </li>

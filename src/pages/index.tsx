@@ -25,7 +25,7 @@ export default function Home() {
         <Dentist />
         <SectionTitle title={content.team.title} subtitle={content.team.desciption} />
         <Team />
-        <SectionTitle title={content.team.testimonials} />
+        <SectionTitle title={content.testimonials.title} />
         <Testimonials />
       </BasePage>
     </div>

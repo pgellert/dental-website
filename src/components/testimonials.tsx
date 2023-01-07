@@ -13,29 +13,29 @@ export default function Testimonials() {
       <div className="grid gap-10 lg:grid-cols-2 xl:grid-cols-3">
         <div className="lg:col-span-2 xl:col-auto">
           <div className="dark:bg-trueGray-800 flex w-full flex-col rounded-2xl bg-gray-100 px-14 py-14">
-            <p className="text-2xl leading-normal ">
+            <p className="leading-normal ">
               {content.testimonial_1}
             </p>
 
-            <Avatar name="Nicolette K." />
+            <Avatar name="Nicolette" />
           </div>
         </div>
         <div className="">
           <div className="dark:bg-trueGray-800 flex w-full flex-col rounded-2xl bg-gray-100 px-14 py-14">
-            <p className="text-2xl leading-normal ">
+            <p className="eading-normal ">
               {content.testimonial_2}
             </p>
 
-            <Avatar name="Sándor H." />
+            <Avatar name="Sándor" />
           </div>
         </div>
         <div className="">
           <div className="dark:bg-trueGray-800 flex w-full flex-col rounded-2xl bg-gray-100 px-14 py-14">
-            <p className="text-2xl leading-normal ">
-              {content.testimonial_2}
+            <p className="leading-normal ">
+              {content.testimonial_3}
             </p>
 
-            <Avatar name="Csaba F." />
+            <Avatar name="Csaba" />
           </div>
         </div>
       </div>
@@ -46,7 +46,7 @@ export default function Testimonials() {
 function Avatar(props) {
   return (
     <div className="mt-8 flex items-center space-x-3">
-      <div className="relative m-1 mr-2 flex h-12 w-12 items-center justify-center rounded-full bg-orange-500 text-xl uppercase text-white">
+      <div className="relative m-1 mr-2 flex h-12 w-12 items-center justify-center rounded-full bg-orange-500 uppercase text-white">
         {Array.from(props.name)[0]}
       </div>
 
@@ -61,7 +61,7 @@ function Avatar(props) {
        *   />
        * </div> */}
       <div>
-        <div className="text-lg font-medium">{props.name}</div>
+        <div className="font-medium">{props.name}</div>
       </div>
     </div>
   )
