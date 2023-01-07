@@ -10,19 +10,20 @@ import { data } from "@content/pages/contact-us"
 import { global_data } from "@content/global"
 
 export default function Home() {
+  const { locale } = useRouter();
+  const content = data[locale];
+  const global_content = global_data[locale];
+  
   return (
     <div>
-      <BasePage>
-        <Content />
+      <BasePage title={content.title} meta_description={content.meta_description}>
+        <Content content={content} global_content={global_content} />
       </BasePage>
     </div>
   )
 }
 
-function Content() {
-  const { locale } = useRouter();
-  const content = data[locale];
-  const global_content = global_data[locale];
+function Content({content, global_content}) {
   return (
     <>
       <Container className="w-full justify-evenly md:flex">

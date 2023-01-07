@@ -11,15 +11,11 @@ import { global_data } from "@content/global";
 import CookieConsent from "react-cookie-consent";
 import { generateLocalUrl } from "lib/domain";
 
-export default function BasePage(props) {
+export default function BasePage({title, meta_description, children}) {
   const { locale, locales } = useRouter();
   const content = data[locale];
-  const global_content = global_data[locale];
 
   const ga_tracking_id = process.env['GA_TRACKING_ID'] || process.env['NEXT_PUBLIC_GA_TRACKING_ID'];
-
-  const title = props.title ?? global_content.title
-  const meta_description = props.meta_description ?? content.meta_description
 
   return (
     <div>
@@ -42,11 +38,13 @@ export default function BasePage(props) {
         <meta property="og:locale" content={ogLocale(locale)} />
         <title>{title}</title>
 
-        {meta_description === undefined ? <></> : 
+        {meta_description ? 
           <meta
             name="description"
             content={meta_description}
           />
+          :
+          <></>
         }
         {locales.map((loc) => {
                     return (
@@ -58,11 +56,11 @@ export default function BasePage(props) {
                         />
                     )
                 })}
-        <Script
+        <script
           async
           src={`https://www.googletagmanager.com/gtag/js?id=${ga_tracking_id}`}
         />
-        <Script
+        <script
           dangerouslySetInnerHTML={{
             __html: `
            window.dataLayer = window.dataLayer || [];
@@ -74,7 +72,7 @@ export default function BasePage(props) {
       </Head>
       <main className="mx-0 xl:mx-12">
         <Navbar/>
-        {props.children}
+        {children}
         <Footer />
         <CookieConsent 
         enableDeclineButton

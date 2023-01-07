@@ -4,7 +4,7 @@ import { Content } from "@components/service-page"
 export default function Home({ markdown }) {
   return (
     <div>
-      <BasePage>
+      <BasePage title="" meta_description="" children="">
         <Content markdown={markdown} />
       </BasePage>
     </div>
