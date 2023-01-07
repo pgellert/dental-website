@@ -70,7 +70,7 @@ export default function BasePage({title, meta_description, children}) {
           }}
         />
 
-        <Script
+        <script
           key="structured-data"
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(structured_data) }}
