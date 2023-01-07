@@ -129,10 +129,6 @@ const structured_data = {
       "reviewCount": 3
   },
   "image": "https://www.fogaszatgyor.hu/img/dr-peresztegi-szabolcs-fogorvosi-szek.jpeg",
-  "logo": {
-    "@type": "URL",
-    "url": "https://www.fogaszatgyor.hu/img/logo.jpeg",
-  },
   "review": [
       {
           "@type": "Review",
