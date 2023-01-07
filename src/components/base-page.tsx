@@ -70,7 +70,7 @@ export default function BasePage({title, meta_description, children}) {
           }}
         />
 
-        <script
+        <Script
           key="structured-data"
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(structured_data) }}
@@ -129,7 +129,10 @@ const structured_data = {
       "reviewCount": 3
   },
   "image": "https://www.fogaszatgyor.hu/img/dr-peresztegi-szabolcs-fogorvosi-szek.jpeg",
-  "logo": "https://www.fogaszatgyor.hu/img/logo.jpeg",
+  "logo": {
+    "@type": "URL",
+    "url": "https://www.fogaszatgyor.hu/img/logo.jpeg",
+  },
   "review": [
       {
           "@type": "Review",
