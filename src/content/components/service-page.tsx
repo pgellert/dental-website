@@ -9,7 +9,7 @@ export const data = {
   },
   hu: {
     end_of_article: [
-      <p>Ha kérdése van a Perident Dentistry fogászati eljárásaival kapcsolatban, vagy időpontot szeretne foglalni, hívjon minket a <a href="tel:+36-20-567-5678">+36-20-567-5678</a> vagy írjon nekünk e-mailt az <a href="mailto:info@perident.hu">info@perident.hu</a> címre.</p>,
+      <p>Ha kérdése van a Perident Fogászat fogászati kezelésivel kapcsolatban, vagy időpontot szeretne foglalni, hívjon minket a <a href="tel:+36-20-567-5678">+36-20-567-5678</a> vagy írjon nekünk e-mailt az <a href="mailto:info@perident.hu">info@perident.hu</a> címre.</p>,
       <p>Fogászati rendelőnk Magyarország nyugati részén, Győrben található. Címünk: 9024 GYŐR, Nagy Imre út 93. Ha többet szeretne megtudni arról, hogyan léphet kapcsolatba velünk, és hogyan juthat el praxisunkba, kattintson <Link href="/contact-us">ide</ Link>.</p>,
     ],
   },
