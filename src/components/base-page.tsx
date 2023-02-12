@@ -51,6 +51,7 @@ export default function BasePage({title, meta_description, children}) {
           :
           <></>
         }
+        <meta name="keywords" content={content.keywords} />
         {locales.map((loc) => {
                     return (
                         <link

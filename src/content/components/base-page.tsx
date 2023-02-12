@@ -1,6 +1,6 @@
 export const data = {
     en: {
-      title: "Perident Dental Clinic Gyor, Hungary",
+      keywords: "dentist Győr, dental clinic Győr, dentistry Győr",
       cookie: {
         description: "This website uses cookies for analytics.",
         accept: "I understand",
@@ -8,7 +8,7 @@ export const data = {
       }
     },
     hu: {
-      title: "Perident Fogászat Győr, Magyarország",
+      keywords: "fogorvos győr, fogorvosi rendelő győr, fogászat győr",
       cookie: {
         description: "Ez a weboldal cookie-kat használ a webhely használatának elemzésére.",
         accept: "Elfogadom",
@@ -16,7 +16,7 @@ export const data = {
       },
     },
     de: {
-      title: "Perident Zahnklinik Györ, Ungarn",
+      keywords: "Zahnarzt Győr, Zahnarztpraxis Győr, Zahnmedizin Győr",
       cookie: {
         description: "Diese Website verwendet Cookies zur Analyse der Websitenutzung.",
         accept: "Ich verstehe",
