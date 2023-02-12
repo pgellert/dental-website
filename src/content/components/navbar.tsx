@@ -25,7 +25,7 @@ export const data = {
     },
   },
   hu: {
-    logo_alt: "Zahnklinik Perident - Győr.",
+    logo_alt: "Perident Fogorvosi Rendelő - Győr.",
     nav_items: [
       {
         title: "Főoldal",
@@ -50,7 +50,7 @@ export const data = {
     },
   },
   de: {
-    logo_alt: "Perident Fogorvosi Rendelő - Győr.",
+    logo_alt: "Zahnklinik Perident - Győr.",
     nav_items: [
       {
         title: "Startseite",

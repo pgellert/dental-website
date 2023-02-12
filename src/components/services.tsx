@@ -55,6 +55,7 @@ function Service(props) {
 
       <Link
         href={props.link || "/"}
+        title={props.title}
         className="cursor-pointer py-6 text-sky-600 transition duration-300 ease-in-out focus:text-blue-700 focus:outline-none active:text-blue-800">
 
         {props.learn_more}

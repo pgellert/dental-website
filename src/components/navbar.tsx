@@ -21,6 +21,7 @@ export default function Navbar() {
               <div className="flex w-full flex-wrap items-center justify-between lg:w-auto">
                 <Link
                   href="/"
+                  title={content.logo_alt}
                   className="flex items-center space-x-2 text-2xl font-medium text-sky-500 dark:text-gray-100">
 
                   <Image src={logoImg} alt={content.logo_alt} height="49" width="150" priority />
