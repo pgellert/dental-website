@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useEffect, useState } from "react"
 
 import Head from "next/head"
 import Script from 'next/script'
@@ -7,15 +7,20 @@ import Footer from "@components/footer"
 import Navbar from "@components/navbar"
 import Router, { useRouter } from "next/router";
 import { data } from "@content/components/base-page";
-import { global_data } from "@content/global";
 import CookieConsent from "react-cookie-consent";
 import { generateLocalUrl } from "lib/domain";
+import { getCookieConsentValue } from "react-cookie-consent"
 
 export default function BasePage({title, meta_description, children}) {
   const { locale, locales } = useRouter();
   const content = data[locale];
 
-  const ga_tracking_id = process.env['GA_TRACKING_ID'] || process.env['NEXT_PUBLIC_GA_TRACKING_ID'];
+  const gtm_id = process.env['NEXT_PUBLIC_GTM_ID'] || 'GTM-P8PLXT8';
+
+  const [consentGiven, setConsentGiven] = useState(false);
+  useEffect(() => {
+    return () => setConsentGiven('true' === getCookieConsentValue())
+  });
 
   return (
     <div>
@@ -56,20 +61,21 @@ export default function BasePage({title, meta_description, children}) {
                         />
                     )
                 })}
-        <script
-          async
-          src={`https://www.googletagmanager.com/gtag/js?id=${ga_tracking_id}`}
-        />
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-           window.dataLayer = window.dataLayer || [];
-           function gtag(){dataLayer.push(arguments);}
-           gtag('js', new Date());
-           gtag('config', '${ga_tracking_id}');`
-          }}
-        />
 
+        {/* Google tag manager */}
+        {consentGiven ?
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+                j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+                'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+                })(window,document,'script','dataLayer','${gtm_id}');`
+            }}
+          />
+          : <></>
+        }
+        
         <script
           key="structured-data"
           type="application/ld+json"
@@ -77,6 +83,15 @@ export default function BasePage({title, meta_description, children}) {
         />
       </Head>
       <main className="mx-0 xl:mx-12">
+        {/* Google tag manager */}
+        {consentGiven ?
+          <noscript
+            dangerouslySetInnerHTML={{
+              __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=${gtm_id}" height="0" width="0" style="display:none;visibility:hidden;"`,
+            }}
+          />
+          : <></>
+        }
         <Navbar/>
         {children}
         <Footer />
