@@ -11,6 +11,12 @@ import CookieConsent from "react-cookie-consent";
 import { generateLocalUrl } from "lib/domain";
 import { getCookieConsentValue } from "react-cookie-consent"
 
+
+import { Inter } from '@next/font/google'
+
+const inter = Inter({ subsets: ['latin'] })
+
+
 export default function BasePage({title, meta_description, children}) {
   const { locale, locales } = useRouter();
   const content = data[locale];
@@ -83,7 +89,7 @@ export default function BasePage({title, meta_description, children}) {
           dangerouslySetInnerHTML={{ __html: JSON.stringify(structured_data) }}
         />
       </Head>
-      <main className="mx-0 xl:mx-12">
+      <main className={"mx-0 xl:mx-12 " + inter.className}>
         {/* Google tag manager */}
         {consentGiven ?
           <noscript
