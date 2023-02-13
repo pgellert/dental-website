@@ -48,9 +48,9 @@ function Content({content, global_content}) {
           <h3>{global_content.opening_hours.title}</h3>
           <ul>
             <li>{global_content.opening_hours.monday}: 8:00–15:00</li>
-            <li>{global_content.opening_hours.tuesday}: 8:00–19:00</li>
+            <li>{global_content.opening_hours.tuesday}: 14:00–19:00</li>
             <li>{global_content.opening_hours.wednesday}: 8:00–15:00</li>
-            <li>{global_content.opening_hours.thursday}: 8:00–19:00</li>
+            <li>{global_content.opening_hours.thursday}: 14:00–19:00</li>
             <li>{global_content.opening_hours.friday}: 8:00–13:00</li>
             <li>{global_content.opening_hours.saturday}: {global_content.opening_hours.closed}</li>
             <li>{global_content.opening_hours.sunday}: {global_content.opening_hours.closed}</li>
