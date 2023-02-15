@@ -23,7 +23,7 @@ export default function BasePage({title, meta_description, children}) {
 
   const gtm_id = process.env['NEXT_PUBLIC_GTM_ID'] || 'GTM-P8PLXT8';
 
-  const [consentGiven, setConsentGiven] = useState(false);
+  const [consentGiven, setConsentGiven] = useState('true' === getCookieConsentValue());
   useEffect(() => {
     return () => setConsentGiven('true' === getCookieConsentValue())
   });
@@ -89,7 +89,7 @@ export default function BasePage({title, meta_description, children}) {
           dangerouslySetInnerHTML={{ __html: JSON.stringify(structured_data) }}
         />
       </Head>
-      <main className={"mx-0 xl:mx-12 " + inter.className}>
+      <main className={"mx-0 xl:mx-12 antialiased" + inter.className}>
         {/* Google tag manager */}
         {consentGiven ?
           <noscript
