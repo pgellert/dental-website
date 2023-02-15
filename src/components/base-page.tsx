@@ -25,8 +25,8 @@ export default function BasePage({title, meta_description, children}) {
 
   const [consentGiven, setConsentGiven] = useState(false);
   useEffect(() => {
-    return () => setConsentGiven('true' === getCookieConsentValue())
-  });
+    setConsentGiven('true' === getCookieConsentValue())
+  }, []);
 
   return (
     <div>
