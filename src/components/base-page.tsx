@@ -23,7 +23,7 @@ export default function BasePage({title, meta_description, children}) {
 
   const gtm_id = process.env['NEXT_PUBLIC_GTM_ID'] || 'GTM-P8PLXT8';
 
-  const [consentGiven, setConsentGiven] = useState('true' === getCookieConsentValue());
+  const [consentGiven, setConsentGiven] = useState(false);
   useEffect(() => {
     return () => setConsentGiven('true' === getCookieConsentValue())
   });
@@ -71,7 +71,7 @@ export default function BasePage({title, meta_description, children}) {
 
         {/* Google tag manager */}
         {consentGiven ?
-          <Script
+          <script
             dangerouslySetInnerHTML={{
               __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
                 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -83,7 +83,7 @@ export default function BasePage({title, meta_description, children}) {
           : <></>
         }
         
-        <Script
+        <script
           key="structured-data"
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(structured_data) }}
