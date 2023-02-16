@@ -35,6 +35,8 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
 function Content({ content, global_content }) {
+  const router = useRouter();
+
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
@@ -53,9 +55,7 @@ function Content({ content, global_content }) {
       })
     });
 
-    
-    // TODO: redirect to thank you page
-    // Router.push("/thank-you")
+    router.push("/thank-you")
   }
 
 
