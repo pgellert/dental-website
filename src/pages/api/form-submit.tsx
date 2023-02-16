@@ -16,7 +16,7 @@ export default async function handler(req, res) {
 
     await mail.send({
     to: 'pereszteginagy.gellert@gmail.com',
-    from: 'pereszteginagy.gellert@gmail.com',
+    from: 'forms@fogorvosgyor.hu',
     subject: 'New Form Submission',
     text: message,
     html: message.replace(/rn/g, '<br>'),
