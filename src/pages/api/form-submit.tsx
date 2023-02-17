@@ -1,8 +1,16 @@
 import { NextRequest } from "next/server";
 
-const mail = require('@sendgrid/mail');
-mail.setApiKey(process.env.NEXT_PUBLIC_SENDGRID_API_KEY);
+const AWS = require('aws-sdk');
 
+AWS.config.update({
+    region: '-us-east-1',
+    credentials: {
+        accessKeyId: process.env.NEXT_PUBLIC_ACCESS_KEY,
+        secretAccessKey: process.env.NEXT_PUBLIC_SECRET_KEY,
+    },
+});
+
+  
 
 export default async function handler(req, res) {
     const body = JSON.parse(req.body);
@@ -14,13 +22,26 @@ export default async function handler(req, res) {
     Message: ${body.message}
     `;
 
-    await mail.send({
-    to: 'pereszteginagy.gellert@gmail.com',
-    from: 'forms@fogorvosgyor.hu',
-    subject: 'New Form Submission',
-    text: message,
-    html: message.replace(/rn/g, '<br>'),
-    });
-    
+    const params = {
+        Destination: {
+            ToAddresses: ['pereszteginagy.gellert@gmail.com']
+        },
+        Message: {
+            Subject: {
+                Charset: 'UTF-8',
+                Data: 'New Form Submission'
+            },
+            Body: {
+                Html: {
+                    Charset: "UTF-8",
+                    Data: message.replace(/rn/g, '<br>')
+                }
+            }
+        },
+        Source: 'forms@fogorvosgyor.hu',
+    };
+
+    await new AWS.SES().sendEmail(params).promise();
+
     res.status(200).json({ status: 'Ok' });
 }
