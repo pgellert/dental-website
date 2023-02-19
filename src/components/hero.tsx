@@ -12,7 +12,7 @@ export default function Hero() {
       <Container className="flex w-full flex-wrap xl:flex-nowrap">
         <div className="flex shrink flex-wrap items-center">
           <div className="px-4">
-            <h1 className="text-4xl font-bold leading-snug tracking-tight text-gray-800 dark:text-white lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight">
+            <h1 className="text-4xl font-bold leading-tight tracking-tight text-gray-800 dark:text-white lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight">
               {content.title}
             </h1>
             <p className="py-5 text-xl leading-normal text-gray-500 dark:text-gray-300 lg:text-xl xl:text-2xl">
@@ -20,16 +20,16 @@ export default function Hero() {
             </p>
           </div>
 
-          <div className="flex flex-col items-start space-y-3 px-4 xl:flex-row xl:items-center xl:space-x-4 xl:space-y-0">
+          <div className="flex flex-col items-start space-y-3 px-4 w-full xl:flex-row xl:items-center xl:space-x-4 xl:space-y-0">
             <a
               href="/contact-us"
-              className="rounded-md bg-sky-600 px-8 py-4 text-center text-lg font-medium text-white "
+              className="rounded-md bg-sky-600 px-8 py-4 text-center text-lg font-medium text-white w-full md:w-auto"
             >
               {content.booking}
             </a>
             <a
               href="tel:+36205675678"
-              className="bg-grey-600 rounded-md border-2 border-sky-600 px-8 py-4 text-center text-lg font-medium text-sky-600"
+              className="bg-grey-600 rounded-md border-2 border-sky-600 px-8 py-4 text-center text-lg font-medium text-sky-600 w-full md:w-auto"
             >
               {content.call}
             </a>

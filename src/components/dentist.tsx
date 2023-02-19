@@ -10,7 +10,7 @@ export default function Dentist() {
     <>
         <div className="mt-4 flex w-full flex-col text-center">
           <div className="px-4">
-            <h2 className="mt-3 text-3xl font-bold leading-snug tracking-tight text-gray-800 dark:text-white lg:text-4xl lg:leading-tight">
+            <h2 className="mt-3 text-2xl font-bold leading-snug tracking-tight text-gray-800 dark:text-white lg:text-4xl lg:leading-tight">
               {content.title}
             </h2>
 
