@@ -1,7 +1,4 @@
-import { NextRequest } from "next/server";
-
 const AWS = require('aws-sdk');
-
 AWS.config.update({
     region: 'us-east-1',
     credentials: {
@@ -10,15 +7,15 @@ AWS.config.update({
     },
 });
 
-  
-
 export default async function handler(req, res) {
     const body = JSON.parse(req.body);
     console.log('body', body)
 
     const message = `
-    Name: ${body.name}rn
-    Email: ${body.email}rn
+    Name: ${body.name}<br>
+    Email: ${body.email}<br>
+    Phone: ${body.phone}<br>
+    Local: ${body.locale}<br>
     Message: ${body.message}
     `;
 
@@ -29,12 +26,12 @@ export default async function handler(req, res) {
         Message: {
             Subject: {
                 Charset: 'UTF-8',
-                Data: 'New Form Submission'
+                Data: 'Contact Form Submission'
             },
             Body: {
                 Html: {
                     Charset: "UTF-8",
-                    Data: message.replace(/rn/g, '<br>')
+                    Data: message,
                 }
             }
         },

@@ -6,6 +6,7 @@ export const data = {
     our_address: "Our Address",
     hungary: "Hungary",
     praxis: "Praxis",
+    subtitle: "Do you have a question? Would you like to book a free initial consultation? Call us or enquire below.",
   },
   hu: {
     title: "Forduljon hozzánk | Perident Fogászat",
@@ -14,6 +15,7 @@ export const data = {
     our_address: "Címünk",
     hungary: "Magyarország",
     praxis: "Rendelő",
+    subtitle: "Kérdése van? El szeretne jönni egy ingyenes konzultációra? Hívjon minket, vagy érdeklődjön alább.",
   },
   de: {
     title: "Kontaktiere uns | Zahnarztpraxis Perident",
@@ -22,5 +24,6 @@ export const data = {
     our_address: "Unsere Adresse",
     hungary: "Ungarn",
     praxis: "Praxis",
+    subtitle: "Hast du eine Frage? Sie möchten ein kostenloses Erstgespräch buchen? Rufen Sie uns an oder fragen Sie unten nach.",
   }
 }

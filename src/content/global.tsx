@@ -1,6 +1,15 @@
 export const global_data = {
   en: {
     title: "Private Dentist in Hungary - Perident Dental Clinic",
+    contact: {
+      enquire: "Enquire",
+      name: "Name",
+      email: "Email",
+      message: "Message",
+      phone: "Telephone",
+      message_hint: "I'd like to ask a question about...",
+      send: "Send",
+    },
     opening_hours: {
       title: "Opening hours",
       monday: "Monday",
@@ -15,6 +24,15 @@ export const global_data = {
   },
   hu: {
     title: "Magán Fogorvos Győrben - Perident Fogászat",
+    contact: {
+      enquire: "Érdeklődni",
+      name: "Név",
+      email: "E-mail",
+      message: "Üzenet",
+      phone: "Telefon",
+      message_hint: "Van egy kérdésem...",
+      send: "Küld",
+    },
     opening_hours: {
       title: "Nyitvatartási idő",
       monday: "Hétfő",
@@ -29,6 +47,15 @@ export const global_data = {
   },
   de: {
     title: "Privater Zahnarzt in Ungarn - Perident Zahnklinik",
+    contact: {
+      enquire: "Anfragen",
+      name: "Name",
+      email: "E-mail",
+      message: "Botschaft",
+      phone: "Telefon",
+      message_hint: "Ich habe eine Frage...",
+      send: "Senden",
+    },
     opening_hours: {
       title: "Öffnungszeiten",
       monday: "Montag",
