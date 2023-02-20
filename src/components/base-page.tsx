@@ -7,6 +7,7 @@ import Footer from "@components/footer"
 import Navbar from "@components/navbar"
 import Router, { useRouter } from "next/router";
 import { data } from "@content/components/base-page";
+import { data as testimonials } from "@content/components/testimonials";
 import CookieConsent from "react-cookie-consent";
 import { generateLocalUrl } from "lib/domain";
 import { getCookieConsentValue } from "react-cookie-consent"
@@ -152,50 +153,21 @@ const structured_data = {
   },
   "image": "https://www.fogaszatgyor.hu/img/dr-peresztegi-szabolcs-fogorvosi-szek.jpeg",
   "review": [
-      {
+      testimonials['hu'].testimonials.map((item, index) => (
+        {
           "@type": "Review",
           "author": {
               "@type": "Person",
-              "name": "Nicolette",
+              "name": item.name,
           },
-          "datePublished": "2021-08-23",
-          "reviewBody": "Korrekt fogászati ellátás, ajánlom mindenkinek!",
+          "datePublished": item.date,
+          "reviewBody": item.text,
           "reviewRating": {
               "@type": "Rating",
               "worstRating": 1,
               "bestRating": 5,
               "ratingValue": 5,
           }
-      },
-      {
-          "@type": "Review",
-          "author": {
-              "@type": "Person",
-              "name": "Sándor",
-          },
-          "datePublished": "2021-09-02",
-          "reviewBody": "Ha Ön a Perident Fogászathoz jön, ott a kedves, nagyon hozzáértő, magas színvonalú, gyors ellátást nyújtó szakembereket találja.",
-          "reviewRating": {
-              "@type": "Rating",
-              "worstRating": 1,
-              "bestRating": 5,
-              "ratingValue": 5,
-          }
-      },
-      {
-          "@type": "Review",
-          "author": {
-              "@type": "Person",
-              "name": "Csaba",
-          },
-          "datePublished": "2021-11-07",
-          "reviewBody": "Itt voltam foghúzáson, teljesen fájdalommentesen és gyorsan megoldódott a dolog.",
-          "reviewRating": {
-              "@type": "Rating",
-              "worstRating": 1,
-              "bestRating": 5,
-              "ratingValue": 5,
-          }
-      },
+      }))
   ]
 }

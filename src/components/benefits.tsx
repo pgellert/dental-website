@@ -26,11 +26,7 @@ export default function Benefits(props) {
   )
 }
 
-interface FeatureListProps {
-  children: React.ReactNode
-}
-
-function FeatureList({ children }: FeatureListProps) {
+function FeatureList({ children }) {
   return (
     <ul className="grid w-full grid-cols-1 gap-6 bg-white p-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4">
       {children}

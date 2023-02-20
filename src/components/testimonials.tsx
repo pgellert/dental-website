@@ -11,34 +11,32 @@ export default function Testimonials() {
   const content = data[locale];
 
   return (
-    <Container>
-      <div className="grid gap-10 lg:grid-cols-2 xl:grid-cols-3">
-        <Rating testimonial={content.testimonial_1} name={"Nicolette"}/>
-        <Rating testimonial={content.testimonial_2} name={"Sándor"}/>
-        <Rating testimonial={content.testimonial_3} name={"Csaba"}/>
-      </div>
-    </Container>
+    <ul className="pb-4 flex overflow-x-auto gap-8 snap-x snap-mandatory scroll-p-0 before:shrink-0 after:shrink-0 transition-all">
+      {content.testimonials.map((item, index) =>
+        <Rating key={index} testimonial={item.text} name={item.name}/>
+      )}
+    </ul>
   )
 }
 
 function Rating({name, testimonial}) {
   return (
-    <div className="lg:col-span-2 xl:col-auto">
-      <div className="flex w-full flex-col rounded-2xl bg-gray-100 p-6 lg:p-10">
+    <li className="snap-center snap-always overflow-visible">
+      <div className="flex max-w-xs flex-col rounded-md bg-slate-100 p-6 shadow-md">
         <Stars />
-        <p className="leading-normal ">
+        <p className="leading-normal text-center text-sm lg:text-base">
           {testimonial}
         </p>
         <Avatar name={name} />
       </div>
-    </div>
+    </li>
   )
 }
 
 function Avatar(props) {
   return (
-    <div className="mt-3 flex items-center space-x-3">
-      <div className="relative m-1 mr-2 flex h-12 w-12 items-center justify-center rounded-full bg-orange-500 uppercase text-white">
+    <div className="mt-6 flex items-center space-x-3">
+      <div className="relative m-1 mr-2 flex h-12 w-12 items-center justify-center rounded-full bg-sky-600 uppercase text-white">
         {Array.from(props.name)[0]}
       </div>
 
@@ -49,21 +47,9 @@ function Avatar(props) {
   )
 }
 
-function Mark(props) {
-  return (
-    <>
-      {" "}
-      <mark className="rounded-md bg-sky-100 text-sky-800 ring-4 ring-sky-100 dark:bg-sky-900 dark:text-sky-200 dark:ring-sky-900">
-        {props.children}
-      </mark>{" "}
-    </>
-  )
-}
-
-
 function Stars() {
   return (
-    <div className="inline-flex rounded-full p-2 pb-6 place-content-center md:place-content-start xl:place-content-center">
+    <div className="inline-flex rounded-full p-2 pb-6 place-content-center">
       {[...Array(5)].map((_, i) => (
         <FontAwesomeIcon key={i} icon={faStar} className="w-6 h-6 text-yellow-300" />
       ))}
