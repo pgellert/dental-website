@@ -159,7 +159,7 @@ export default function Footer(props) {
           </div>
         </div>
         <div className="p-6 text-center">
-          <span>© 2022 Copyright:</span>
+          <span>© 2023 Copyright:</span>
           <Link href="/" className="font-semibold text-gray-600">
 
             {" "}Perinvest Ker. & Szolg Kft
