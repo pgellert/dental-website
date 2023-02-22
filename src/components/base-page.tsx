@@ -149,7 +149,7 @@ const structured_data = {
   "aggregateRating": {
       "@type": "AggregateRating",
       "ratingValue": 5.0,
-      "reviewCount": 3
+      "reviewCount": testimonials['hu'].testimonials.length,
   },
   "image": "https://www.fogaszatgyor.hu/img/dr-peresztegi-szabolcs-fogorvosi-szek.jpeg",
   "review": [
