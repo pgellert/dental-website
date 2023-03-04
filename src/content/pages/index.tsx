@@ -1,7 +1,7 @@
 export const data = {
   en: {
-    title: "Dr. Szabolcs Peresztegi, dentist - Gyor, Hungary",
-    meta_description: "A qualified, experienced dentist in Gyor who speaks several foreign languages. Complete dental care, oral surgery, implantation in Hungary. Call us at +36-20-567-5678!",
+    title: "Dentist Gyor | PERIDENT | Implantology and Dental Clinic",
+    meta_description: "Gyor's premier dental clinic since 2000. Over 150 satisfied German-speaking patients. Book now!",
     services: {
         title: "Dental Treatments",
         description: "Some of the expert dental treatments offered at the Perident Dental Clinic:",
@@ -19,8 +19,8 @@ export const data = {
     },
   },
   hu: {
-    title: "Dr. Peresztegi Szabolcs fogorvos - Győr",
-    meta_description: "Szakképzett, gyakorlott és több idegennyelven is beszélő fogorvos Győrben. Teljes körű fogászati ellátás, szájsebészet, implantáció Győrben.",
+    title: "Fogorvos Győr | PERIDENT | Implantológia és Esztétikai Fogászat",
+    meta_description: "Fogorvos Győr & Implantológia & Röntgen & Inlay & Onlay & Fogfehérítés & Fogászat Győr. Hívjon minket!",
     services: {
         title: "Fogászati kezeléseink",
         description: "Néhány a Perident Dental Klinikán kínált szakértő fogászati kezelések közül:",
@@ -38,8 +38,8 @@ export const data = {
     },
   },
   de: {
-    title: "Dr. Szabolcs Peresztegi, Zahnarzt - Ungarn",
-    meta_description: "Ein qualifizierter, erfahrener Zahnarzt in Györ, der mehrere Fremdsprachen spricht. Komplette Zahnpflege, Oralchirurgie, Implantation in Ungarn. Rufen Sie uns an unter +36-20-567-5678!",
+    title: "Zahnarzt Györ | PERIDENT Implantologie und Zahnklinik",
+    meta_description: "Seit 2000 Györs führende Zahnklinik. Über 150 zufriedene deutschsprachige Patienten. Buchen Sie jetzt!",
     services: {
         title: "Zahnärztliche Behandlungen",
         description: "Einige der fachkundigen Zahnbehandlungen, die in der Zahnklinik Perident angeboten werden:",
