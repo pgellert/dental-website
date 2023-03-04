@@ -91,7 +91,7 @@ function Content({ content, global_content }) {
               <h2 className="mb-1 text-lg font-semibold text-sky-500">
                 {global_content.contact.email}
               </h2>
-              <p className="leading-tight text-gray-700">
+              <p className="leading-tight text-gray-700 hover:text-gray-500">
                 <Link href="mailto:info@perident.hu">info@perident.hu</Link>
               </p>
             </div>
@@ -100,7 +100,7 @@ function Content({ content, global_content }) {
               <h2 className="mb-1 text-lg font-semibold text-sky-500">
                 {global_content.contact.phone}
               </h2>
-              <p className="leading-tight text-gray-700">
+              <p className="leading-tight text-gray-700 hover:text-gray-500">
                 <Link href="tel:+36-20-314-0511">+36-20-314-0511</Link>
               </p>
             </div>
