@@ -35,7 +35,7 @@ function TeamMember({ image, name, title, linkedinLink }) {
   const imageCss = { width: '100%', height: 'auto' }
 
   return (
-    <div className="3xl:basis-1/4 w-full basis-1/2 rounded-lg bg-white shadow hover:shadow-md lg:basis-1/4 xl:basis-1/4">
+    <li className="3xl:basis-1/4 w-full basis-1/2 rounded-lg bg-white shadow hover:shadow-md lg:basis-1/4 xl:basis-1/4">
       <Image src={image} sizes="100vw" alt={name + " inside Perident"} style={imageCss} />
 
       <div className="relative p-4">
@@ -57,6 +57,6 @@ function TeamMember({ image, name, title, linkedinLink }) {
           <p className="text-gray-600">{title}</p>
         </div>
       </div>
-    </div>
+    </li>
   )
 }

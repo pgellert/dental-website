@@ -41,9 +41,9 @@ export default function Footer(props) {
               </p>
             </div>
             <div className="center">
-              <h6 className="mb-4 flex justify-center font-semibold uppercase md:justify-start">
+              <h3 className="mb-4 flex justify-center font-semibold uppercase md:justify-start">
                 {global_content.opening_hours.title}
-              </h6>
+              </h3>
               <table className="w-full table-auto items-center">
                 <tbody>
                   <OpeningsRow day={global_content.opening_hours.monday} times="8:00-15:00" />
@@ -57,9 +57,9 @@ export default function Footer(props) {
               </table>
             </div>
             <div className="">
-              <h6 className="mb-4 flex justify-center font-semibold uppercase md:justify-start">
+              <h3 className="mb-4 flex justify-center font-semibold uppercase md:justify-start">
                 {content.links.title}
-              </h6>
+              </h3>
               <UsefulLink href="/" title={content.links.home} />
               <UsefulLink href="/about-us" title={content.links.about_us} />
               <UsefulLink href="/dental-services" title={content.links.dental_services} />
@@ -67,9 +67,9 @@ export default function Footer(props) {
               <UsefulLink href="/privacy-policy" title={content.links.privacy_policy} last={true} />
             </div>
             <div className="">
-              <h6 className="mb-4 flex justify-center font-semibold uppercase md:justify-start">
+              <h3 className="mb-4 flex justify-center font-semibold uppercase md:justify-start">
                 {content.contact}
-              </h6>
+              </h3>
               <p className="mb-4 flex items-center justify-center md:justify-start">
                 <svg
                   aria-hidden="true"
@@ -83,7 +83,7 @@ export default function Footer(props) {
                 >
                   <path
                     fill="currentColor"
-                    d="M280.37 148.26L96 300.11V464a16 16 0 0 0 16 16l112.06-.29a16 16 0 0 0 15.92-16V368a16 16 0 0 1 16-16h64a16 16 0 0 1 16 16v95.64a16 16 0 0 0 16 16.05L464 480a16 16 0 0 0 16-16V300L295.67 148.26a12.19 12.19 0 0 0-15.3 0zM571.6 251.47L488 182.56V44.05a12 12 0 0 0-12-12h-56a12 12 0 0 0-12 12v72.61L318.47 43a48 48 0 0 0-61 0L4.34 251.47a12 12 0 0 0-1.6 16.9l25.5 31A12 12 0 0 0 45.15 301l235.22-193.74a12.19 12.19 0 0 1 15.3 0L530.9 301a12 12 0 0 0 16.9-1.6l25.5-31a12 12 0 0 0-1.7-16.93z"
+                    d="M280.37 148.26L96 300.11V464a16 16 0 0 0 16 16l112.06-.29a16 16 0 0 0 15.92-16V368a16 16 0 0 1 16-16h34a16 16 0 0 1 16 16v95.64a16 16 0 0 0 16 16.05L464 480a16 16 0 0 0 16-16V300L295.67 148.26a12.19 12.19 0 0 0-15.3 0zM571.6 251.47L488 182.56V44.05a12 12 0 0 0-12-12h-56a12 12 0 0 0-12 12v72.61L318.47 43a48 48 0 0 0-61 0L4.34 251.47a12 12 0 0 0-1.6 16.9l25.5 31A12 12 0 0 0 45.15 301l235.22-193.74a12.19 12.19 0 0 1 15.3 0L530.9 301a12 12 0 0 0 16.9-1.6l25.5-31a12 12 0 0 0-1.7-16.93z"
                   ></path>
                 </svg>
                 <Link href="https://www.google.com/maps/place/Perident+-+Implantol%C3%B3gia+%C3%A9s+eszt%C3%A9tikai+fog%C3%A1szat/@47.666309,17.6427251,17z/data=!3m1!4b1!4m5!3m4!1s0x476bc076b0720ea7:0xad6af353cd9eaf75!8m2!3d47.666309!4d17.6449138">
