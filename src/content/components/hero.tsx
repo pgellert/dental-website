@@ -7,7 +7,7 @@ export const data = {
   },
   hu: {
     title: "Perident Fogászat Győr",
-    subtitle: "Teljes körű fogászati kezelésekkel várjuk pácienjeinket Győri fogorvosi rendelőnkben. Mesterfokú ellátás, több mint 200 elégedett páciens, 20 év tapasztalat.",
+    subtitle: "Teljes körű fogászati kezelésekkel várjuk pácienjeinket győri fogorvosi rendelőnkben.  Professzionális ellátás, több mint 200 elégedett páciens, 20 év tapasztalat.",
     booking: "Időpontfoglalás",
     call: "Hívjon minket",
   },

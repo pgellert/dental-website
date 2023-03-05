@@ -89,6 +89,7 @@ export default function BasePage({title, meta_description, children}) {
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(structured_data) }}
         />
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.3/flowbite.min.css" rel="stylesheet" />
       </Head>
       <main className={"mx-0 xl:mx-12 antialiased" + inter.className}>
         {/* Google tag manager */}
@@ -110,6 +111,7 @@ export default function BasePage({title, meta_description, children}) {
         buttonText={content.cookie.accept}
         declineButtonText={content.cookie.decline}
         >{content.cookie.description}</CookieConsent>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.3/flowbite.min.js"/>
       </main>
     </div>
   )
