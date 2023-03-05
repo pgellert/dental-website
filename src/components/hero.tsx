@@ -1,7 +1,5 @@
 import { data } from "@content/components/hero";
 import { useRouter } from "next/router";
-import Container from "./container"
-import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -41,7 +39,7 @@ function Carousel() {
       <div className="relative h-56 overflow-hidden md:h-96">
           <div className="hidden duration-700 ease-in-out" data-carousel-item>
             <div className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
-              <Image src={carousel1} alt="Fehér fogsor - Perident Fogorvos Győr" priority/>
+              <Image src={carousel1} sizes="100vw" alt="Fehér fogsor - Perident Fogorvos Győr" priority/>
             </div>
           </div>
           <div className="hidden duration-700 ease-in-out" data-carousel-item>
