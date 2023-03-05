@@ -1,6 +1,9 @@
 import { data } from "@content/components/hero";
 import { useRouter } from "next/router";
 import Container from "./container"
+import { useState } from "react";
+import NextImage from "next/image";
+import Link from "next/link";
 
 
 export default function Hero() {
@@ -9,42 +12,45 @@ export default function Hero() {
 
   return (
     <>
-      <Container className="flex w-full flex-wrap xl:flex-nowrap">
+      <Container className="md:flex md:flex-wrap lg:flex-nowrap w-full">
         <div className="flex shrink flex-wrap items-center">
           <div className="px-4">
-            <h1 className="text-4xl font-bold leading-tight tracking-tight text-gray-800 dark:text-white lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight">
+            <h1 className="text-3xl text-center font-extrabold leading-tight tracking-tighter text-gray-800 dark:text-white lg:text-left lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight">
               {content.title}
             </h1>
-            <p className="py-5 text-xl leading-normal text-gray-500 dark:text-gray-300 lg:text-xl xl:text-2xl">
+            <p className="py-5 text-base text-center leading-snug text-gray-500 dark:text-gray-300 lg:text-left lg:text-xl xl:text-2xl">
               {content.subtitle}
             </p>
           </div>
-
-          <div className="flex flex-col items-start space-y-3 px-4 w-full xl:flex-row xl:items-center xl:space-x-4 xl:space-y-0">
-            <a
-              href="/contact-us"
-              className="rounded-md bg-sky-600 px-8 py-4 text-center text-lg font-medium text-white w-full md:w-auto"
-            >
-              {content.booking}
-            </a>
-            <a
-              href="tel:+36205675678"
-              className="bg-grey-600 rounded-md border-2 border-sky-600 px-8 py-4 text-center text-lg font-medium text-sky-600 w-full md:w-auto"
-            >
-              {content.call}
-            </a>
+          <div className="hidden lg:block">
+            {CTAButtons(content)}
           </div>
         </div>
         <div className="flex aspect-video grow items-center justify-center lg:min-w-[50%] lg:p-12 xl:p-0">
           <YouTubeLazyLoad youtubeID="Zf2-imQ02rY" title="Youtube video player" thumbnailOverride={undefined}  />
+        </div>
+        <div className="lg:hidden">
+          {CTAButtons(content)}
         </div>
       </Container>
     </>
   )
 }
 
-import { useState } from "react";
-import NextImage from "next/image";
+function CTAButtons(content: any) {
+  return <div className="mt-10 flex flex-col items-start space-y-3 px-4 w-full xl:m-0 xl:flex-row xl:items-center xl:space-x-4 xl:space-y-0">
+    <Link href="/contact-us" className="rounded-md bg-sky-600 px-8 py-4 text-center text-lg font-medium shadow-md text-white w-full md:w-auto">
+      {content.booking}
+    </Link>
+
+    <a
+      href="tel:+36205675678"
+      className="hidden md:block bg-grey-600 rounded-md border-2 border-sky-600 px-8 py-4 text-center text-lg font-medium text-sky-600 w-full md:w-auto"
+    >
+      {content.call}
+    </a>
+  </div>;
+}
 
 function YouTubeLazyLoad({
   youtubeID,

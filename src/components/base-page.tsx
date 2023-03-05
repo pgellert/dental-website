@@ -133,7 +133,7 @@ function ogLocale(loc){
 const structured_data = {
   "@context": "https://schema.org",
   "@type": "Dentist",
-  "name": "Perident - Implantológia és esztétikai fogászat",
+  "name": "Perident - Implantológia és Esztétikai Fogászat",
   "description": "Győri fogorvosi rendelő, amelynek specialitása a fogászati implantáció, fogpótlás.",
   "telephone": "+36205675678",
   "email": "info@perident.hu",

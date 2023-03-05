@@ -1,32 +1,21 @@
 import { data } from "@content/components/dentist";
 import { useRouter } from "next/router";
+import Container from "./container";
 
 
 export default function Dentist() {
   const { locale } = useRouter();
   const content = data[locale];
 
-  return (
-    <>
-        <div className="mt-4 flex w-full flex-col text-center">
-          <div className="px-4">
-            <h2 className="mt-3 text-2xl font-bold leading-snug tracking-tight text-gray-800 dark:text-white lg:text-4xl lg:leading-tight">
-              {content.title}
-            </h2>
-
-            <div className="flex w-full flex-col items-center justify-items-center place-content-center place-items-center content-center">
-              <article className="py-5 px-5 prose max-w-none lg:prose-xl lg:w-3/5 lg:px-12 items-center justify-items-center place-content-center place-items-center content-center">
-                {
-                  content.paragraphs.map((parag, index) => {
-                    return (<p key={index} className="leading-normal dark:text-gray-300">
-                      {parag}
-                    </p>)
-                  })
-                }
-              </article>
-            </div>
-          </div>
-        </div>
-    </>
-  )
+  return <Container className="flex place-content-center">
+    <div className="text-center p-5 prose w-full lg:prose-xl lg:w-4/5 lg:px-12">
+      {
+        content.paragraphs.map((parag, index) => {
+          return (<p key={index} className="leading-normal dark:text-gray-300">
+            {parag}
+          </p>)
+        })
+      }
+    </div>
+  </Container>
 }

@@ -11,7 +11,7 @@ export default function Testimonials() {
   const content = data[locale];
 
   return (
-    <ul className="pb-4 flex overflow-x-auto gap-8 snap-x snap-mandatory scroll-p-0 before:shrink-0 after:shrink-0 transition-all">
+    <ul className="mt-8 pb-6 flex overflow-x-auto gap-8 snap-x snap-mandatory scroll-p-0 before:shrink-0 after:shrink-0 transition-all">
       {content.testimonials.map((item, index) =>
         <Rating key={index} testimonial={item.text} name={item.name}/>
       )}

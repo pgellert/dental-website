@@ -18,12 +18,13 @@ export default function Home() {
     <div>
       <BasePage title={content.title} meta_description={content.meta_description}>
         <Hero />
-        <SectionTitle title={content.services.title} subtitle={content.services.desciption} />
+        <SectionTitle title={content.services.title} />
         <Services />
-        <SectionTitle title={content.benefits.title} subtitle={content.benefits.description} />
+        <SectionTitle title={content.benefits.title} />
         <Benefits />
+        <SectionTitle title={content.dentist.title} />
         <Dentist />
-        <SectionTitle title={content.team.title} subtitle={content.team.desciption} />
+        <SectionTitle title={content.team.title} />
         <Team />
         <SectionTitle title={content.testimonials.title} />
         <Testimonials />

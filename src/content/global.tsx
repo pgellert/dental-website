@@ -1,6 +1,6 @@
 export const global_data = {
   en: {
-    title: "Private Dentist in Hungary - Perident Dental Clinic",
+    title: "Perident Dental Clinic Győr",
     contact: {
       enquire: "Enquire",
       name: "Name",
@@ -23,7 +23,7 @@ export const global_data = {
     },
   },
   hu: {
-    title: "Magán Fogorvos Győrben - Perident Fogászat",
+    title: "PERIDENT Fogászat Győr",
     contact: {
       enquire: "Érdeklődni",
       name: "Név",
@@ -46,7 +46,7 @@ export const global_data = {
     },
   },
   de: {
-    title: "Privater Zahnarzt in Ungarn - Perident Zahnklinik",
+    title: "Perident Zahnklinik Győr",
     contact: {
       enquire: "Anfragen",
       name: "Name",

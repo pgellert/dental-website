@@ -14,7 +14,7 @@ export default function Benefits(props) {
   return (
     <>
       <Container className="flex w-full flex-wrap items-center ">
-        <div className="mt-4 flex w-full flex-col">
+        <div className="flex w-full flex-col">
           <FeatureList>
             {content.bullets.map((item, index) => (
               <Feature key={index} title={item.title} desc={item.desc} />
@@ -28,7 +28,7 @@ export default function Benefits(props) {
 
 function FeatureList({ children }) {
   return (
-    <ul className="grid w-full grid-cols-1 gap-6 bg-white p-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4">
+    <ul className="grid w-full grid-cols-1 gap-4 bg-white px-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4">
       {children}
     </ul>
   )
@@ -39,10 +39,10 @@ function Feature({ title, desc }) {
     <li className="flex items-start">
       <CheckIcon />
       <div>
-        <h3 className="mt-4 text-lg font-medium text-gray-800 md:text-xl bold">
+        <h3 className="mt-4 text-lg font-semibold text-gray-800 md:text-xl bold">
           {title}
         </h3>
-        <p className="mt-4 text-base text-gray-600 md:text-lg">{desc}</p>
+        <p className="mt-1 text-base leading-snug text-gray-600 md:text-lg">{desc}</p>
       </div>
     </li>
   )
