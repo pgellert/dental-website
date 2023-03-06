@@ -6,7 +6,8 @@ import Link from "next/link";
 import carousel1 from "../../public/img/smiling-woman-white-teeth-1.jpg"
 import carousel2 from "../../public/img/smiling-woman-white-teeth-2.jpg"
 import carousel3 from "../../public/img/smiling-woman-white-teeth-3.jpg"
-
+import { initCarousels } from "flowbite";
+import { useEffect } from "react";
 
 export default function Hero() {
   const { locale } = useRouter();
@@ -35,6 +36,10 @@ export default function Hero() {
 }
 
 function Carousel() {
+  useEffect(() => {
+    initCarousels();
+  }, [])
+
   return <div id="default-carousel" className="relative" data-carousel="slide">
       <div className="relative h-56 overflow-hidden md:h-96">
           <div className="hidden duration-700 ease-in-out" data-carousel-item>
