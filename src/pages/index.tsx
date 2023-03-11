@@ -3,7 +3,7 @@ import React from "react"
 import BasePage from "@components/base-page"
 import Benefits from "@components/benefits"
 import Hero from "@components/hero"
-import { SectionTitle } from "@components/sections"
+import { Section } from "@components/sections"
 import Services from "@components/services"
 import Team from "@components/team"
 import Testimonials from "@components/testimonials"
@@ -18,16 +18,21 @@ export default function Home() {
     <div>
       <BasePage title={content.title} meta_description={content.meta_description}>
         <Hero />
-        <SectionTitle title={content.services.title} />
-        <Services />
-        <SectionTitle title={content.benefits.title} />
-        <Benefits />
-        <SectionTitle title={content.dentist.title} />
-        <Dentist />
-        <SectionTitle title={content.team.title} />
-        <Team />
-        <SectionTitle title={content.testimonials.title} />
-        <Testimonials />
+        <Section title={content.services.title} anchor={"fogorvosi-kezelesek"}>
+          <Services />
+        </Section>
+        <Section title={content.benefits.title} anchor={"miert-a-perident-fogaszat"}>
+          <Benefits />
+        </Section>
+        <Section title={content.dentist.title} anchor={"dr-peresztegi-fogorvos-gyor"}>
+          <Dentist />
+        </Section>
+        <Section title={content.team.title} anchor={"csapat"}>
+          <Team />
+        </Section>
+        <Section title={content.testimonials.title} anchor={"velemenyek"}>
+          <Testimonials />
+        </Section>
       </BasePage>
     </div>
   )
