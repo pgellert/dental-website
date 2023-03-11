@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useRouter } from "next/router";
 import React from "react"
 
-import Container from "./container"
+import { faGoogle } from "@fortawesome/free-brands-svg-icons"
 
 export default function Testimonials() {
   const { locale } = useRouter();
@@ -13,13 +13,13 @@ export default function Testimonials() {
   return (
     <ul className="mt-8 pb-6 flex overflow-x-auto gap-8 snap-x snap-mandatory scroll-p-0 before:shrink-0 after:shrink-0 transition-all">
       {content.testimonials.map((item, index) =>
-        <Rating key={index} testimonial={item.text} name={item.name}/>
+        <Rating key={index} testimonial={item.text} name={item.name} sourceIcon={item.icon}/>
       )}
     </ul>
   )
 }
 
-function Rating({name, testimonial}) {
+function Rating({name, testimonial, sourceIcon}) {
   return (
     <li className="snap-center snap-always overflow-visible">
       <div className="flex max-w-xs flex-col rounded-md bg-slate-100 p-6 shadow-md">
@@ -27,25 +27,35 @@ function Rating({name, testimonial}) {
         <p className="leading-normal text-center text-sm lg:text-base">
           {testimonial}
         </p>
-        <Avatar name={name} />
+        <Avatar name={name} icon={sourceIcon} />
       </div>
     </li>
   )
 }
 
-function Avatar(props) {
+function Avatar({ name, icon }) {
   return (
     <div className="mt-6 flex items-center space-x-3">
-      <div className="relative m-1 mr-2 flex h-12 w-12 items-center justify-center rounded-full bg-sky-600 uppercase text-white">
-        {Array.from(props.name)[0]}
-      </div>
+      <SourceIcon icon={icon}/>
 
       <div>
-        <div className="font-medium">{props.name}</div>
+        <div className="font-medium">{name}</div>
       </div>
     </div>
   )
 }
+
+
+function SourceIcon({ icon }) {
+  return (
+    <div className="bg-grey inline-flex rounded-full p-4 bg-blue-400">
+      {React.cloneElement(<FontAwesomeIcon icon={icon || faGoogle} />, {
+        className: "w-6 h-6 text-white",
+      })}
+    </div>
+  )
+}
+
 
 function Stars() {
   return (

@@ -135,7 +135,7 @@ export const LanguageSwitcher = ({ locales, asPath }) => {
       {locales.map((lang) => {
         const title = `Switch to ${lang} language`;
         return (
-          <li key={lang} className="mr-2 text-xl">
+          <li key={lang} className="mr-1 text-xl">
             {/* TODO: add a link here based on the language */ }
             <Link
               href={asPath} 

@@ -1,3 +1,5 @@
+import { faFacebook } from "@fortawesome/free-brands-svg-icons"
+
 export const data = {
   en: {
     testimonials: [
@@ -8,6 +10,7 @@ export const data = {
       {
         text: "Correct dental care, I recommend to everyone!",
         name: "Nicolette",
+        icon: faFacebook,
       },
       {
         text: "If you come to Perident Dentistry, you will find the kind, very knowledgeable, high quality, quick care professionals.",
@@ -20,6 +23,7 @@ export const data = {
       {
         text: "I can only recommend the place! They work to save the tooth, correctly inform you of the prices before the treatment!",
         name: "Zsanett",
+        icon: faFacebook,
       },
       {
         text: "Friendly, reassuring atmosphere, doctor and assistant with enormous knowledge and experience.",
@@ -38,6 +42,7 @@ export const data = {
         text: "Korrekt fogászati ellátás, ajánlom mindenkinek!",
         name: "Nicolette",
         date: "2021-08-23",
+        icon: faFacebook,
       },
       {
         text: "Ha Ön a Perident Fogászathoz jön, ott a kedves, nagyon hozzáértő, magas színvonalú, gyors ellátást nyújtó szakembereket találja.",
@@ -53,6 +58,7 @@ export const data = {
         text: "Csak ajánlani tudom a helyet! A fog megmentéséért dolgoznak, korrekten tájékoztat a kezelés előtt az árakròl!",
         name: "Zsanett",
         date: "2022-03-16",
+        icon: faFacebook,
       },
       {
         text: "Barátságos, megnyugtató hangulat, óriási tudással és tapasztalattal rendelkező orvos és asszisztens.",
@@ -70,6 +76,7 @@ export const data = {
       { 
         text: "Richtige Zahnpflege, empfehle ich jedem!", 
         name: "Nicolette",
+        icon: faFacebook,
       },
       {
         text: "Wenn Sie zu Perident Dentistry kommen, finden Sie die freundlichen, sehr sachkundigen, qualitativ hochwertigen und schnellen Fachleute.",
@@ -82,6 +89,7 @@ export const data = {
       {
         text: "Ich kann den Platz nur weiterempfehlen! Sie arbeiten daran, den Zahn zu retten, informieren Sie vor der Behandlung korrekt über die Preise!",
         name: "Zsanett",
+        icon: faFacebook,
       },
       {
         text: "Freundliche, beruhigende Atmosphäre, Arzt und Assistentin mit enormem Wissen und Erfahrung.",
