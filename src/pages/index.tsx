@@ -10,6 +10,7 @@ import Testimonials from "@components/testimonials"
 import { useRouter } from "next/router"
 import { data } from "@content/pages"
 import Dentist from "@components/dentist"
+import PeridentMap from "@components/google-map"
 
 export default function Home() {
   const { locale } = useRouter();
@@ -29,6 +30,9 @@ export default function Home() {
         </Section>
         <Section title={content.team.title} anchor={"csapat"}>
           <Team />
+        </Section>
+        <Section title={content.map.title} anchor={"terkep"}>
+          <PeridentMap className={"w-full h-56"}/>
         </Section>
         <Section title={content.testimonials.title} anchor={"velemenyek"}>
           <Testimonials />

@@ -17,6 +17,9 @@ export const data = {
     testimonials: {
         title: "Patient reviews",
     },
+    map: {
+        title: "Map",
+    },
   },
   hu: {
     title: "Fogorvos Győr | PERIDENT | Implantológia és Esztétikai Fogászat",
@@ -36,6 +39,9 @@ export const data = {
     testimonials: {
         title: "Betegeink véleménye",
     },
+    map: {
+        title: "Térkép",
+    },
   },
   de: {
     title: "Zahnarzt Györ | PERIDENT Implantologie und Zahnklinik",
@@ -54,6 +60,9 @@ export const data = {
     },
     testimonials: {
         title: "Patientenbewertungen",
+    },
+    map: {
+        title: "Karte",
     },
   },
 }

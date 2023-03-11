@@ -3,12 +3,12 @@ import React, { useState } from "react"
 import Link from "next/link"
 
 import BasePage from "@components/base-page"
-import dynamic from "next/dynamic"
 import { useRouter } from "next/router"
 import { data } from "@content/pages/contact-us"
 import { global_data } from "@content/global"
 import { faUserDoctor } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import PeridentMap from "@components/google-map"
 
 
 export default function Home() {
@@ -187,28 +187,11 @@ function Content({ content, global_content }) {
             </div>
             <hr className="mt-4 mb-6"></hr>
             <div className="w-full items-center">
-              <MyMap />
+              <PeridentMap className={"w-full h-56"}/>
             </div>
           </div>
         </div>
       </div>
     </>
   )
-}
-
-function MyMap() {
-  const Map = React.useMemo(
-    () =>
-      dynamic(
-        () => import("@components/map"), // replace '@components/map' with your component's location
-        {
-          loading: () => <p>A map is loading</p>,
-          ssr: false, // This line is important. It's what prevents server-side render
-        }
-      ),
-    [
-      /* list variables which should trigger a re-render here */
-    ]
-  )
-  return <Map />
 }
