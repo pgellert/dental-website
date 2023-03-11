@@ -19,7 +19,7 @@ export default function Hero() {
       <div className="md:flex md:flex-wrap lg:flex-nowrap w-full">  
         <div className="w-full mt-3 flex shrink flex-wrap items-center">
           <div className="px-4 w-full">
-            <h1 className="text-3xl text-center font-extrabold leading-tight tracking-tighter text-gray-800 dark:text-white lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight">
+            <h1 className="text-3xl text-center font-medium leading-tight tracking-tight text-gray-800 dark:text-white lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight">
               {content.title}
             </h1>
             <p className="py-5 text-base text-center leading-snug text-gray-500 dark:text-gray-300 lg:text-xl xl:text-2xl">
@@ -41,7 +41,7 @@ function Carousel() {
   }, [])
 
   return <div id="default-carousel" className="relative" data-carousel="slide">
-      <div className="relative h-56 overflow-hidden md:h-96">
+      <div className="relative h-72 overflow-hidden md:h-120">
           {CarouselItem(carousel1, true)}
           {CarouselItem(carousel2, false)}
           {CarouselItem(carousel3, false)}
@@ -68,7 +68,7 @@ function Carousel() {
 
 function CarouselItem(image, priority) {
   return <div className="hidden duration-700 ease-in-out" data-carousel-item>
-    <Image className="absolute block w-full h-56 md:h-96 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" src={image} sizes="100vw" style={{ width: "100%", objectFit: "cover" }} alt="Fehér fogsor - Perident Fogorvos Győr" priority={priority} />
+    <Image className="absolute block w-full h-72 md:h-120 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" src={image} sizes="100vw" style={{ width: "100%", objectFit: "cover" }} alt="Fehér fogsor - Perident Fogorvos Győr" priority={priority} />
   </div>;
 }
 

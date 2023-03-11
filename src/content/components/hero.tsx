@@ -6,7 +6,7 @@ export const data = {
     call: "Call us",
   },
   hu: {
-    title: "Perident Fogászat Győr",
+    title: "Magán Fogorvos Győr",
     subtitle: "Teljes körű fogászati kezelésekkel várjuk pácienjeinket győri fogorvosi rendelőnkben.  Professzionális ellátás, több mint 200 elégedett páciens, 20 év tapasztalat.",
     booking: "Időpontfoglalás",
     call: "Hívjon minket",

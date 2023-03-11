@@ -134,7 +134,7 @@ export const LanguageSwitcher = ({ locales, asPath }) => {
     <ul className="flex flex-nowrap items-center">
       {locales.map((lang) => {
         return (
-          <li key={lang} className="px-1">
+          <li key={lang} className="mr-2 text-xl">
             {/* TODO: add a link here based on the language */ }
             <Link
               href={asPath} 
