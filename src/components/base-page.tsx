@@ -14,6 +14,7 @@ import { getCookieConsentValue } from "react-cookie-consent"
 
 
 import { Inter } from '@next/font/google'
+import { ScrollToTopButton } from "./scroll-up-button"
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -110,6 +111,7 @@ export default function BasePage({title, meta_description, children}) {
         buttonText={content.cookie.accept}
         declineButtonText={content.cookie.decline}
         >{content.cookie.description}</CookieConsent>
+        <ScrollToTopButton />
       </main>
     </div>
   )
