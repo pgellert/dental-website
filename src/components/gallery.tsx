@@ -21,6 +21,6 @@ const images = [
 
 export default function Gallery() {
     return <div className="w-full lg:w-1/3 mx-auto">
-        <ImageSlider images={images} indicators slide={false} objectFit="contain"/>
+        <ImageSlider images={images} indicators={false} slide={false} objectFit="contain"/>
     </div>
 }
