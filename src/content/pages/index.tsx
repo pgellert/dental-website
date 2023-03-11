@@ -20,6 +20,9 @@ export const data = {
     map: {
         title: "Map",
     },
+    gallery: {
+        title: "Gallery",
+    },
   },
   hu: {
     title: "Fogorvos Győr | PERIDENT | Implantológia és Esztétikai Fogászat",
@@ -42,6 +45,9 @@ export const data = {
     map: {
         title: "Térkép",
     },
+    gallery: {
+        title: "Galéria",
+    },
   },
   de: {
     title: "Zahnarzt Györ | PERIDENT Implantologie und Zahnklinik",
@@ -63,6 +69,9 @@ export const data = {
     },
     map: {
         title: "Karte",
+    },
+    gallery: {
+        title: "Galerie",
     },
   },
 }
