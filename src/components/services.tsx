@@ -24,7 +24,7 @@ export default function Services(props) {
         <div className="mx-auto divide-y divide-sky-700 bg-sky-100 text-gray-600 shadow-md py-8 md:p-10 md:w-3/5">
           <ul className="mb-4 w-full flex flex-row flex-wrap justify-center">
             {content.bullets.map((item, index) => (
-              <button key={index} onClick={() => setSelectedIndex(index)} className={(selectedIndex == index ? "border-sky-600" : "border-transparent") + " border-2 duration-100 px-3 py-2 tracking-tight text-sm text-semi uppercase rounded-full"} title={item.title}>{item.title}</button>
+              <li><button key={index} onClick={() => setSelectedIndex(index)} className={(selectedIndex == index ? "border-sky-600" : "border-transparent") + " border-2 duration-100 px-3 py-2 tracking-tight text-sm text-semi uppercase rounded-full"} title={item.title}>{item.title}</button></li>
             ))}
           </ul>
           <div className="p-4">

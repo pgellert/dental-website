@@ -123,24 +123,26 @@ export default function Navbar() {
 }
 
 
-const LangIcon = ({ lang }) => {
+const LangIcon = ({ lang, title }) => {
   const icon_lang = lang == "en" ? "gb" : lang;
 
-  return <span className={`fi fi-${icon_lang}`} />
+  return <span className={`fi fi-${icon_lang}`} title={title} />
 }
 
 export const LanguageSwitcher = ({ locales, asPath }) => {
   return (
     <ul className="flex flex-nowrap items-center">
       {locales.map((lang) => {
+        const title = `Switch to ${lang} language`;
         return (
           <li key={lang} className="mr-2 text-xl">
             {/* TODO: add a link here based on the language */ }
             <Link
               href={asPath} 
               locale={lang}
+              title={title}
             >
-              <LangIcon lang={lang} />
+              <LangIcon lang={lang} title={title} />
             </Link>
           </li>
         );
