@@ -43,7 +43,7 @@ export const data = {
         title: "Betegeink véleménye",
     },
     map: {
-        title: "Térkép",
+        title: "Megközelítés",
     },
     gallery: {
         title: "Galéria",
