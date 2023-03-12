@@ -11,9 +11,7 @@ import { useRouter } from "next/router"
 import { data } from "@content/pages"
 import Dentist from "@components/dentist"
 import Gallery from "@components/gallery"
-import dynamic from "next/dynamic"
-
-const PeridentMap = dynamic(() => import("@components/google-map"));
+import PeridentMap from "@components/google-map"
 
 export default function Home() {
   const { locale } = useRouter();
