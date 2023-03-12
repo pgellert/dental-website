@@ -47,7 +47,7 @@ function TeamMember({ image, name, title, linkedinLink }) {
           {linkedinLink === null || typeof linkedinLink === "undefined" ? (
             ""
           ) : (
-            <a target="_blank" href={linkedinLink} rel="noopener noreferrer">
+            <a title="LinkedIn" target="_blank" href={linkedinLink} rel="noopener noreferrer">
               {React.cloneElement(<FontAwesomeIcon icon={faLinkedin} />, {
                 className: "w-6 h-6 text-blue-600 mr-2",
               })}

@@ -36,7 +36,7 @@ export default function Home() {
           <Gallery />
         </Section>
         <Section title={content.map.title} anchor={"terkep"}>
-          <PeridentMap className={"w-full h-56"}/>
+          <PeridentMap className={"w-full h-56"} defer={true}/>
         </Section>
         <Section title={content.testimonials.title} anchor={"velemenyek"}>
           <Testimonials />

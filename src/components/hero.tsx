@@ -42,13 +42,13 @@ export default function Hero() {
 
 function CTAButtons(content: any) {
   return <div className="place-items-center center mt-10 flex flex-col md:flex-row items-baseline justify-center gap-6 space-y-3 px-4 w-full xl:m-0 xl:flex-row xl:items-center xl:space-x-4 xl:space-y-0">
-    <Link href="/contact-us" className="rounded-md bg-sky-600 px-8 py-4 text-center text-lg font-medium shadow-md text-white w-full md:w-auto">
+    <Link href="/contact-us" className="rounded-md bg-sky-600 px-8 py-4 text-center text-xl font-medium shadow-md text-white w-full md:w-auto">
       {content.booking}
     </Link>
 
     <a
       href="tel:+36205675678"
-      className="bg-grey-600 rounded-md border-2 border-sky-600 px-8 py-4 text-center text-lg font-medium text-sky-600 w-full md:w-auto"
+      className="bg-grey-600 rounded-md border-2 border-sky-600 px-8 py-4 text-center text-xl font-medium text-sky-600 w-full md:w-auto"
     >
       {content.call}
     </a>
