@@ -19,7 +19,7 @@ import { ScrollToTopButton } from "./scroll-up-button"
 const inter = Inter({ subsets: ['latin'] })
 
 
-export default function BasePage({title, meta_description, children}) {
+export default function BasePage({title, meta_description, children, includeSchema = false}) {
   const { locale, locales } = useRouter();
   const content = data[locale];
 
@@ -46,9 +46,14 @@ export default function BasePage({title, meta_description, children}) {
         }
         <meta property="og:type" content="website" />
         <meta property="og:url" content={urlForLocale(locale)} />
-        <meta property="og:image" content="https://www.fogaszatgyor.hu/img/dr-peresztegi-szabolcs-fogorvosi-szek.jpeg" />
-        <meta property="og:image:alt" content="An image showing Dr Peresztegi Szabolcs dentist in front of the dental chair in our dental clinic in Gyor." />
+        <meta property="og:image" content="https://www.fogaszatgyor.hu/img/fogorvos-gyor-16x9.jpg" />
+        <meta property="og:image:height" content="4460" />
+        <meta property="og:image:width" content="2509" />
         <meta property="og:locale" content={ogLocale(locale)} />
+        <meta property="fb:pages" content="fogaszatgyor" />
+        <meta property="twitter:card" content="summary" />
+        <meta property="twitter:title" content={title} />
+        <meta property="twitter:description" content={meta_description || title} />
         <title>{title}</title>
 
         {meta_description ? 
@@ -84,12 +89,17 @@ export default function BasePage({title, meta_description, children}) {
           />
           : <></>
         }
+
+        {includeSchema ? 
+          <script
+            key="structured-data"
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{ __html: JSON.stringify(structured_data) }}
+          />
+          : <></>
+        }
         
-        <script
-          key="structured-data"
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(structured_data) }}
-        />
+        
       </Head>
       <main className={"mx-0 xl:mx-12 antialiased" + inter.className}>
         {/* Google tag manager */}
@@ -139,21 +149,38 @@ const structured_data = {
   "description": "Győri fogorvosi rendelő, amelynek specialitása a fogászati implantáció, fogpótlás.",
   "telephone": "+36205675678",
   "email": "info@perident.hu",
+  "url": "https://www.fogaszatgyor.hu/",
+  "image": [
+    "https://www.fogaszatgyor.hu/img/fogorvos-gyor-1x1.jpg",
+    "https://www.fogaszatgyor.hu/img/fogorvos-gyor-4x3.jpg",
+    "https://www.fogaszatgyor.hu/img/fogorvos-gyor-16x9.jpg",
+  ],
   "address": {
       "@type": "PostalAddress",
       "addressCountry": "HU",
       "addressLocality": "Győr",
+      "addressRegion": "Győr-Moson-Sopron",
       "postalCode": "9024",
       "streetAddress": "Nagy Imre út 93."
   },
-  "paymentAccepted": "Cash, Credit Card",
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "47.6663",
+    "longitude": "17.6449"
+  },
   "priceRange": "$$",
+  "openingHoursSpecification": [
+    { "@type": "OpeningHoursSpecification","dayOfWeek": "Monday", "opens": "08:00","closes": "15:00"}, 
+    { "@type": "OpeningHoursSpecification","dayOfWeek": "Tuesday", "opens": "14:00","closes": "19:00"}, 
+    { "@type": "OpeningHoursSpecification","dayOfWeek": "Wednesday", "opens": "08:00","closes": "15:00"}, 
+    { "@type": "OpeningHoursSpecification","dayOfWeek": "Thursday", "opens": "14:00","closes": "19:00"}, 
+    { "@type": "OpeningHoursSpecification","dayOfWeek": "Friday", "opens": "08:00","closes": "13:00"} 
+  ],
   "aggregateRating": {
       "@type": "AggregateRating",
       "ratingValue": 5.0,
       "reviewCount": testimonials['hu'].testimonials.length,
   },
-  "image": "https://www.fogaszatgyor.hu/img/dr-peresztegi-szabolcs-fogorvosi-szek.jpeg",
   "review": [
       testimonials['hu'].testimonials.map((item, index) => (
         {

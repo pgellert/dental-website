@@ -18,7 +18,7 @@ function CarouselItem({image, priority, objectFitStyle}) {
 }
 
 function height() {
-    return "h-72 md:h-120"
+    return "h-72 md:h-96"
 }
 
 function Carousel({images, indicators, slide, objectFit}) {
@@ -27,7 +27,7 @@ function Carousel({images, indicators, slide, objectFit}) {
     }, [images])
 
     return <div id="default-carousel" className="relative" data-carousel={slide ? "slide" : "static"}>
-        <div className="relative h-72 overflow-hidden md:h-120">
+        <div className={`${height()} relative overflow-hidden`}>
             {images.map((item, index) => {
                 return <CarouselItem key={index} image={item.image} priority={item.priority} objectFitStyle={objectFit} />
             })}
