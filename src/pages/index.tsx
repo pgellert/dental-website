@@ -10,8 +10,10 @@ import Testimonials from "@components/testimonials"
 import { useRouter } from "next/router"
 import { data } from "@content/pages"
 import Dentist from "@components/dentist"
-import PeridentMap from "@components/google-map"
 import Gallery from "@components/gallery"
+import dynamic from "next/dynamic"
+
+const PeridentMap = dynamic(() => import("@components/google-map"));
 
 export default function Home() {
   const { locale } = useRouter();
