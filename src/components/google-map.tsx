@@ -7,8 +7,8 @@ export default function PeridentMap( {className} ) {
   const [showMap, setShowMap] = React.useState(false);
 
   React.useEffect(() => {
-    // Set the map to load 2 seconds after first render
-    const timeOut = setTimeout(() => setShowMap(true), 2000);
+    // Set the map to load 5 seconds after first render
+    const timeOut = setTimeout(() => setShowMap(true), 5000);
 
     return () => clearTimeout(timeOut);
   }, []);
