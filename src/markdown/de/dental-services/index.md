@@ -12,5 +12,6 @@ Für weitere Details zu jedem von uns angebotenen Service klicken Sie unten auf 
     - [Implantate](/dental-services/cosmetic-dentistry/dental-implants-gyor)
     - [Kronen und Brücken](/dental-services/cosmetic-dentistry/crowns-and-bridges-gyor)
     - [Inlays und Onlays](/dental-services/cosmetic-dentistry/inlays-and-onlays-gyor)
+    - [Dental Fillings](/dental-services/cosmetic-dentistry/dental-fillings-gyor)
 - [Oralchirurgie](/dental-services/oral-surgery-gyor): Unser Zahnarzt verfügt über mehr als 20 Jahre Erfahrung in der Oralchirurgie, sodass Sie darauf vertrauen können, dass unser Service von höchster Qualität ist. Wir helfen Ihnen in unserer Zahnarztpraxis in Györ, Ungarn.
 - [Diagnostik](/dental-services/dental-diagnostics-gyor): Unsere Zahnheilkunde ist mit einigen der hochwertigsten zahnmedizinischen Diagnosegeräten ausgestattet, die uns bei unseren zahnärztlichen Eingriffen unterstützen.

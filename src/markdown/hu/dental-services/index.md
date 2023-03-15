@@ -12,5 +12,6 @@ Az egyes általunk kínált szolgáltatásokkal kapcsolatos további részletek�
     - [Implantátumok](/dental-services/cosmetic-dentistry/dental-implants-gyor)
     - [Koronák és hidak](/dental-services/cosmetic-dentistry/crowns-and-bridges-gyor)
     - [Inlayek és onlayek](/dental-services/cosmetic-dentistry/inlays-and-onlays-gyor)
+    - [Fogtömések](/dental-services/cosmetic-dentistry/dental-fillings-gyor)
 - [Szájsebészet](/dental-services/oral-surgery-gyor): Fogorvosunk több mint 20 éves szájsebészeti tapasztalattal rendelkezik, így számíthat arra, hogy szolgáltatásunk a legmagasabb színvonalú. Azért vagyunk itt, hogy segítsünk fogászati ​​praxisunkban Győrben.
 - [Fogröntgeneink](/dental-services/dental-diagnostics-gyor): Fogászatunk a legmagasabb minőségű fogászati ​​diagnosztikai eszközökkel van felszerelve, amelyek segítenek bennünket fogászati ​​beavatkozásaink során.
