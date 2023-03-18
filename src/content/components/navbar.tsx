@@ -12,7 +12,7 @@ export const data = {
       },
       {
         title: "Dental services",
-        href: "/dental-services",
+        href: "/#fogorvosi-kezelesek",
       },
       {
         title: "Contact us",
@@ -37,7 +37,7 @@ export const data = {
       },
       {
         title: "Fogászati szolgáltatásaink",
-        href: "/dental-services",
+        href: "/#fogorvosi-kezelesek",
       },
       {
         title: "Kapcsolat",
@@ -62,7 +62,7 @@ export const data = {
       },
       {
         title: "Zahnärztliche Leistungen",
-        href: "/dental-services",
+        href: "/#fogorvosi-kezelesek",
       },
       {
         title: "Kontaktiere uns",

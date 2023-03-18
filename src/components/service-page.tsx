@@ -26,8 +26,7 @@ export default function ServicePage({title, meta_description, markdown}) {
   </Fragment>
 }
 
-export function Content(props) {
-  var markdown = props.markdown
+export function Content({ markdown }) {
   return (
     <article className="prose prose-stone max-w-none prose-img:rounded-xl lg:prose-lg prose-p:leading-relaxed">
       <ReactMarkdown 
