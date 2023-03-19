@@ -1,8 +1,6 @@
 # Fogtömések Győrben
 A Perident Fogászat szakértői fogorvosaink széles körű szolgáltatásokat kínálnak, amelyek magukban foglalják a fogtömések helyreállítását is. A fogtömések egy egyszerű és hatékony megoldást jelentenek, hogy helyreállítsák a sérült fogakat, megszüntessék a fájdalmat és megakadályozzák a további károsodást.
 
-<img src="/img/dental-fillings.jpg" alt="Fogtömések Győrben" class="mx-auto w-full lg:float-right lg:w-1/3 lg:inline lg:-mx-auto"/>
-
 ## Mi az a fogtömés?
 A fogtömés olyan eljárás, amely során a fogorvos eltávolítja a sérült vagy rossz állapotú részeket a fogból, és helyettesíti azokat egy speciális anyaggal, amely általában kompozit gyantából vagy porcelánból készül. Az anyagot az érintett fogra helyezik, majd megformálják és megmunkálják, hogy tökéletesen illeszkedjen a meglévő fogakhoz. A fogtömések tartósak és esztétikusak, és segítenek megőrizni a fogak egészségét és funkcióját.
 

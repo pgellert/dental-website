@@ -19,6 +19,7 @@ import dentalCheckup from "../../../public/img/dental-checkup.jpg"
 import dentalCrown from "../../../public/img/dental-crown-implants.jpeg"
 import dentalImplants from "../../../public/img/dental-implants.jpg"
 import dentures from "../../../public/img/dental-dentures.jpg"
+import dentalFillings from "../../../public/img/dental-fillings.jpg"
 
 export const data = {
   en: {
@@ -81,10 +82,17 @@ export const data = {
         image: toothache,
       },
       {
+        title: "Dental Fillings",
+        desc: "Our dental fillings are designed to restore your teeth to optimal health and preserve your natural smile. Using high-quality materials and advanced techniques, we offer durable, comfortable and seamless fillings that blend in perfectly with your natural teeth.",
+        icon: <FontAwesomeIcon icon={faTooth} />,
+        link: "/dental-services/cosmetic-dentistry/dental-fillings-gyor",
+        image: dentalFillings,
+      },
+      {
         title: "Dental Dentures",
         desc: "Get back to eating, talking, and smiling with confidence. Our dental dentures are custom-made to fit your unique needs and restore your natural appearance. Say goodbye to discomfort and hello to a beautiful, functional smile. Schedule your appointment today.",
         icon: <FontAwesomeIcon icon={faTooth} />,
-        link: "/dental-services/",
+        link: "/dental-services/cosmetic-dentistry/dental-implants-gyor",
         image: dentures,
       },
       {
@@ -135,7 +143,7 @@ export const data = {
         image: dentalXray,
       },
       {
-        title: "Inlayek és Onlayek",
+        title: "Inlay és Onlay",
         desc: "Állítsa helyre sérült fogait fogászati inlay- és onlay-ink segítségével. Az egyedi készítésű inlay-eket vagy onlay-ket szakértő csapatunk tervezi meg, hogy ezek illeszkedjenek a sérült területre, így további támaszt és szilárdságot biztosítva a fognak. Az inlay-t a kis és közepes méretű üregek kezelésére használjuk, míg az onlay-t a nagyobb üregek kezelésére, amik akár a fog csücskeiig is kiterjednek.\nInlay-jeink és onlay-jeink időtálló anyagokból készülnek, amelyeket úgy terveztek, hogy tartósak legyenek, így hosszútávú megoldást kínálnak a sérült fogaira.",
         icon: <FontAwesomeIcon icon={faUserDoctor} />,
         link: "/dental-services/cosmetic-dentistry/inlays-and-onlays-gyor",
@@ -159,8 +167,15 @@ export const data = {
         title: "Műfogsor",
         desc: "A fogászati sürgősségi esetek bármikor, bárhol előfordulhatnak. Ilyenkor sürgősségi fogászatunk készen áll, hogy azonnali, hatékony fogorvosi ellátást nyújtson Önnek, hogy újra jobban érezze magát. Legyen szó súlyos fájdalomról, törött fogról vagy bármilyen más sürgős fogászati problémáról, tapasztalt fogorvosi csapatunk készen áll, hogy segítsen. Ne szenvedjen feleslegesen – ha sürgősségi fogászati ellátásra van szüksége, azonnal lépjen kapcsolatba velünk, és segítünk, hogy gyorsan jobban érezze magát.",
         icon: <FontAwesomeIcon icon={faTooth} />,
-        link: "/dental-services/",
+        link: "/dental-services/cosmetic-dentistry/dental-implants-gyor",
         image: dentures,
+      },
+      {
+        title: "Fogtömés",
+        desc: "Fogtöméseinket úgy terveztük, hogy visszaállítsák fogai optimális egészségét és megőrizzék természetes mosolyát. Kiváló minőségű anyagokat és fejlett technikákat használva tartós, kényelmes és zökkenőmentes töméseket kínálunk, amelyek tökéletesen illeszkednek természetes fogaihoz.",
+        icon: <FontAwesomeIcon icon={faTooth} />,
+        link: "/dental-services/cosmetic-dentistry/dental-fillings-gyor",
+        image: dentalFillings,
       },
       {
         title: "Fogorvos Győr",
@@ -231,10 +246,17 @@ export const data = {
         image: toothache,
       },
       {
+        title: "Zahnfüllungen",
+        desc: "Unsere Zahnfüllungen sollen Ihre Zähne wieder optimal gesund machen und Ihr natürliches Lächeln bewahren. Mit hochwertigen Materialien und fortschrittlichen Techniken bieten wir langlebige, komfortable und nahtlose Füllungen, die sich perfekt an Ihre natürlichen Zähne anpassen.",
+        icon: <FontAwesomeIcon icon={faTooth} />,
+        link: "/dental-services/cosmetic-dentistry/dental-fillings-gyor",
+        image: dentalFillings,
+      },
+      {
         title: "Zahnprothese",
         desc: "Kehren Sie wieder zu essen, zu reden und mit Zuversicht zu lächeln. Unsere Zahnersatz sind maßgeschneidert, um Ihren besonderen Bedürfnissen zu entsprechen und Ihr natürliches Erscheinungsbild wiederherzustellen. Verabschieden Sie sich von Beschwerden und Hallo zu einem schönen, funktionalen Lächeln. Planen Sie noch heute Ihren Termin.",
         icon: <FontAwesomeIcon icon={faTooth} />,
-        link: "/dental-services/",
+        link: "/dental-services/cosmetic-dentistry/dental-implants-gyor",
         image: dentures,
       },
       {

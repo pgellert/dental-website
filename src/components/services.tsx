@@ -37,7 +37,6 @@ export default function Services(props) {
             ))}
           </div>
         </div>
-        
       </Container>
     </>
   )

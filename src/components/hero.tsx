@@ -32,7 +32,7 @@ export default function Hero() {
             </p>
           </div>
           <div className="w-full">
-            {CTAButtons(content)}
+            {CTAButtons()}
           </div>
         </div>
       </div>
@@ -40,7 +40,9 @@ export default function Hero() {
   )
 }
 
-function CTAButtons(content: any) {
+export function CTAButtons() {
+  const { locale } = useRouter();
+  const content = data[locale];
   return <div className="place-items-center center mt-10 flex flex-col md:flex-row items-baseline justify-center gap-6 space-y-3 px-4 w-full xl:m-0 xl:flex-row xl:items-center xl:space-x-4 xl:space-y-0">
     <Link href="/contact-us" className="rounded-md bg-sky-600 px-8 py-4 text-center text-xl font-medium shadow-md text-white w-full md:w-auto">
       {content.booking}

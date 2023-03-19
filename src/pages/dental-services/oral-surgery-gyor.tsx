@@ -18,7 +18,7 @@ const data = {
 export default function Home({markdown, locale}) {
   const content = data[locale];
   return (
-    <ServicePage title={content.title} markdown={markdown} meta_description={content.meta_description}/>
+    <ServicePage title={content.title} markdown={markdown} meta_description={content.meta_description} image={undefined}/>
   )
 }
 

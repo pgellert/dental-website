@@ -1,8 +1,6 @@
 # Dental fillings in Győr
 Our expert dentists at Perident Dentistry offer a wide range of services, which also include the restoration of dental fillings. Dental fillings are a simple and effective solution to restore damaged teeth, relieve pain and prevent further damage.
 
-<img src="/img/dental-fillings.jpg" alt="Dental fillings in Győr" class="mx-auto w-full lg:float-right lg:w-1/3 lg:inline lg:-mx-auto"/>
-
 ## What is a dental filling?
 A dental filling is a procedure in which the dentist removes damaged or damaged parts of the tooth and replaces them with a special material, usually made of composite resin or porcelain. The material is placed on the affected tooth and then shaped and machined to fit perfectly with the existing teeth. Dental fillings are durable and aesthetic, and help preserve the health and function of teeth.
 

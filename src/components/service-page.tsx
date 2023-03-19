@@ -10,34 +10,42 @@ import BasePage from "./base-page"
 import { useRouter } from "next/router"
 import { data } from "@content/components/service-page"
 
-export default function ServicePage({title, meta_description, markdown}) {
+import {CTAButtons} from "@components/hero"
+import carousel2 from "../../public/img/smiling-woman-white-teeth-2.jpg"
+import Testimonials from "./testimonials"
+
+
+export default function ServicePage({title, meta_description, markdown, image}) {
   const { locale } = useRouter();
   const content = data[locale];
 
   return <Fragment>
     <BasePage title={title} meta_description={meta_description}>
-      <Container className="w-full">
-        <Content markdown={markdown} />
-        <article className="prose prose-stone max-w-none prose-img:rounded-xl lg:prose-lg prose-p:leading-relaxed mt-8">
-          {content.end_of_article}
-        </article>
-      </Container>
+      <div className="flex gap-8 flex-col lg:flex-row">
+        <div className="overflow-hidden lg:h-96 float w-full lg:mt-32 lg:w-1/3 lg:border-8 lg:shadow-2xl lg:border-sky-600">
+          <Image src={image || carousel2} alt={""} className="w-full lg:h-96 object-cover"/>
+        </div>
+        
+        <Container className="w-full">
+          <Content markdown={markdown} />
+          {CTAButtons()}
+        </Container>
+      </div>
+      <Testimonials/>
     </BasePage>
   </Fragment>
 }
 
 export function Content({ markdown }) {
   return (
-    <article className="prose prose-stone max-w-none prose-img:rounded-xl lg:prose-lg prose-p:leading-relaxed">
+    <article className="p-4 prose prose-stone max-w-none prose-img:rounded-xl lg:prose-lg prose-p:leading-relaxed prose-p:text-justify">
       <ReactMarkdown 
       rehypePlugins={[rehypeRaw]}
       components={{
         a: ({ node, ...props }) => {
           return (
             (<Link href={props.href as string}>
-
               {props.children[0]}
-
             </Link>)
           );
         },

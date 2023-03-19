@@ -1,6 +1,6 @@
 # Fogimplantátumok Győrben
 
-A fogászati ​​implantátum egy kis fém (titánium) csavar, amelyet műtéti úton az ínyvonal alatti állcsontba helyeznek, hogy a fog gyökereként szolgáljon. Számos különböző anyag, technika és fogászati ​​implantátum felépítés közül választhatnak a páciensek. Ez az weboldal bemutat néhányat a nálunk választható lehetőségek közül.
+A fogászati ​implantátum egy kis fém (titánium) csavar, amelyet műtéti úton az ínyvonal alatti állcsontba helyeznek, hogy a fog gyökereként szolgáljon. Számos különböző anyag, technika és fogászati ​​implantátum felépítés közül választhatnak a páciensek. Ez az weboldal bemutat néhányat a nálunk választható lehetőségek közül.
 
 Kérjük, ne habozzon felhívni minket, hogy időpontot egyeztethessünk, ahol végigvezetjük az Ön számára elérhető lehetőségeken, és segítünk a megfelelő kiválasztásban.
 

@@ -1,8 +1,6 @@
 # Zahnfüllungen in Győr
 Unsere erfahrenen Zahnärzte von Perident Dentistry bieten eine breite Palette von Dienstleistungen an, die auch die Wiederherstellung von Zahnfüllungen umfassen. Zahnfüllungen sind eine einfache und effektive Lösung, um beschädigte Zähne wiederherzustellen, Schmerzen zu lindern und weiteren Schäden vorzubeugen.
 
-<img src="/img/dental-fillings.jpg" alt="Zahnfüllungen in Győr" class="mx-auto w-full lg:float-right lg:w-1/3 lg:inline lg:-mx-auto"/>
-
 ## Was ist eine Zahnfüllung?
 Eine Zahnfüllung ist ein Verfahren, bei dem der Zahnarzt beschädigte oder beschädigte Teile des Zahns entfernt und durch ein spezielles Material ersetzt, das normalerweise aus Kompositharz oder Porzellan besteht. Das Material wird auf den betroffenen Zahn aufgetragen und dann so geformt und bearbeitet, dass es perfekt zu den vorhandenen Zähnen passt. Zahnfüllungen sind langlebig und ästhetisch und helfen, die Gesundheit und Funktion der Zähne zu erhalten.
 
