@@ -136,7 +136,7 @@ export const data = {
         image: smileMakeover,
       },
       {
-        title: "Fogröntgen és 3D CT",
+        title: "Fog CT és Panoráma Röntgen",
         desc: "A Perident Fogászatnál a legmodernebb fogászati röntgeneket alkalmazzuk, hogy a lehető legpontosabb és legátfogóbb diagnózist állíthassuk elő. Fejlett panoráma röntgen és 3D CBCT technológiánk lehetővé teszi számunkra, hogy a fogak és az íny felszínén túlra is láthassunk, így részletesen áttekinthetjük szájüregének teljes szerkezetét. Ez segít abban, hogy korán felismerjük és kezeljük a problémákat, biztosítva a lehető legjobb eredményeket az Ön szájhigiéniája szempontjából.",
         icon: <FontAwesomeIcon icon={faUncharted} />,
         link: "/dental-services/dental-diagnostics-gyor",

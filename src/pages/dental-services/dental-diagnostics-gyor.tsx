@@ -3,16 +3,16 @@ import dentalXray from "../../../public/img/fogrontgen.jpg"
 
 const data = {
   en: {
-    title: "Dental Xray and 3D CT in Gyor | Perident Dentistry",
-    meta_description: "If you are looking for a dentist that offers diagnostic services, look no further! We offer a variety of diagnostic services that can help you maintain your oral health. Call us today to schedule an appointment!",
+    title: "Dental CT and Panoramic X-ray in Győr | Perident Dentistry",
+    meta_description: "With modern 3D CBCT and digital panoramic X-ray, we welcome our patients in Győr for a private CT examination.",
   },
   hu: {
-    title: "Fogröntgen és 3D CT Győr | Perident Fogászat",
-    meta_description: "Ha panorámaröntgen vagy 3D CT felvételt szeretne készíttetni fogairól, tudunk segíteni. Modern eszközeinkkel, megfizethető áron készítünk Önnek fogröntgen felvételt akár egy napon belül. Hívjon minket még ma!",
+    title: "Fogászati CT és Panoráma Röntgen Győrben | Perident Fogászat",
+    meta_description: "Modern 3D CBCT-vel és digitális panoráma röntgennel várjuk pácienseinket Győrben magán CT vizsgálatra.",
   },
   de: {
-    title: "Panorama-Zahnröntgen und 3D CT in Györ | Zahnarztpraxis Perident",
-    meta_description: "Wenn Sie nach einem Zahnarzt suchen, der diagnostische Dienstleistungen anbietet, suchen Sie nicht weiter! Wir bieten eine Vielzahl von diagnostischen Dienstleistungen an, die Ihnen helfen können, Ihre Mundgesundheit zu erhalten. Rufen Sie uns noch heute an, um einen Termin zu vereinbaren!",
+    title: "Zahn-CT und Panorama-Röntgen in Győr | Perident Zahnklinik",
+    meta_description: "Mit modernem 3D-DVT und digitalem Panorama-Röntgen empfangen wir unsere Patienten in Győr zu einer privaten CT-Untersuchung.",
   },
 }
 
