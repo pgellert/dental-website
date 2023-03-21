@@ -60,11 +60,13 @@ export default function Footer(props) {
               <h3 className="mb-4 flex justify-center font-semibold uppercase md:justify-start">
                 {content.links.title}
               </h3>
-              <UsefulLink href="/" title={content.links.home} />
-              <UsefulLink href="/about-us" title={content.links.about_us} />
-              <UsefulLink href="/dental-services" title={content.links.dental_services} />
-              <UsefulLink href="/contact-us" title={content.links.contact_us} />
-              <UsefulLink href="/privacy-policy" title={content.links.privacy_policy} last={true} />
+              <ul>
+                <UsefulLink href="/" title={content.links.home} />
+                <UsefulLink href="/about-us" title={content.links.about_us} />
+                <UsefulLink href="/#fogorvosi-kezelesek" title={content.links.dental_services} />
+                <UsefulLink href="/contact-us" title={content.links.contact_us} />
+                <UsefulLink href="/privacy-policy" title={content.links.privacy_policy} last={true} />
+              </ul>
             </div>
             <div className="">
               <h3 className="mb-4 flex justify-center font-semibold uppercase md:justify-start">
@@ -161,7 +163,6 @@ export default function Footer(props) {
         <div className="p-6 text-center">
           <span>© 2023 Copyright:</span>
           <Link href="/" className="font-semibold text-gray-600">
-
             {" "}Perinvest Ker. & Szolg Kft
           </Link>
         </div>
@@ -172,11 +173,11 @@ export default function Footer(props) {
 
 function UsefulLink({ href, title, last = false }) {
   return (
-    <p className={last ? "" : "mb-4"}>
-      <Link href={href} className="text-gray-600">
+    <li className={last ? "" : "mb-4"}>
+      <Link href={href} className="text-gray-600" title={title}>
         {title}
       </Link>
-    </p>
+    </li>
   );
 }
 
