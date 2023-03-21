@@ -26,7 +26,7 @@ function Carousel({images, indicators, slide, objectFit}) {
       initCarousels();
     }, [images])
 
-    return <div id="default-carousel" className="relative" data-carousel={slide ? "slide" : "static"}>
+    return <div id="default-carousel" className="relative" data-carousel={slide ? "slide" : "static"} data-carousel-interval="5000">
         <div className={`${height()} relative overflow-hidden`}>
             {images.map((item, index) => {
                 return <CarouselItem key={index} image={item.image} priority={item.priority} objectFitStyle={objectFit} />
