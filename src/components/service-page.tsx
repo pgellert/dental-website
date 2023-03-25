@@ -23,7 +23,7 @@ export default function ServicePage({title, meta_description, markdown, image}) 
     <BasePage title={title} meta_description={meta_description}>
       <div className="flex gap-8 flex-col lg:flex-row">
         <div className="overflow-hidden lg:h-96 float w-full lg:mt-32 lg:w-1/3 lg:border-8 lg:shadow-2xl lg:border-sky-600">
-          <Image src={image || carousel2} alt={title} className="w-full lg:h-96 object-cover" priority/>
+          <Image src={image || carousel2} alt={title} sizes="(max-width: 420px) 100vw, 400" className="w-full lg:h-96 object-cover" priority/>
         </div>
         
         <Container className="w-full">
