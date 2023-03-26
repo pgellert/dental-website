@@ -1,25 +1,38 @@
-# Dental Implants in Gyor, Hungary
+# Dental implants in Győr
 
-A dental implant is a small titanium post that is surgically placed into the jawbone beneath the gum line to serve as the root of a tooth. There are several different materials, techniques and dental implant structures that patients can choose from. This page describes some of the options you can choose with us. Please do not hesitate to call us to schedule an appointment where we can walk you through all the options available to you and we will help you make the right choice for you.
+Losing our natural teeth can have a serious impact on our quality of life, and without proper dentures, the problems can only get worse. Implants now offer an excellent solution to regain the beauty of our smile and the ability to chew normally. If you live in or around Győr, we have good news: Perident dentistry provides excellent service in the field of the most modern implant technologies. In this article, we review the different types of implants with which tooth replacement can now be solved almost perfectly.
 
-## Mini vs regular implants
-Mini implants are smaller than traditional implants and because of this, they need less bone to fuse with. Your gums will also heal quicker with mini implants, meaning we may be able to place your new artificial teeth the same day! Mini implants are made of one piece instead of two.
+## Why is CBCT better than panoramic X-ray when planning dental implants?
+Accurate diagnosis and planning are essential when planning dental implants. Bone and tissue structures can only be seen to a limited extent with the help of traditional panoramic X-rays, so accurate dental implant planning can be difficult. However, CBCT (cone beam computed tomography) enables accurate, three-dimensional images of the tissue structures of the oral cavity and skull. As a result, dentists can more accurately plan the location and direction of dental implants, thus maximizing the success of the implantation and minimizing the risk of possible complications.
+Perident dentistry specialists also use [CBCT](https://www.fogaszatgyor.hu/dental-services/dental-diagnostics-gyor) when planning dental implants.
 
-## What dental implant materials do we use?
-Our dental implants are made of titanium. There are multiple companies that sell dental implants. We usually use the products of SGS, Strauman or Nobel Biocare. These are the highest-quality, most-respected dental implant brands, which ensures the highest quality outcome.
+## All-on-4 implants: the solution covering the entire dental arch
 
-## How are dental implants structured?
-An all-on-4 dental implant is a type of dental implant that is used to support a full arch prosthesis, or false teeth. The all-on-4 dental implant is a more affordable option for patients who are missing all of their teeth, and it can be completed in one day. You can click on the image below to see a Youtube video showing you how an all-on-4 implant works.
+All-on-4 implants offer a new, innovative solution for patients who suffer from complete tooth loss. During the All-on-4 procedure, the dentist places four implants in the upper or lower jawbone, and then attaches a special, permanent denture to the implants. This procedure allows patients to get a full dental arch in a single procedure that behaves almost identically to natural teeth.
 
-[![Video showing how an all-on-4 dental implant](https://img.youtube.com/vi/Nuam6mKczvs/0.jpg)](https://www.youtube.com/watch?v=Nuam6mKczvs)
+All-on-4 implants have many advantages over other tooth replacement options. For example, the All-on-4 solution usually requires fewer implants, so the number of people who do not have enough bone material to receive implants still have a good chance for this procedure. In addition, All-on-4 allows patients to quickly return to their daily activities, since usually only a short recovery time is required after the procedure.
 
-An overdenture is a type of dental implant that is used to support a removable denture. The overdenture is a more affordable option for patients who are missing all of their teeth, and it can be completed in one day.
+## The mini implants: smaller size, less invasiveness
 
-A bar-retained overdenture is a type of dental implant that is used to support a removable denture. The bar-retained overdenture is a more expensive option, but it offers a more secure fit. You can click on the image below to see a Youtube video showing you how a bar-retained overdenture works.
+Mini implants are becoming more and more popular among dental procedures, as they offer many advantages over traditional implants due to their smaller size and less invasiveness. Mini implants are usually between 2-3 mm in diameter, while traditional implants can be between 4-6 mm in diameter.
+One of the most important advantages of mini implants is that the procedure is much less invasive, so the patient needs less time for healing and recovery. Mini implants are inserted into the bone and the procedure usually requires only local anesthesia.
+In addition, due to their smaller size, mini implants can be ideal for those who do not have enough bone material to accommodate traditional implants. However, mini implants are not suitable in all cases, and the dentist must always evaluate which solution is the most suitable for the given patient.
+## Titanium implants and other implant materials
+The material of implants is important from many aspects, including composition, strength, price, and biocompatibility. The most common and best studied material for implants is titanium.
+Titanium implants have many advantages. Titanium is a strong, durable and biocompatible material that behaves well in the body. The type of titanium used for implants is often obtained from titanium used in food. The surface of the implants is treated with special methods so that the bone cells can stick to it better and integrate with the surface of the implant.
+However, implants can be made of other materials, such as zirconia, which has advantages such as good aesthetics and no electrical conductivity. Zirconia implants can generally be more expensive than titanium implants.
+However, when selecting the implant material, decisions must be made based on the performance of the implant and individual patient needs. The doctor always advises on the most suitable type of implant and considers the patient's personal needs, medical history and dental condition.
 
-[![Video showing how a bar-retained overdenture works](https://img.youtube.com/vi/bF6s2D4rKzY/0.jpg)](https://www.youtube.com/watch?v=bF6s2D4rKzY)
+## Dental prosthesis: a stable and removable dental implant solution
+For those patients who want a more stable solution than traditional dentures, but do not necessarily want a permanent dental implant, braces are a great option. This dental implant solution combines stability and retrievability, so patients get the best solution.
+The Stég prosthesis consists of a metal frame that is attached to the dental implants. The frame leads to a removable denture that the patient can easily remove and clean. Unlike traditional dentures, which move or slip in the mouth, the Stégprosthesis provides a stable and secure fit.
+Braces are an excellent choice for patients who have lost several teeth but still have enough jawbone for dental implants. Dentures can replace several missing teeth or even an entire missing arch. Because dentures are removable, they are easy to clean and maintain, which can help prevent future dental problems.
 
-Please remember, our experienced technical team at Perident Dentistry is here to discuss specific treatment plans with you, and we will work with you to help ensure patient satisfaction.
+## Advantages of the NobelGuide® guided implantation procedure
+The [NobelGuide®](https://www.nobelbiocare.com/en-hu)-guided implantation procedure allows dentists to carry out more precise, pre-planned implantation in potentially affected areas. This procedure is generally less invasive and faster than traditional implant procedures.
+NobelGuide® technology is combined with dental software that accurately records the condition of the patient's teeth and creates a 3D image of the mouth and teeth. Based on the images obtained in this way, dentists can precisely determine the location and direction of the implants and plan the procedure in advance.
+The NobelGuide® procedure is also expected to result in shorter treatment times and more accurate and long-lasting implants. NobelGuide® technology is generally more expensive than traditional implant procedures, but for many patients the benefits are worth the price.
 
-## What is Guided Surgery?
-Guided implant surgery is a modern method of installing dental implants in patients who are missing a tooth, or have just had a tooth removed. It uses our 3D CT to scan the patient's mouth and create a 3D model. This allows the dentist to plan the procedure on a computer and create a template. This template is then used to guide the installation of the dental implant.
+## We are here to help
+If you have any further questions about implants or any other dental problem, please do not hesitate to contact us. We work with the team at Perident Dentistry to meet all of your dental needs and provide the best possible results for you and your family, whether it's implants, dentures, teeth whitening, or any other dental service.
+We look forward to seeing you at Perident dentistry, where we welcome you with customized solutions and high-quality treatments.
