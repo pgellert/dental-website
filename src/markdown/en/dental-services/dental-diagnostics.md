@@ -6,7 +6,7 @@ With the modern dental diagnostic tools we use at Perident dentistry, we guarant
 ## 3D CBCT: the most modern dental diagnostic tool
 <img src="/img/dental-cbct.jpeg" alt="Fog CT Győr" classname="block lg:hidden" width="200" height="auto" style="float: right; margin: 14px;"/>
 
-CBCT is a special type of dental X-ray that allows us to create 3D images of teeth, soft tissues, nerve pathways and bones in a single scan. CBCT is particularly useful for planning dental implants because it can provide detailed information about the jawbone and surrounding structures.
+CBCT is a special type of dental X-ray that allows us to create 3D images of teeth, soft tissues, nerve pathways and bones in a single scan. CBCT is particularly useful for planning [dental implants](/dental-services/cosmetic-dentistry/dental-implants-gyor) because it can provide detailed information about the jawbone and surrounding structures.
 
 3D CBCT images enable more accurate diagnosis and treatment planning, making dental treatment much more efficient. In addition, the use of CBCT minimizes radiation exposure, the benefit of which is also obvious to our patients.
 

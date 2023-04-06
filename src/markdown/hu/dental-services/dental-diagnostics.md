@@ -6,7 +6,7 @@ A Perident fogászatnál az általunk használt modern fogászati diagnosztikai 
 ## 3D CBCT: a legmodernebb fogászati diagnosztikai eszköz
 <img src="/img/dental-cbct.jpeg" alt="Fog CT Győr" classname="block lg:hidden" width="200" height="auto" style="float: right; margin: 14px;"/>
 
-A CBCT egy speciális típusú fogröntgen, amelynek segítségével egyetlen szkennelés során 3D-s képeket készíthetünk a fogakról, a lágyszövetekről, az idegpályákról és a csontokról. A CBCT különösen hasznos a fogászati ​​implantátumok tervezésénél, mivel részletes információkat tud adni az állcsontról és a környező struktúrákról.
+A CBCT egy speciális típusú fogröntgen, amelynek segítségével egyetlen szkennelés során 3D-s képeket készíthetünk a fogakról, a lágyszövetekről, az idegpályákról és a csontokról. A CBCT különösen hasznos a [fogászati ​​implantátumok](/dental-services/cosmetic-dentistry/dental-implants-gyor) tervezésénél, mivel részletes információkat tud adni az állcsontról és a környező struktúrákról.
 
 A 3D CBCT-képek pontosabb diagnózist és kezelési tervezést tesznek lehetővé, így sokkal hatékonyabbá teszik a fogászati kezelést. Emellett a CBCT használata minimálisra csökkenti a sugárterhelést, amelynek előnye a pácienseink számára is nyilvánvaló.
 

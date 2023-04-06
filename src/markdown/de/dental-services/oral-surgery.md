@@ -18,8 +18,8 @@ Eine Wurzelspitzenresektion ist ein Eingriff, bei dem der Arzt die Spitze der Za
 - **Zystenoperationen:**
 Mundzysten sind mit Flüssigkeit gefüllte Hohlräume im Mund, die normalerweise schmerzlos sind, aber wenn sie unbehandelt bleiben, können sie aufgrund von Schäden am umgebenden Gewebe zu ernsthafteren Problemen führen. Zystenoperationen entfernen Zysten während des Eingriffs, um möglichen Komplikationen vorzubeugen.
 
-- **Nebenhöhlenverschluss (Nebenhöhlenverschluss):**
-Aufgrund der Nebenhöhlen steht im hinteren Teil unserer Mundhöhle weniger Knochen zur Verfügung. Die Kieferhöhle ist der größte Luftraum im Körper und erschwert oft die Platzierung von Zahnimplantaten, da sie in den Bereich des Knochens eindringt, in dem das Implantat platziert werden soll. In diesem Fall kann ein Sinuslift durchgeführt werden, um den Knochenanteil im Implantat zu erhöhen. Während der Behandlung wird der Sinusboden angehoben und Knochen in den geschaffenen Raum eingebracht (aus dem Mund oder Ersatzmaterial). Dadurch können längere, stabilere und langlebigere Implantate eingesetzt werden. Natürlich beeinträchtigt diese Behandlung nicht die Funktion der Nebenhöhlen.
+- **Nebenhöhlenverschluss:**
+Aufgrund der Nebenhöhlen steht im hinteren Teil unserer Mundhöhle weniger Knochen zur Verfügung. Die Kieferhöhle ist der größte Luftraum im Körper und erschwert oft die Platzierung von [Zahnimplantaten](/dental-services/cosmetic-dentistry/dental-implants-gyor), da sie in den Bereich des Knochens eindringt, in dem das Implantat platziert werden soll. In diesem Fall kann ein Sinuslift durchgeführt werden, um den Knochenanteil im Implantat zu erhöhen. Während der Behandlung wird der Sinusboden angehoben und Knochen in den geschaffenen Raum eingebracht (aus dem Mund oder Ersatzmaterial). Dadurch können längere, stabilere und langlebigere Implantate eingesetzt werden. Natürlich beeinträchtigt diese Behandlung nicht die Funktion der Nebenhöhlen.
 
 - **Knochentransplantation:**
 Die Knochentransplantation ist ein oralchirurgischer Eingriff, bei dem Knochenersatzmaterial in den Kieferknochen eingebracht wird, um neue Zahnimplantate oder herkömmliche Prothesen zu stabilisieren. Die Wirksamkeit des Knochenaufbaus hängt von der Menge und Qualität des implantierten Knochenersatzmaterials und dem Zustand des Kieferknochens ab.
@@ -30,6 +30,6 @@ Unsere oralchirurgischen Eingriffe in der Zahnklinik Perident sind von hoher Qua
 
 Wir wissen, dass der Gedanke an eine Oralchirurgie beängstigend sein kann, aber unser Team tut alles, um den Eingriff so angenehm und stressfrei wie möglich zu gestalten. Unser freundliches und hilfsbereites Personal hilft Ihnen bei jedem Schritt.
 
-Unsere hochmoderne medizinische Ausstattung umfasst Panorama-Röntgenaufnahmen und DVT zur Gesundheitsbeurteilung. Diese ermöglichen es uns, das Problem genau zu diagnostizieren und Ihren individuellen Behandlungsplan zu erstellen. Eine präzise und genaue Diagnose bedeutet, dass Sie sich auf unsere Behandlung verlassen können.
+Unsere hochmoderne medizinische Ausstattung umfasst [Panorama-Röntgenaufnahmen](/dental-services/dental-diagnostics-gyor) und [3D CBCT](/dental-services/dental-diagnostics-gyor). Diese ermöglichen es uns, das Problem genau zu diagnostizieren und Ihren individuellen Behandlungsplan zu erstellen. Eine präzise und genaue Diagnose bedeutet, dass Sie sich auf unsere Behandlung verlassen können.
 
 Ob einfache Zahnextraktion, Weisheitszahnentfernung, Wurzelspitzenresektion, Zystenoperation, Sinusverschluss oder Zahnimplantate und Knochenersatz, das Team von Perident ist für Sie da. Kontaktieren Sie uns und vereinbaren Sie einen Beratungstermin, um den ersten Schritt zu einem gesünderen und glücklicheren Lächeln zu machen.

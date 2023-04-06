@@ -16,7 +16,7 @@ Klicken Sie auf das Bild unten, um ein Video darüber zu sehen, wie eine Zahnkro
 
 ### Zahnbrücken
 
-Eine Brücke kann verwendet werden, um einen fehlenden Zahn oder Zähne zu ersetzen, sie bestehen normalerweise aus einer Edel- oder Nichtedelmetallbasis, die außen mit zahnfarbenem Keramikporzellanmaterial bedeckt ist, sie kann auch vollständig aus zahnfarbenem Keramikmaterial hergestellt werden. Es wird durch Zementieren von Kronen über den Zähnen auf beiden Seiten der zu füllenden Lücke gehalten. Zahnbrücken können auch verwendet werden, um Lücken zwischen Zahnimplantaten zu überbrücken.
+Eine Brücke kann verwendet werden, um einen fehlenden Zahn oder Zähne zu ersetzen, sie bestehen normalerweise aus einer Edel- oder Nichtedelmetallbasis, die außen mit zahnfarbenem Keramikporzellanmaterial bedeckt ist, sie kann auch vollständig aus zahnfarbenem Keramikmaterial hergestellt werden. Es wird durch Zementieren von Kronen über den Zähnen auf beiden Seiten der zu füllenden Lücke gehalten. Zahnbrücken können auch verwendet werden, um Lücken zwischen [Zahnimplantaten](/dental-services/cosmetic-dentistry/dental-implants-gyor) zu überbrücken.
 
 Es gibt verschiedene Arten von Brücken, die unterschiedliche Befestigungsmethoden verwenden. Ihr Zahnarzt wird die effektivste und schonendste Brücke für Ihre persönliche Situation auswählen.
 
