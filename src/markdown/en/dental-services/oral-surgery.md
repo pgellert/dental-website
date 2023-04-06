@@ -1,47 +1,35 @@
-# Oral Surgery in Gyor, Hungary
+# Oral surgery in Gyor
 
-Our dentist has over 20 years of experience in oral surgery, so you can trust that our service is of the highest quality. We are here to help in our dental praxis in Gyor, Hungary.
+When we hear the word oral surgery, many of us get a bad feeling, since interventions around the teeth are an unpleasant experience for many. However, if we need this type of treatment, it is important to work with the best possible professionals who can guarantee that the procedure goes smoothly and safely.
 
-## Bone grafting
+If oral surgery arises in the city of Győr, Perident Dentistry is one of the most reliable and experienced. During oral surgery interventions, the Perident team specializes in the special treatment of the affected areas, enabling customers to be provided with comprehensive oral hygiene. The professionals working at the clinic have outstanding expertise and experience, and we use the best technology required for oral surgery interventions. If you need oral surgery in Győr, choose Perident.
 
-Implants require a certain amount of bone in the jaw to be effective.
+## Complete oral surgery services at Perident Dentistry
 
-If the amount of bone is insufficient, we can use bone grafting to increase the height and width of the bone to ensure that we can fit an implant.
+- **Simple tooth extraction:**
+A simple tooth extraction is a procedure in which the dentist removes the problem tooth. Local anesthesia is used during the procedure, so the patient has only minimal pain.
 
-There are multiple ways and techniques used for bone grafting. We can include bone from your mouth or use a mineral substitute. Our dentist will discuss with you the best option for your particular case.
+- **Oral surgical removal of wisdom teeth:**
+Wisdom teeth are the teeth that usually appear when the last teeth in the jaw grow, and problems such as the rotation of the teeth, partial breakthrough or even displacement of the teeth right next to them can often develop. If these types of problems occur, oral surgery may be necessary.
 
-Click on the following image for a video on how bone grafting works:
+- **Root treatment, root tip resection:**
+A root tip resection is a procedure in which the doctor removes the tip of the tooth root and the inflamed tissue around it. The procedure is usually used when the root apex is damaged or inflamed to such an extent that it is necessary to save the tooth.
 
-[![Video showing how bone grafting works](https://img.youtube.com/vi/Mx5gpkqDdns/0.jpg)](https://www.youtube.com/watch?v=Mx5gpkqDdns&t=40)
+- **Cyst surgeries:**
+Oral cysts are fluid-filled cavities in the mouth that are usually painless, but if left untreated, they can lead to more serious problems due to damage to the surrounding tissue. Cyst surgeries remove cysts during the procedure to prevent possible complications.
 
-## Sinus lift
+- **Sinus closure (sinus closure):**
+There is less bone available in the back of our oral cavity due to the sinuses. The maxillary sinus is the largest air space in the body and often makes dental implant placement difficult because it encroaches on the area of bone where the implant is to be placed. In this case, a sinus lift can be performed in order to increase the amount of bone in the implant. During the treatment, the bottom of the sinus is raised and bone is placed in the created space (from the mouth or substitute material). This allows the insertion of longer, more stable and more durable implants. Of course, this treatment does not affect the functioning of the sinuses.
 
-There is less bone available at the back of our oral cavity due to the sinuses. The maxillary sinus is largest air space in the body and it often makes installing a dental implant hard because it encroaches on the area of bone in which we wish to place an implant. In this case, a sinus lift can be performed to increase the amount of bone for the implant. During this treatment, we lift the floor of the sinus and place bone (from your mouth or a substitute material) in the created space. This allows longer, more stable and durable implants to be fitted. Rest assured that this treatment does not affect the functioning of your sinuses.
+- **Bone transplant:**
+Bone grafting is an oral surgical procedure in which bone substitute material is inserted into the jawbone to help stabilize new dental implants or traditional dentures. The effectiveness of bone grafting depends on the quantity and quality of the implanted bone substitute material and the condition of the jawbone.
 
-This procedure requires a precise treatment, and you can rely on our dentist's over 20 years of experience in oral surgery. 
+## Why choose Perident for your oral surgery in Győr?
 
-## Tooth removal
+Our oral surgery procedures provided at the Perident dental clinic are of high quality and our experienced specialists ensure that you receive the best possible care during the treatment. Our medical equipment is state-of-the-art to ensure you receive the most accurate diagnosis possible.
 
-If the tooth is demaged to a degree that it cannot be saved using endodontics (root canal therapy), or if the tooth is in a bad position we may have to remove the tooth.
+We know that the thought of oral surgery can be scary, but our team does everything to make the procedure as comfortable and stress-free as possible. Our friendly and helpful staff will always help you every step of the way.
 
-We offer a tooth removal service that is quick and painless. We use the latest technology to remove your tooth quickly and efficiently.
+Our state-of-the-art medical equipment includes panoramic x-rays and CBCT for health assessment. These allow us to accurately diagnose the problem and design your individual treatment plan. A precise and accurate diagnosis means that you can safely trust our treatment.
 
-## Wisdom teeth removal
-
-Wisdom teeth are the last teeth to erupt in the mouth, typically appearing in the late teenage years or early twenties. While some people have no problems with their wisdom teeth and they come in without issue, others may experience pain, crowding, or other problems that warrant removal.
-
-If your wisdom teeth are causing problems or are unlikely to come in properly, you should contact us and we may recommend that they be removed. Wisdom teeth removal is one of the most common dental procedures, and it is typically performed under local anesthesia.
-
-After your wisdom teeth are removed, you can expect some swelling and discomfort. We will give you specific instructions on how to care for your mouth and manage any pain.
-
-If you are considering wisdom teeth removal, schedule a free appointment with us to learn more about the procedure and what to expect. We can help you determine if removal is necessary and answer any questions you have.
-
-## Root resection
-
-Root resection is a type of surgery that is used to remove part of a tooth's root. This procedure is typically needed when the root is damaged or infected. This type of surgery is often recommended when the tooth is already fitted with a dental crown or a bridge. The surgery is performed by making an incision in the gums and then removing the damaged or infected root.
-
-## Small cyst removal
-
-A jaw cyst removal is a surgical procedure where the cyst is typically removed through a small incision in the jaw. The surgery usually takes less than an hour to complete. Afterwards the cyst will be sent to a special pathologist for analysis.
-
-We regularly remove small cysts using local anaesthetic, however, large cysts are removed under general anaesthetic, which we do not perform at our practice. Please contact us to discuss how we can help you with your cyst removal.
+Whether it is a simple tooth extraction, wisdom tooth removal, root tip resection, cyst surgery, sinus closure or dental implants and bone replacement, the Perident team is here for you. Contact us and schedule a consultation to take the first step towards a healthier and happier smile.

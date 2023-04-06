@@ -20,6 +20,7 @@ import dentalCrown from "../../../public/img/dental-crown-implants.jpeg"
 import dentalImplants from "../../../public/img/dental-implants.jpg"
 import dentures from "../../../public/img/dental-dentures.jpg"
 import dentalFillings from "../../../public/img/dental-fillings.jpg"
+import oralSurgery from "../../../public/img/oral-surgery.jpg"
 
 export const data = {
   en: {
@@ -94,6 +95,12 @@ export const data = {
         icon: <FontAwesomeIcon icon={faTooth} />,
         link: "/dental-services/cosmetic-dentistry/dental-implants-gyor",
         image: dentures,
+      },
+      {
+        title: "Oral Surgery",
+        desc: "Our wide range of oral surgery services include tooth extractions, root tip resections, cyst operations, wisdom tooth extractions, sinus closures and bone grafts. In addition to all this, with the help of our modern diagnostic tools, panoramic X-ray and CBCT, we can precisely determine the cause of the problem and offer the best possible solution. If you need oral surgery, feel free to visit the Perident dental office!",
+        link: "/dental-services/oral-surgery-gyor",
+        image: oralSurgery,
       },
       {
         title: "Dentist Győr",
@@ -178,6 +185,12 @@ export const data = {
         image: dentalFillings,
       },
       {
+        title: "Szájsebészet",
+        desc: "Széles körű szájsebészeti szolgáltatásaink közé tartoznak a fogeltávolítások, gyökércsúcs-rezekciók, cisztaműtétek, bölcsességfog-eltávolítások, arcüregzárások és csontátültetések. Mindezek mellett modern diagnosztikai eszközeink, a panoráma-röntgen és a CBCT segítségével pontosan meghatározzuk a probléma okát, és a lehető legjobb megoldást kínáljuk. Ha szájsebészeti beavatkozásra van szüksége, bátran keresse fel a Perident fogászati rendelőt!",
+        link: "/dental-services/oral-surgery-gyor",
+        image: oralSurgery,
+      },
+      {
         title: "Fogorvos Győr",
         desc: "Megbízható fogorvost keres Győrben? Ne keressen tovább a Perident Fogászatnál! Tapasztalt és segítőkész szakembereink gyors, fájdalommentes és magas színvonalú fogászati ellátást biztosítanak Önnek. A rutinellenőrzésektől az összetett eljárásokig, mint a gyökérkezelés vagy a műfogsor, mi minden tudunk segíteni. Ne hagyja, hogy a fogászati problémái visszatartsák – lépjen kapcsolatba velünk még ma, hogy a Perident Fogászat segíteni tudjon Önnek!",
         icon: <FontAwesomeIcon icon={faTooth} />,
@@ -258,6 +271,13 @@ export const data = {
         icon: <FontAwesomeIcon icon={faTooth} />,
         link: "/dental-services/cosmetic-dentistry/dental-implants-gyor",
         image: dentures,
+      },
+      {
+        title: "Oralchirurgie",
+        desc: "Unser breites Spektrum an oralchirurgischen Dienstleistungen umfasst Zahnextraktionen, Wurzelspitzenresektionen, Zystenoperationen, Weisheitszahnextraktionen, Sinusverschlüsse und Knochentransplantationen. Darüber hinaus können wir mit Hilfe unserer modernen diagnostischen Hilfsmittel, Panorama-Röntgen und CBCT, die Ursache des Problems genau bestimmen und die bestmögliche Lösung anbieten. Wenn Sie eine orale Operation benötigen, besuchen Sie die Zahnarztpraxis Perident!",
+        icon: <FontAwesomeIcon icon={faTooth} />,
+        link: "/dental-services/oral-surgery-gyor",
+        image: oralSurgery,
       },
       {
         title: "Zahnarzt Győr",
