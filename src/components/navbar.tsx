@@ -3,7 +3,7 @@ import Image from "next/image"
 import Link from "next/link"
 import "flag-icons"
 
-import logoImg from "../../public/img/logo.jpeg"
+import logoImg from "../../public/img/logo.svg"
 import { useRouter } from "next/router"
 import { data } from "../content/components/navbar"
 
@@ -22,10 +22,9 @@ export default function Navbar() {
                 <Link
                   href="/"
                   title={content.logo_alt}
-                  className="flex items-center space-x-2 text-2xl font-medium text-sky-500 dark:text-gray-100">
-
-                  <Image src={logoImg} alt={content.logo_alt} height="49" width="150" priority />
-
+                  className="drop-shadow-lg shadow-sm rounded-lg overflow-hidden"
+                  >
+                  <Image src={logoImg} alt={content.logo_alt} height="50" width="150" priority />
                 </Link>
 
                 <div className="justify-end flex flex-nowrap align-middle item-center lg:hidden">
