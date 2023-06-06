@@ -101,7 +101,7 @@ function Content({ content, global_content }) {
                 {global_content.contact.phone}
               </h2>
               <p className="leading-tight text-gray-700 hover:text-gray-500">
-                <Link href="tel:+36-20-314-0511">+36-20-314-0511</Link>
+                <Link href="tel:+36-20-567-5678">+36-20-567-5678</Link>
               </p>
             </div>
             <hr className="mt-4 mb-10"></hr>
