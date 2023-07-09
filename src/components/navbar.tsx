@@ -18,16 +18,16 @@ export default function Navbar() {
         <Disclosure>
           {({ open }) => (
             <>
-              <div className="flex w-full flex-wrap items-center justify-between lg:w-auto">
+              <div className="flex w-full flex-wrap items-center justify-between lg:w-auto align-middle">
                 <Link
                   href="/"
                   title={content.logo_alt}
-                  className="drop-shadow-lg shadow-sm rounded-lg overflow-hidden"
+                  className="border-2 border-gray-200 rounded-lg overflow-hidden"
                   >
-                  <Image src={logoImg} alt={content.logo_alt} height="50" width="150" priority />
+                  <Image src={logoImg} alt={content.logo_alt} width="100" priority />
                 </Link>
 
-                <div className="justify-end flex flex-nowrap align-middle item-center lg:hidden">
+                <div className="justify-end flex flex-nowrap item-center lg:hidden">
                   <LanguageSwitcher locales={locales} asPath={asPath}/>
                   <Disclosure.Button
                     aria-label="Toggle Menu"
@@ -121,13 +121,6 @@ export default function Navbar() {
   );
 }
 
-
-const LangIcon = ({ lang, title }) => {
-  const icon_lang = lang == "en" ? "gb" : lang;
-
-  return <span className={`fi fi-${icon_lang}`} title={title} />
-}
-
 export const LanguageSwitcher = ({ locales, asPath }) => {
   return (
     <ul className="flex flex-nowrap items-center">
@@ -148,4 +141,9 @@ export const LanguageSwitcher = ({ locales, asPath }) => {
       })}
     </ul>
   );
+}
+
+const LangIcon = ({ lang, title }) => {
+  const icon_lang = lang == "en" ? "gb" : lang;
+  return <span className={`contrast-75 fi fi-${icon_lang}`} title={title} />
 }

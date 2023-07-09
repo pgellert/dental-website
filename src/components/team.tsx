@@ -14,8 +14,8 @@ export default function Team(props) {
 
   return (
     <>
-      <Container className="flex w-full flex-wrap items-center m-8">
-        <ul className="flex w-full flex-row flex-wrap place-content-center gap-8">
+      <Container className="flex w-full flex-wrap items-center m-6">
+        <ul className="flex w-full flex-row flex-wrap place-content-center gap-10">
           {content.members.map((item, index) => (
             <TeamMember
               key={index}

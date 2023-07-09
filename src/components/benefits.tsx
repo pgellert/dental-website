@@ -37,23 +37,17 @@ function FeatureList({ children }) {
 function Feature({ title, desc }) {
   return (
     <li className="flex items-start">
-      <CheckIcon />
+      <div className="bg-grey inline-flex rounded-full p-4">
+        {React.cloneElement(<FontAwesomeIcon icon={faCheck} />, {
+          className: "w-6 h-6 text-emerald-400",
+        })}
+      </div>
       <div>
-        <h3 className="mt-4 text-lg font-semibold text-gray-800 md:text-xl bold">
+        <h3 className="mt-4 text-lg font-semibold text-gray-800 md:text-xl">
           {title}
         </h3>
-        <p className="mt-1 text-base leading-snug text-gray-600 md:text-lg">{desc}</p>
+        <p className="mt-1 mr-4 text-base leading-snug text-gray-600 md:text-lg">{desc}</p>
       </div>
     </li>
-  )
-}
-
-function CheckIcon() {
-  return (
-    <div className="bg-grey inline-flex rounded-full p-4">
-      {React.cloneElement(<FontAwesomeIcon icon={faCheck} />, {
-        className: "w-6 h-6 text-emerald-400",
-      })}
-    </div>
   )
 }

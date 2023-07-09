@@ -64,10 +64,10 @@ function Content({ content, global_content }) {
   return (
     <>
       <div className="w-full justify-evenly md:flex">
-        <div className="p-8 xl:p-0">
+        <div className="px-8 py-4 xl:p-0">
           <div>
             <div className="text-center">
-              <h1 className="mb-1 text-2xl font-bold text-sky-700">
+              <h1 className="mb-6 text-3xl font-bold text-sky-500">
                 {content.contact_us}
               </h1>
               <p className="font-medium italic leading-tight text-gray-700">
@@ -76,7 +76,7 @@ function Content({ content, global_content }) {
             </div>
             <FontAwesomeIcon
               icon={faUserDoctor}
-              className="my-8 h-7 w-full text-center text-emerald-300 drop-shadow-sm"
+              className="my-10 h-8 w-full text-center text-sky-500 drop-shadow-sm"
             />
             <div>
               <h2 className="mb-1 text-lg font-semibold text-sky-500">
@@ -104,26 +104,26 @@ function Content({ content, global_content }) {
                 <Link href="tel:+36-20-567-5678">+36-20-567-5678</Link>
               </p>
             </div>
-            <hr className="mt-4 mb-10"></hr>
+            <hr className="mt-4 mb-6"></hr>
             <div>
               <form onSubmit={handleOnSubmit}>
                 <fieldset>
                   <legend className="mb-4 text-lg font-semibold text-sky-500">{global_content.contact.enquire}</legend>
                   <div className="items-baseline mb-4">
                     <label className="block text-gray-700 text-sm font-semibold mb-2">{global_content.contact.name}</label>
-                    <input onChange={(e) => setName(e.target.value)} className="placeholder:italic shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:ring-0 focus:border-sky-700" id="name" type="text" placeholder="John Doe"/>
+                    <input onChange={(e) => setName(e.target.value)} className="placeholder:italic shadow-sm appearance-none border border-gray-200 rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:ring-0 focus:border-sky-200" id="name" type="text" placeholder="Nagy Gábor"/>
                   </div>
                   <div className="items-baseline mb-5">
                     <label className="block text-gray-700 text-sm font-semibold mb-2">{global_content.contact.email}</label>
-                    <input onChange={(e) => setEmail(e.target.value)} className="placeholder:italic shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:ring-0 focus:border-sky-700" id="email" type="email" placeholder="john@doe.com"/>
+                    <input onChange={(e) => setEmail(e.target.value)} className="placeholder:italic shadow-sm appearance-none border border-gray-200 rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:ring-0 focus:border-sky-200" id="email" type="email" placeholder="john@doe.com"/>
                   </div>
                   <div className="items-baseline mb-5">
                     <label className="block text-gray-700 text-sm font-semibold mb-2">{global_content.contact.phone}</label>
-                    <input onChange={(e) => setPhone(e.target.value)} className="placeholder:italic shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:ring-0 focus:border-sky-700" id="tel" type="tel" placeholder="+36205675678"/>
+                    <input onChange={(e) => setPhone(e.target.value)} className="placeholder:italic shadow-sm appearance-none border border-gray-200 rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:ring-0 focus:border-sky-200" id="tel" type="tel" placeholder="+36205675678"/>
                   </div>
                   <div className="items-baseline mb-5">
                     <label className="block text-gray-700 text-sm font-semibold mb-2">{global_content.contact.message}</label>
-                    <textarea onChange={(e) => setMessage(e.target.value)} className="resize-y min-h-[100px] placeholder:italic shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:ring-0 focus:border-sky-700" id="message" placeholder={global_content.contact.message_hint} />
+                    <textarea onChange={(e) => setMessage(e.target.value)} className="resize-y min-h-[100px] placeholder:italic shadow-sm appearance-none border border-gray-200 rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:ring-0 focus:border-sky-200" id="message" placeholder={global_content.contact.message_hint} />
                   </div>
                   <div className="">
                     <button className="w-full shadow uppercase bg-sky-600 hover:bg-sky-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded" type="submit">

@@ -17,7 +17,7 @@ export default function Home() {
   const { locale } = useRouter();
   const content = data[locale];
   return (
-    <div>
+    <div className="grayscale-0">
       <BasePage title={content.title} meta_description={content.meta_description} includeSchema={true}>
         <Hero />
         <Section title={content.services.title} anchor={"fogorvosi-kezelesek"}>

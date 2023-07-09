@@ -37,7 +37,6 @@ function Avatar({ name, icon }) {
   return (
     <div className="mt-6 flex items-center space-x-3">
       <SourceIcon icon={icon}/>
-
       <div>
         <div className="font-medium">{name}</div>
       </div>

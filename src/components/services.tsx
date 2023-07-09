@@ -21,17 +21,17 @@ export default function Services(props) {
   return (
     <>
       <Container className="m-0 p-0 lg:mx-auto">
-        <div className="mx-auto divide-y divide-sky-700 bg-sky-50 text-gray-600 shadow-md py-8 md:p-10 md:w-3/5">
-          <ul className="mb-4 w-full flex flex-row flex-wrap justify-center">
+        <div className="mx-auto divide-y divide-opacity-20 divide-dashed divide-sky-700 bg-sky-50 text-gray-600 shadow-md py-8 md:p-10 md:w-3/5">
+          <ul className="mb-6 w-full flex flex-row flex-wrap justify-center gap-y-1">
             {content.bullets.map((item, index) => (
-              <li key={index}><button onClick={() => setSelectedIndex(index)} className={(selectedIndex == index ? "border-sky-600" : "border-transparent") + " border-2 duration-100 px-3 py-2 tracking-tight text-sm text-semi uppercase rounded-full"} title={item.title}>{item.title}</button></li>
+              <li key={index}><button onClick={() => setSelectedIndex(index)} className={(selectedIndex == index ? "border-sky-600" : "border-transparent") + " border-2 border-opacity-40 duration-100 px-3 py-1 tracking-tight text-sm text-semi uppercase rounded-full"} title={item.title}>{item.title}</button></li>
             ))}
           </ul>
-          <div className="p-4">
+          <div className="px-4 py-6">
             {content.bullets.map((item, index) => (
               <div key={index} className={`${(selectedIndex == index) ? "" : "hidden"} mt-8 space-y-4 text-left text-gray-500 dark:text-gray-400`}>
                 <ServiceImage image={item.image} title={item.title} link={item.link}/>
-                <p className="px-2 py-4 whitespace-pre-wrap">{item.desc}</p>
+                <p className="px-4 pt-4 pb-2 whitespace-pre-wrap">{item.desc}</p>
                 <LearnMore text={content.learn_more} link={item.link} title={item.title}/>
               </div>
             ))}
@@ -45,16 +45,16 @@ export default function Services(props) {
 function ServiceImage({image, title, link}) {
   return <figure className="relative max-w-sm mx-auto">
     <a href={link} title={title}>
-      <Image className="rounded-md shadow-sm h-48" src={image || carousel2} sizes="(max-width: 420px) 100vw, 400" style={{ width: "100%", objectFit: "cover" }} alt={title} />
+      <Image className="brightness-75 rounded-md shadow-sm h-48" src={image || carousel2} sizes="(max-width: 420px) 100vw, 400" style={{ width: "100%", objectFit: "cover" }} alt={title} />
     </a>
     <figcaption className="absolute px-4 text-lg text-white bottom-4">
-      <h3 className="font-semibold tracking-tight uppercase">{title}</h3>
+      <h3 className="font-medium tracking-tight uppercase">{title}</h3>
     </figcaption>
   </figure>;
 }
 
 function LearnMore({text, link, title}) {
-  return <Link title={title} href={link} className="mt-4 flex items-center space-x-3"> 
+  return <Link title={title} href={link} className="mt-2 px-4 flex items-center space-x-2"> 
       <ArrowIcon />
       <span className="font-medium">{text}</span>
     </Link>;

@@ -5,7 +5,7 @@ import { useEffect } from "react";
 
 export function ImageSlider({images, indicators, slide, objectFit}) {
     return (
-        <div className={`${height()} bg-black`}>
+        <div className={`${height()}`}>
             <Carousel images={images} slide={slide} indicators={indicators} objectFit={objectFit} />
         </div>
     );
@@ -13,7 +13,7 @@ export function ImageSlider({images, indicators, slide, objectFit}) {
 
 function CarouselItem({image, priority, objectFitStyle}) {
     return <div className="w-full duration-700 ease-in-out" data-carousel-item>
-        <Image className={`bg-black absolute block w-full ${height()} -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2`} src={image} sizes="100vw" style={{ width: "100%", objectFit: objectFitStyle }} alt="Fehér fogsor - Perident Fogorvos Győr" priority={priority} />
+        <Image className={`bg-black absolute brightness-90 block w-full ${height()} -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2`} src={image} sizes="100vw" style={{ width: "100%", objectFit: objectFitStyle }} alt="Fehér fogsor - Perident Fogorvos Győr" priority={priority} />
     </div>;
 }
 
