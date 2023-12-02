@@ -21,7 +21,8 @@ export default async function handler(req, res) {
 
     const params = {
         Destination: {
-            ToAddresses: ['pereszteginagy.gellert@gmail.com']
+            ToAddresses: [process.env.NEXT_PUBLIC_FORM_EMAIL_TO],
+            CcAddresses: [process.env.NEXT_PUBLIC_FORM_EMAIL_CC],
         },
         Message: {
             Subject: {
