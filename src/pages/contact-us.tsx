@@ -115,7 +115,7 @@ function Content({ content, global_content }) {
                   </div>
                   <div className="items-baseline mb-5">
                     <label className="block text-gray-700 text-sm font-semibold mb-2">{global_content.contact.email}</label>
-                    <input onChange={(e) => setEmail(e.target.value)} className="placeholder:italic shadow-sm appearance-none border border-gray-200 rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:ring-0 focus:border-sky-200" id="email" type="email" placeholder="john@doe.com"/>
+                    <input onChange={(e) => setEmail(e.target.value)} className="placeholder:italic shadow-sm appearance-none border border-gray-200 rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:ring-0 focus:border-sky-200" id="email" type="email" placeholder="gabor@gmail.com"/>
                   </div>
                   <div className="items-baseline mb-5">
                     <label className="block text-gray-700 text-sm font-semibold mb-2">{global_content.contact.phone}</label>
