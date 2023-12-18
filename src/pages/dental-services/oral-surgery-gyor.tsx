@@ -3,16 +3,16 @@ import oralSurgery from "../../../public/img/oral-surgery.jpg"
 
 const data = {
   en: {
-    title: "Oral Surgery in Gyor | Perident Dentistry",
-    meta_description: "Our modern dentistry offers the following oral surgery treatments: tooth extraction, root canal treatment, bone replacement, cyst surgery, sinus closure, bone grafting.",
+    title: "Private Oral Surgery in Győr | Perident Dentistry",
+    meta_description: "In our dental office in Győr, we provide you with private oral surgery assistance, whether it is an acute intervention to relieve your toothache or an implant to restore your beautiful smile.",
   },
   hu: {
-    title: "Tapasztalt Szájsebész Győrben | Perident Fogászat, Szájsebészet",
-    meta_description: "Modern fogászatunk a következő szájsebészeti kezeléseket nyújtja: fogeltávolítás, gyökérkezelés, csontpótlás, cisztaműtétek, arcüregzárás, csontátültetés.",
+    title: "Magán Szájsebészet Győrben | Perident Fogászat",
+    meta_description: "Győri fogászati rendelőnkben magán szájsebészeti segítséget nyújtunk Önnek, legyen szó akut beavatkozásról fogfájása enyhítésére, vagy implantátum beültetésről gyönyörű mosolya visszaszerzésének érdekében.",
   },
   de: {
-    title: "Erfahrene Oralchirurgie in Győr | Peridente Zahnmedizin",
-    meta_description: "Unsere moderne Zahnmedizin bietet folgende oralchirurgische Behandlungen an: Zahnextraktion, Wurzelkanalbehandlung, Knochenersatz, Zystenchirurgie, Sinusverschluss, Knochenaufbau.",
+    title: "Private Oralchirurgie in Győr | Peridente Zahnarztpraxis",
+    meta_description: "In unserer Zahnarztpraxis in Győr bieten wir Ihnen private oralchirurgische Hilfe an, sei es ein akuter Eingriff zur Linderung Ihrer Zahnschmerzen oder ein Implantat zur Wiederherstellung Ihres schönen Lächelns.",
   },
 }
 
