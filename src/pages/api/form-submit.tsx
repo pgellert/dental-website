@@ -7,6 +7,12 @@ AWS.config.update({
     },
 });
 
+const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+function isValidEmail(email: string): boolean {
+    return emailPattern.test(email);
+}
+
 export default async function handler(req, res) {
     const body = JSON.parse(req.body);
     console.log('body', body)
@@ -19,7 +25,7 @@ export default async function handler(req, res) {
     Message: ${body.message}
     `;
 
-    const params = {
+    var params = {
         Destination: {
             ToAddresses: [process.env.NEXT_PUBLIC_FORM_EMAIL_TO],
             CcAddresses: [process.env.NEXT_PUBLIC_FORM_EMAIL_CC],
@@ -37,7 +43,15 @@ export default async function handler(req, res) {
             }
         },
         Source: 'forms@fogorvosgyor.hu',
+        ReplyToAddresses: [
+            "EMAIL_ADDRESS",
+            /* more items */
+          ],
     };
+
+    if (isValidEmail(body.email)) {
+        params.ReplyToAddresses = [body.email];
+    }
 
     await new AWS.SES().sendEmail(params).promise();
 
