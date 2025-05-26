@@ -20,7 +20,7 @@ I am Dr. Szabolcs Peresztegi. I started practicing dentistry in 1997. I opened m
 #### Westfälische Wilhelms-Universität Münster
 
 - Degree Name: Master's Degree
-- Field Of StudyImplantology
+- Field Of Study: Implantology
 - Dates attended: 2006 – 2007
 
 #### Semmelweis University
