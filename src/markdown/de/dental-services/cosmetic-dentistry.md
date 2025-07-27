@@ -2,9 +2,9 @@
 
 Perident Dentistry bietet eine breite Palette an kosmetischen Zahnheilkundeleistungen an, darunter Implantate, Kronen und Brücken, Inlays/Onlays und mehr.
 
-### [Implantate](/dental-services/cosmetic-dentistry/dental-implants-gyor)
+### [Implantate](/fogimplantatum-gyor)
 
-Ein Zahnimplantat ist ein kleiner Titanpfosten, der chirurgisch in den Kieferknochen unterhalb des Zahnfleischrandes eingesetzt wird, um als Zahnwurzel zu dienen. Es gibt mehrere verschiedene Materialien, Techniken und Zahnimplantatstrukturen, aus denen Patienten wählen können. Auf dieser Seite werden einige der Optionen beschrieben, die Sie bei uns wählen können. Weitere Informationen zu Zahnimplantaten finden Sie [hier](/dental-services/cosmetic-dentistry/dental-implants-gyor).
+Ein Zahnimplantat ist ein kleiner Titanpfosten, der chirurgisch in den Kieferknochen unterhalb des Zahnfleischrandes eingesetzt wird, um als Zahnwurzel zu dienen. Es gibt mehrere verschiedene Materialien, Techniken und Zahnimplantatstrukturen, aus denen Patienten wählen können. Auf dieser Seite werden einige der Optionen beschrieben, die Sie bei uns wählen können. Weitere Informationen zu Zahnimplantaten finden Sie [hier](/fogimplantatum-gyor).
 
 ### [Kronen und Brücken](/dental-services/cosmetic-dentistry/crowns-and-bridges-gyor)
 

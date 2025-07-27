@@ -16,7 +16,7 @@ Click on the image below for a video about how a dental crown is installed. For 
 
 ### Dental bridges
 
-A bridge can be used to replace a missing tooth ot teeth, they are usually made of a precious or non precious metal base covered on the outside by tooth-coloured ceramic porcelain material, it can also be made entirely of tooth coloured ceramic material. It is held in place by cementing crowns over the teeth either side of the gap being filled. Dental bridges can also be used to bridge gaps between [dental implants](/dental-services/cosmetic-dentistry/dental-implants-gyor).
+A bridge can be used to replace a missing tooth ot teeth, they are usually made of a precious or non precious metal base covered on the outside by tooth-coloured ceramic porcelain material, it can also be made entirely of tooth coloured ceramic material. It is held in place by cementing crowns over the teeth either side of the gap being filled. Dental bridges can also be used to bridge gaps between [dental implants](/fogimplantatum-gyor).
 
 There are different types of bridges which use different fixing methods. Your dentist will choose the most effective and conservative bridge for your personal situation.
 

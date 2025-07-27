@@ -2,9 +2,9 @@
 
 A Perident fogászat kozmetikai fogászati ​​szolgáltatások széles választékát kínálja, többek között az implantátumokat, koronákat és hidakat, inlayeket és onlayeket.
 
-### [Implantátumok](/dental-services/cosmetic-dentistry/dental-implants-gyor)
+### [Implantátumok](/fogimplantatum-gyor)
 
-A fogászati ​​implantátum egy kis fém (titánium) csavar, amelyet műtéti úton az ínyvonal alatti állcsontba helyeznek, hogy a fog gyökereként szolgáljon. Számos különböző anyag, technika és fogászati ​​implantátum felépítés közül választhatnak a páciensek. Ez az weboldal bemutat néhányat a nálunk választható lehetőségek közül. A fogászati ​​implantátumokkal kapcsolatos további információkért kattintson [ide](/dental-services/cosmetic-dentistry/dental-implants-gyor).
+A fogászati ​​implantátum egy kis fém (titánium) csavar, amelyet műtéti úton az ínyvonal alatti állcsontba helyeznek, hogy a fog gyökereként szolgáljon. Számos különböző anyag, technika és fogászati ​​implantátum felépítés közül választhatnak a páciensek. Ez az weboldal bemutat néhányat a nálunk választható lehetőségek közül. A fogászati ​​implantátumokkal kapcsolatos további információkért kattintson [ide](/fogimplantatum-gyor).
 
 ### [Koronák és hidak](/dental-services/cosmetic-dentistry/crowns-and-bridges-gyor)
 

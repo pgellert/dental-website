@@ -1,5 +1,5 @@
 import ServicePage from "@components/service-page"
-import dentalImplants from "../../../../public/img/dental-implants.jpg"
+import dentalImplants from "../../public/img/dental-implants.jpg"
 
 const data = {
   en: {

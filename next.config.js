@@ -22,4 +22,13 @@ module.exports = {
   images: {
     domains: ['img.youtube.com'],
   },
+  async redirects() {
+    return [
+      {
+        source: '/dental-services/cosmetic-dentistry/dental-implants-gyor',
+        destination: '/fogimplantatum-gyor',
+        permanent: true,
+      },
+    ];
+  },
 }

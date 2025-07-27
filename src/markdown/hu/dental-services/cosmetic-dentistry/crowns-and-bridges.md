@@ -16,7 +16,7 @@ Kattintson az alábbi képre egy videóért a fogkorona felhelyezéséről. Ha t
 
 ### Fogászati ​​hidak
 
-A híd egy vagy több fog pótlására alkalmas. Általában nemes- vagy nem-nemesfém alapból készül, amelyet kívülről fogszínű kerámia porcelán borít, de készülhet teljes egészében fogszínű kerámia anyagból is. A hídat koronák tartják a helyén a kitöltendő rés két oldaláról. A fogászati ​​hidak a fogászati ​[​implantátumok](/dental-services/cosmetic-dentistry/dental-implants-gyor) közötti rések áthidalására is használhatók.
+A híd egy vagy több fog pótlására alkalmas. Általában nemes- vagy nem-nemesfém alapból készül, amelyet kívülről fogszínű kerámia porcelán borít, de készülhet teljes egészében fogszínű kerámia anyagból is. A hídat koronák tartják a helyén a kitöltendő rés két oldaláról. A fogászati ​​hidak a fogászati ​[​implantátumok](/fogimplantatum-gyor) közötti rések áthidalására is használhatók.
 
 Különböző típusú hidak léteznek, amelyek különböző rögzítési módszereket használnak. Fogorvosa kiválasztja az Ön személyes helyzetére leghatékonyabb és legalkalmasabb hidat.
 

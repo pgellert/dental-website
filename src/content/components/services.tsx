@@ -30,7 +30,7 @@ export const data = {
         title: "Implants",
         desc: "Dental implants function like natural teeth, are aesthetically pleasing, durable, convenient, and help maintain jawbone health, making them a good option for those seeking a long-term solution for missing teeth.",
         icon: <FontAwesomeIcon icon={faTooth} />,
-        link: "/dental-services/cosmetic-dentistry/dental-implants-gyor",
+        link: "/fogimplantatum-gyor",
         image: dentalImplants,
       },
       {
@@ -93,7 +93,7 @@ export const data = {
         title: "Dental Dentures",
         desc: "Get back to eating, talking, and smiling with confidence. Our dental dentures are custom-made to fit your unique needs and restore your natural appearance. Say goodbye to discomfort and hello to a beautiful, functional smile. Schedule your appointment today.",
         icon: <FontAwesomeIcon icon={faTooth} />,
-        link: "/dental-services/cosmetic-dentistry/dental-implants-gyor",
+        link: "/fogimplantatum-gyor",
         image: dentures,
       },
       {
@@ -118,7 +118,7 @@ export const data = {
         title: "Implantátum",
         desc: "A fogászati implantátumok úgy működnek, mint a természetes fogak, esztétikusak, tartósak, kényelmesek és segítenek megőrizni az állcsontok egészségét, így jó választás azok számára, akik hosszú távú megoldást keresnek hiányzó fogakra.",
         icon: <FontAwesomeIcon icon={faTooth} />,
-        link: "/dental-services/cosmetic-dentistry/dental-implants-gyor",
+        link: "/fogimplantatum-gyor",
         image: dentalImplants,
       },
       {
@@ -174,7 +174,7 @@ export const data = {
         title: "Műfogsor",
         desc: "A fogászati sürgősségi esetek bármikor, bárhol előfordulhatnak. Ilyenkor sürgősségi fogászatunk készen áll, hogy azonnali, hatékony fogorvosi ellátást nyújtson Önnek, hogy újra jobban érezze magát. Legyen szó súlyos fájdalomról, törött fogról vagy bármilyen más sürgős fogászati problémáról, tapasztalt fogorvosi csapatunk készen áll, hogy segítsen. Ne szenvedjen feleslegesen – ha sürgősségi fogászati ellátásra van szüksége, azonnal lépjen kapcsolatba velünk, és segítünk, hogy gyorsan jobban érezze magát.",
         icon: <FontAwesomeIcon icon={faTooth} />,
-        link: "/dental-services/cosmetic-dentistry/dental-implants-gyor",
+        link: "/fogimplantatum-gyor",
         image: dentures,
       },
       {
@@ -206,7 +206,7 @@ export const data = {
         title: "Implantate",
         desc: "Zahnimplantate funktionieren wie natürliche Zähne, sind ästhetisch ansprechend, langlebig, praktisch und tragen zur Gesunderhaltung des Kieferknochens bei, was sie zu einer guten Option für diejenigen macht, die eine langfristige Lösung für fehlende Zähne suchen.",
         icon: <FontAwesomeIcon icon={faTooth} />,
-        link: "/dental-services/cosmetic-dentistry/dental-implants-gyor",
+        link: "/fogimplantatum-gyor",
         image: dentalImplants,
       },
       {
@@ -269,7 +269,7 @@ export const data = {
         title: "Zahnprothese",
         desc: "Kehren Sie wieder zu essen, zu reden und mit Zuversicht zu lächeln. Unsere Zahnersatz sind maßgeschneidert, um Ihren besonderen Bedürfnissen zu entsprechen und Ihr natürliches Erscheinungsbild wiederherzustellen. Verabschieden Sie sich von Beschwerden und Hallo zu einem schönen, funktionalen Lächeln. Planen Sie noch heute Ihren Termin.",
         icon: <FontAwesomeIcon icon={faTooth} />,
-        link: "/dental-services/cosmetic-dentistry/dental-implants-gyor",
+        link: "/fogimplantatum-gyor",
         image: dentures,
       },
       {

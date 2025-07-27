@@ -6,7 +6,7 @@ Mit den modernen zahnärztlichen Diagnosewerkzeugen, die wir in der Zahnmedizin 
 ## 3D-DVT: das modernste zahnärztliche Diagnosewerkzeug
 <img src="/img/dental-cbct.jpeg" alt="Fog CT Győr" classname="block lg:hidden" width="200" height="auto" style="float: right; margin: 14px;"/>
 
-CBCT ist eine spezielle Art des zahnärztlichen Röntgens, mit der wir in einem einzigen Scan 3D-Bilder von Zähnen, Weichteilen, Nervenbahnen und Knochen erstellen können. CBCT ist besonders nützlich für die Planung von [Zahnimplantaten](/dental-services/cosmetic-dentistry/dental-implants-gyor), da es detaillierte Informationen über den Kieferknochen und die umgebenden Strukturen liefern kann.
+CBCT ist eine spezielle Art des zahnärztlichen Röntgens, mit der wir in einem einzigen Scan 3D-Bilder von Zähnen, Weichteilen, Nervenbahnen und Knochen erstellen können. CBCT ist besonders nützlich für die Planung von [Zahnimplantaten](/fogimplantatum-gyor), da es detaillierte Informationen über den Kieferknochen und die umgebenden Strukturen liefern kann.
 
 3D-DVT-Bilder ermöglichen eine genauere Diagnose und Behandlungsplanung, wodurch die zahnärztliche Behandlung wesentlich effizienter wird. Darüber hinaus minimiert der Einsatz von CBCT die Strahlenbelastung, deren Nutzen auch für unsere Patienten offensichtlich ist.
 

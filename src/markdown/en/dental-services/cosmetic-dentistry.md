@@ -2,9 +2,9 @@
 
 Perident Dentistry offers a wide range of cosmetic dentistry services including implants, crowns and bridges, inlays/onlays and more.
 
-### [Implants](/dental-services/cosmetic-dentistry/dental-implants-gyor)
+### [Implants](/fogimplantatum-gyor)
 
-A dental implant is a small titanium post that is surgically placed into the jawbone beneath the gum line to serve as the root of a tooth. There are several different materials, techniques and dental implant structures that patients can choose from. This page describes some of the options you can choose with us. For more information about dental implants, click [here](/dental-services/cosmetic-dentistry/dental-implants-gyor).
+A dental implant is a small titanium post that is surgically placed into the jawbone beneath the gum line to serve as the root of a tooth. There are several different materials, techniques and dental implant structures that patients can choose from. This page describes some of the options you can choose with us. For more information about dental implants, click [here](/fogimplantatum-gyor).
 
 ### [Crowns and Bridges](/dental-services/cosmetic-dentistry/crowns-and-bridges-gyor)
 
