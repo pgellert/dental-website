@@ -92,7 +92,7 @@ function Content({ content, global_content }) {
                 {global_content.contact.email}
               </h2>
               <p className="leading-tight text-gray-700 hover:text-gray-500">
-                <Link href="mailto:info@perident.hu">info@perident.hu</Link>
+                <Link href="mailto:perident1@gmail.com">perident1@gmail.com</Link>
               </p>
             </div>
             <hr className="my-4"></hr>

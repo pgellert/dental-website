@@ -5,12 +5,12 @@ A fogaszatgyor.hu honlapot a Perinvest Kereskedelmi Kft. üzemelteti (a további
 - Perinvest Kereskedelmi Kft.
 - 9024 Győr
 - Nagy Imre út 93.
-- info@perident.hu
+- perident1@gmail.com
 - Kapcsolattartó: Dr. Peresztegi Szabolcs
 
 ### Adatfeldolgozó, weblapkészítő adatai
 - Gellert Peresztegi-Nagy
-- info@perident.hu
+- perident1@gmail.com
 - 9024 Győr
 - Nagy Imre út 93.
 

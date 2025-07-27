@@ -148,7 +148,7 @@ const structured_data = {
   "name": "Perident - Implantológia és Esztétikai Fogászat",
   "description": "Győri fogorvosi rendelő, amelynek specialitása a fogászati implantáció, fogpótlás.",
   "telephone": "+36205675678",
-  "email": "info@perident.hu",
+  "email": "perident1@gmail.com",
   "url": "https://www.fogaszatgyor.hu/",
   "image": [
     "https://www.fogaszatgyor.hu/img/fogorvos-gyor-1x1.jpg",
