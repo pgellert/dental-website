@@ -1,4 +1,4 @@
-# Fogászati implantátumok Győrben – tartós és megbízható megoldás fogpótlásra a Perident Fogászatnál
+# Fogimplantátum Győr - Tartós fogpótlás tapasztalt fogorvostól
 
 A fogászati implantátumok Győrben tartós és természetes megjelenésű megoldást kínálnak a hiányzó fogak pótlására. A Perident Fogászat tapasztalt szakemberei modern technológiával dolgoznak, hogy Önnek hosszú távú, kényelmes fogpótlást biztosítsanak, amely javítja a szájhigiéniát és az életminőséget.
 

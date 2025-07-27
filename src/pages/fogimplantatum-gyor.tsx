@@ -4,15 +4,15 @@ import dentalImplants from "../../public/img/dental-implants.jpg"
 const data = {
   en: {
     title: "Dental Implants in Gyor | Perident Dentistry",
-    meta_description: "Learn about the most modern implant technologies All-on-4, NobelGuide, CBCT. Perident Dentistry Győr.",
+    meta_description: "Dental Implant Győr - Dr. Peresztegi Szabolcs 20+ years of experience, 3D CBCT planning, Guarantee, Free consultation, Nobel & Straumann implant.",
   },
   hu: {
-    title: "Fogászati implantátumok Győrben | Perident Fogászat",
-    meta_description: "Ismerje meg a legmodernebb implantátum-technológiákat All-on-4, NobelGuide, CBCT. Perident fogászat Győr.",
+    title: "Fogimplantátum Győr | Perident Fogászat",
+    meta_description: "Fogimplantátum Győr - Dr. Peresztegi Szabolcs 20+ év tapasztalat, 3D CBCT tervezés, Garancia, Ingyenes konzultáció, Nobel & Straumann implantátum.",
   },
   de: {
     title: "Zahnimplantate in Györ | Zahnarztpraxis Perident",
-    meta_description: "Erfahren Sie mehr über die modernsten Implantattechnologien All-on-4, NobelGuide, DVT. Zahnarztpraxis Perident Györ.",
+    meta_description: "Zahnimplantat Győr – Dr. Peresztegi Szabolcs. Über 20 Jahre Erfahrung, 3D CBCT, Garantie, kostenlose Beratung, Nobel & Straumann-Implantat.",
   },
 }
 

@@ -1,4 +1,4 @@
-# Dental Implants in Gyor - Permanent Tooth Replacement at Perident Dentistry
+# Dental Implant Győr - Permanent tooth replacement from an experienced dentist
 
 Missing teeth don't have to affect your confidence or quality of life. At Perident Dentistry in Gyor, we specialize in dental implants - the most advanced and permanent solution for replacing missing teeth. Our experienced team uses cutting-edge technology to restore your smile with natural-looking, long-lasting results that can improve both your oral health and self-confidence.
 
