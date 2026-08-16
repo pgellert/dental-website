@@ -1,15 +1,15 @@
-import { Disclosure, Menu } from "@headlessui/react"
+import { Disclosure } from "@headlessui/react"
 import Image from "next/image"
 import Link from "next/link"
 import "flag-icons"
+import { useRouter } from "next/router"
 
 import logoImg from "../../public/img/logo.svg"
-import { useRouter } from "next/router"
 import { data } from "../content/components/navbar"
 
 export default function Navbar() {
-  const { locale, locales, asPath } = useRouter();
-  const content = data[locale];
+  const { locale, locales, asPath } = useRouter()
+  const content = data[locale]
 
   return (
     <div className="w-full">
@@ -23,12 +23,17 @@ export default function Navbar() {
                   href="/"
                   title={content.logo_alt}
                   className="border-2 border-gray-200 rounded-lg overflow-hidden"
-                  >
-                  <Image src={logoImg} alt={content.logo_alt} width="100" priority />
+                >
+                  <Image
+                    src={logoImg}
+                    alt={content.logo_alt}
+                    width="100"
+                    priority
+                  />
                 </Link>
 
                 <div className="justify-end flex flex-nowrap item-center lg:hidden">
-                  <LanguageSwitcher locales={locales} asPath={asPath}/>
+                  <LanguageSwitcher locales={locales} asPath={asPath} />
                   <Disclosure.Button
                     aria-label="Toggle Menu"
                     className="dark:focus:bg-trueGray-700 ml-auto rounded-md px-2 py-1 text-gray-500 hover:text-sky-500 focus:bg-sky-100 focus:text-sky-500 focus:outline-none dark:text-gray-300"
@@ -55,28 +60,23 @@ export default function Navbar() {
                   </Disclosure.Button>
                 </div>
 
-                
-
                 <Disclosure.Panel className="my-5 flex w-full flex-wrap lg:hidden">
                   <>
                     {content.nav_items.map((item, index) => (
-                      (<Link
+                      <Link
                         key={index}
                         href={item.href}
-                        className="dark:focus:bg-trueGray-700 -ml-4 w-full rounded-md px-4 py-2 text-gray-500 hover:text-sky-500 focus:bg-sky-100 focus:text-sky-500 focus:outline-none dark:text-gray-300 dark:focus:bg-gray-800">
-
+                        className="dark:focus:bg-trueGray-700 -ml-4 w-full rounded-md px-4 py-2 text-gray-500 hover:text-sky-500 focus:bg-sky-100 focus:text-sky-500 focus:outline-none dark:text-gray-300 dark:focus:bg-gray-800"
+                      >
                         {item.title}
-
-                      </Link>)
+                      </Link>
                     ))}
                     <Link
                       href={content.call_to_action.href}
-                      className="mt-3 w-full rounded-md bg-sky-600 px-6 py-2 text-center text-white lg:ml-5">
-
+                      className="mt-3 w-full rounded-md bg-sky-600 px-6 py-2 text-center text-white lg:ml-5"
+                    >
                       {content.call_to_action.title}
-
                     </Link>
-                    
                   </>
                 </Disclosure.Panel>
               </div>
@@ -91,26 +91,23 @@ export default function Navbar() {
               <li className="nav__item mr-3" key={index}>
                 <Link
                   href={menu.href}
-                  className="inline-block rounded-md px-4 py-2 text-lg font-normal text-gray-800 no-underline hover:text-sky-500">
-
+                  className="inline-block rounded-md px-4 py-2 text-lg font-normal text-gray-800 no-underline hover:text-sky-500"
+                >
                   {menu.title}
-
                 </Link>
               </li>
             ))}
           </ul>
         </div>
-        
+
         <div className="flex flex-nowrap justify-end content-center items-center">
           <div className="nav__item mr-5 hidden space-x-4 lg:flex">
             <Link
               href={content.call_to_action.href}
-              className="rounded-md bg-sky-600 px-6 py-2 text-white md:ml-5">
-
+              className="rounded-md bg-sky-600 px-6 py-2 text-white md:ml-5"
+            >
               {content.call_to_action.title}
-
             </Link>
-            
           </div>
           <div className="nav__item mr-3 flex flex-nowrap hidden lg:flex">
             <LanguageSwitcher locales={locales} asPath={asPath} />
@@ -118,32 +115,28 @@ export default function Navbar() {
         </div>
       </nav>
     </div>
-  );
+  )
 }
 
 export const LanguageSwitcher = ({ locales, asPath }) => {
   return (
     <ul className="flex flex-nowrap items-center">
       {locales.map((lang) => {
-        const title = `Switch to ${lang} language`;
+        const title = `Switch to ${lang} language`
         return (
           <li key={lang} className="mr-1 text-xl">
-            {/* TODO: add a link here based on the language */ }
-            <Link
-              href={asPath} 
-              locale={lang}
-              title={title}
-            >
+            {/* TODO: add a link here based on the language */}
+            <Link href={asPath} locale={lang} title={title}>
               <LangIcon lang={lang} title={title} />
             </Link>
           </li>
-        );
+        )
       })}
     </ul>
-  );
+  )
 }
 
 const LangIcon = ({ lang, title }) => {
-  const icon_lang = lang == "en" ? "gb" : lang;
+  const icon_lang = lang == "en" ? "gb" : lang
   return <span className={`contrast-75 fi fi-${icon_lang}`} title={title} />
 }

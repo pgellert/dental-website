@@ -14,6 +14,5 @@ export const data = {
     our_address: "Unsere Adresse",
     hungary: "Ungarn",
     praxis: "Praxis",
-  }
+  },
 }
-      

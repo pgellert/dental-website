@@ -1,15 +1,14 @@
 import React, { useState } from "react"
 
-import Link from "next/link"
-
-import BasePage from "@components/base-page"
-import { useRouter } from "next/router"
-import { data } from "@content/pages/contact-us"
-import { global_data } from "@content/global"
 import { faUserDoctor } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import PeridentMap from "@components/google-map"
+import Link from "next/link"
+import { useRouter } from "next/router"
 
+import BasePage from "@components/base-page"
+import PeridentMap from "@components/google-map"
+import { global_data } from "@content/global"
+import { data } from "@content/pages/contact-us"
 
 export default function Home() {
   const { locale } = useRouter()
@@ -28,38 +27,36 @@ export default function Home() {
   )
 }
 
-
 function Content({ content, global_content }) {
-  const router = useRouter();
+  const router = useRouter()
 
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [phone, setPhone] = useState("");
-  const [message, setMessage] = useState("");
-  
+  const [name, setName] = useState("")
+  const [email, setEmail] = useState("")
+  const [phone, setPhone] = useState("")
+  const [message, setMessage] = useState("")
+
   async function handleOnSubmit(e) {
-    e.preventDefault();
+    e.preventDefault()
 
     // Validate
-    var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
-    if(name === "" || phone === "" || !mailformat.test(email)) {
+    var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/
+    if (name === "" || phone === "" || !mailformat.test(email)) {
       alert("Incorrect fields")
     }
 
-    await fetch('/api/form-submit', {
-      method: 'POST',
+    await fetch("/api/form-submit", {
+      method: "POST",
       body: JSON.stringify({
-        "name": name,
-        "email": email,
-        "phone": phone,
-        "message": message,
-        "locale": router.locale,
-      })
-    });
+        name: name,
+        email: email,
+        phone: phone,
+        message: message,
+        locale: router.locale,
+      }),
+    })
 
     router.push("/thank-you")
   }
-
 
   return (
     <>
@@ -92,7 +89,9 @@ function Content({ content, global_content }) {
                 {global_content.contact.email}
               </h2>
               <p className="leading-tight text-gray-700 hover:text-gray-500">
-                <Link href="mailto:perident1@gmail.com">perident1@gmail.com</Link>
+                <Link href="mailto:perident1@gmail.com">
+                  perident1@gmail.com
+                </Link>
               </p>
             </div>
             <hr className="my-4"></hr>
@@ -108,31 +107,65 @@ function Content({ content, global_content }) {
             <div>
               <form onSubmit={handleOnSubmit}>
                 <fieldset>
-                  <legend className="mb-4 text-lg font-semibold text-sky-500">{global_content.contact.enquire}</legend>
+                  <legend className="mb-4 text-lg font-semibold text-sky-500">
+                    {global_content.contact.enquire}
+                  </legend>
                   <div className="items-baseline mb-4">
-                    <label className="block text-gray-700 text-sm font-semibold mb-2">{global_content.contact.name}</label>
-                    <input onChange={(e) => setName(e.target.value)} className="placeholder:italic shadow-sm appearance-none border border-gray-200 rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:ring-0 focus:border-sky-200" id="name" type="text" placeholder="Nagy Gábor"/>
+                    <label className="block text-gray-700 text-sm font-semibold mb-2">
+                      {global_content.contact.name}
+                    </label>
+                    <input
+                      onChange={(e) => setName(e.target.value)}
+                      className="placeholder:italic shadow-sm appearance-none border border-gray-200 rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:ring-0 focus:border-sky-200"
+                      id="name"
+                      type="text"
+                      placeholder="Nagy Gábor"
+                    />
                   </div>
                   <div className="items-baseline mb-5">
-                    <label className="block text-gray-700 text-sm font-semibold mb-2">{global_content.contact.email}</label>
-                    <input onChange={(e) => setEmail(e.target.value)} className="placeholder:italic shadow-sm appearance-none border border-gray-200 rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:ring-0 focus:border-sky-200" id="email" type="email" placeholder="gabor@gmail.com"/>
+                    <label className="block text-gray-700 text-sm font-semibold mb-2">
+                      {global_content.contact.email}
+                    </label>
+                    <input
+                      onChange={(e) => setEmail(e.target.value)}
+                      className="placeholder:italic shadow-sm appearance-none border border-gray-200 rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:ring-0 focus:border-sky-200"
+                      id="email"
+                      type="email"
+                      placeholder="gabor@gmail.com"
+                    />
                   </div>
                   <div className="items-baseline mb-5">
-                    <label className="block text-gray-700 text-sm font-semibold mb-2">{global_content.contact.phone}</label>
-                    <input onChange={(e) => setPhone(e.target.value)} className="placeholder:italic shadow-sm appearance-none border border-gray-200 rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:ring-0 focus:border-sky-200" id="tel" type="tel" placeholder="+36205675678"/>
+                    <label className="block text-gray-700 text-sm font-semibold mb-2">
+                      {global_content.contact.phone}
+                    </label>
+                    <input
+                      onChange={(e) => setPhone(e.target.value)}
+                      className="placeholder:italic shadow-sm appearance-none border border-gray-200 rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:ring-0 focus:border-sky-200"
+                      id="tel"
+                      type="tel"
+                      placeholder="+36205675678"
+                    />
                   </div>
                   <div className="items-baseline mb-5">
-                    <label className="block text-gray-700 text-sm font-semibold mb-2">{global_content.contact.message}</label>
-                    <textarea onChange={(e) => setMessage(e.target.value)} className="resize-y min-h-[100px] placeholder:italic shadow-sm appearance-none border border-gray-200 rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:ring-0 focus:border-sky-200" id="message" placeholder={global_content.contact.message_hint} />
+                    <label className="block text-gray-700 text-sm font-semibold mb-2">
+                      {global_content.contact.message}
+                    </label>
+                    <textarea
+                      onChange={(e) => setMessage(e.target.value)}
+                      className="resize-y min-h-[100px] placeholder:italic shadow-sm appearance-none border border-gray-200 rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:ring-0 focus:border-sky-200"
+                      id="message"
+                      placeholder={global_content.contact.message_hint}
+                    />
                   </div>
                   <div className="">
-                    <button className="w-full shadow uppercase bg-sky-600 hover:bg-sky-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded" type="submit">
-                    {global_content.contact.send}
+                    <button
+                      className="w-full shadow uppercase bg-sky-600 hover:bg-sky-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded"
+                      type="submit"
+                    >
+                      {global_content.contact.send}
                     </button>
                   </div>
-                  
                 </fieldset>
-                
               </form>
             </div>
             <hr className="mt-10 mb-4"></hr>
@@ -187,7 +220,7 @@ function Content({ content, global_content }) {
             </div>
             <hr className="mt-4 mb-6"></hr>
             <div className="w-full items-center">
-              <PeridentMap className={"w-full h-56"}/>
+              <PeridentMap className={"w-full h-56"} />
             </div>
           </div>
         </div>

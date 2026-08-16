@@ -1,8 +1,7 @@
-
-export function Section({title, children, anchor}) {
+export function Section({ title, children, anchor }) {
   return (
     <section id={anchor}>
-      <SectionTitle title={title}/>
+      <SectionTitle title={title} />
       {children}
     </section>
   )

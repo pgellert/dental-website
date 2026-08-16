@@ -73,8 +73,8 @@ export const data = {
         text: "Freundlicher Empfang, korrekte Orientierung, Qualitätsarbeit! Danke!",
         name: "János",
       },
-      { 
-        text: "Richtige Zahnpflege, empfehle ich jedem!", 
+      {
+        text: "Richtige Zahnpflege, empfehle ich jedem!",
         name: "Nicolette",
         icon: faFacebook,
       },

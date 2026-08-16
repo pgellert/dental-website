@@ -9,18 +9,18 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { EmojiHappyIcon } from "@heroicons/react/outline"
 
-import gyorDentist from "../../../public/img/gyor-fogorvos.jpeg"
-import toothache from "../../../public/img/toothache.jpg"
-import teethWhitening from "../../../public/img/tooth-whitening.jpg"
-import inlayOnlay from "../../../public/img/inlay-onlay.webp"
-import dentalXray from "../../../public/img/fogrontgen.jpg"
-import smileMakeover from "../../../public/img/mosolyatalakitas.jpg"
 import dentalCheckup from "../../../public/img/dental-checkup.jpg"
 import dentalCrown from "../../../public/img/dental-crown-implants.jpeg"
-import dentalImplants from "../../../public/img/dental-implants.jpg"
 import dentures from "../../../public/img/dental-dentures.jpg"
 import dentalFillings from "../../../public/img/dental-fillings.jpg"
+import dentalImplants from "../../../public/img/dental-implants.jpg"
+import dentalXray from "../../../public/img/fogrontgen.jpg"
+import gyorDentist from "../../../public/img/gyor-fogorvos.jpeg"
+import inlayOnlay from "../../../public/img/inlay-onlay.webp"
+import smileMakeover from "../../../public/img/mosolyatalakitas.jpg"
 import oralSurgery from "../../../public/img/oral-surgery.jpg"
+import teethWhitening from "../../../public/img/tooth-whitening.jpg"
+import toothache from "../../../public/img/toothache.jpg"
 
 export const data = {
   en: {

@@ -1,5 +1,6 @@
 import BasePage from "@components/base-page"
 import { Content } from "@components/service-page"
+import { markdownContent } from "lib/markdown"
 
 export default function Home({ markdown }) {
   return (
@@ -11,10 +12,10 @@ export default function Home({ markdown }) {
   )
 }
 
-export async function getStaticProps({locale}) {
+export async function getStaticProps({ locale }) {
   return {
     props: {
-      markdown: await require(`@markdowns/${locale}/404.md`).default,
+      markdown: markdownContent(await require(`@markdowns/${locale}/404.md`)),
     },
   }
 }

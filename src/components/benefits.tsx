@@ -2,14 +2,15 @@ import React from "react"
 
 import { faCheck } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { data } from "@content/components/benefits";
+import { useRouter } from "next/router"
+
+import { data } from "@content/components/benefits"
 
 import Container from "./container"
-import { useRouter } from "next/router";
 
 export default function Benefits(props) {
-  const { locale } = useRouter();
-  const content = data[locale];
+  const { locale } = useRouter()
+  const content = data[locale]
 
   return (
     <>
@@ -46,7 +47,9 @@ function Feature({ title, desc }) {
         <h3 className="mt-4 text-lg font-semibold text-gray-800 md:text-xl">
           {title}
         </h3>
-        <p className="mt-1 mr-4 text-base leading-snug text-gray-600 md:text-lg">{desc}</p>
+        <p className="mt-1 mr-4 text-base leading-snug text-gray-600 md:text-lg">
+          {desc}
+        </p>
       </div>
     </li>
   )

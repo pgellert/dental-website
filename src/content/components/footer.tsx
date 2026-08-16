@@ -1,6 +1,7 @@
 export const data = {
   en: {
-    description: "Our high-quality professionals provide you with the best service! We are waiting for you in a friendly, comfortable environment in our dentistry!",
+    description:
+      "Our high-quality professionals provide you with the best service! We are waiting for you in a friendly, comfortable environment in our dentistry!",
     links: {
       title: "Useful links",
       home: "Home",
@@ -9,10 +10,11 @@ export const data = {
       contact_us: "Appointments",
       privacy_policy: "Privacy Policy",
     },
-    contact: "Contact"
+    contact: "Contact",
   },
   hu: {
-    description: "Magas kvalitású szakembereink a legjobbat nyújtják Önnek! Barátságos, kényelmes környezetben várjuk Önt rendelőnkben!",
+    description:
+      "Magas kvalitású szakembereink a legjobbat nyújtják Önnek! Barátságos, kényelmes környezetben várjuk Önt rendelőnkben!",
     links: {
       title: "Hasznos Linkek",
       home: "Főoldal",
@@ -21,10 +23,11 @@ export const data = {
       contact_us: "Időpontfoglalás",
       privacy_policy: "Adatvédelmi irányelvek",
     },
-    contact: "Forduljon hozzánk"
+    contact: "Forduljon hozzánk",
   },
   de: {
-    description: "Unsere hochqualifizierten Fachleute bieten Ihnen den besten Service! Wir erwarten Sie in einer freundlichen, komfortablen Umgebung in unserer Zahnarztpraxis!",
+    description:
+      "Unsere hochqualifizierten Fachleute bieten Ihnen den besten Service! Wir erwarten Sie in einer freundlichen, komfortablen Umgebung in unserer Zahnarztpraxis!",
     links: {
       title: "Nützliche Links",
       home: "Startseite",
@@ -33,6 +36,6 @@ export const data = {
       contact_us: "Termine",
       privacy_policy: "Kontaktiere uns",
     },
-    contact: "Datenschutz-Bestimmungen"
+    contact: "Datenschutz-Bestimmungen",
   },
 }

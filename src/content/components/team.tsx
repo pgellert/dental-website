@@ -8,7 +8,8 @@ export const data = {
         image: szabolcsImg,
         name: "Dr. Peresztegi Szabolcs",
         title: "Dentist",
-        linkedin: "https://www.linkedin.com/in/szabolcs-peresztegi-nagy-b16a3a23",
+        linkedin:
+          "https://www.linkedin.com/in/szabolcs-peresztegi-nagy-b16a3a23",
       },
       {
         image: assistantImg,
@@ -23,7 +24,8 @@ export const data = {
         image: szabolcsImg,
         name: "Dr. Peresztegi Szabolcs",
         title: "Fogorvos",
-        linkedin: "https://www.linkedin.com/in/szabolcs-peresztegi-nagy-b16a3a23",
+        linkedin:
+          "https://www.linkedin.com/in/szabolcs-peresztegi-nagy-b16a3a23",
       },
       {
         image: assistantImg,
@@ -38,7 +40,8 @@ export const data = {
         image: szabolcsImg,
         name: "Dr. Peresztegi Szabolcs",
         title: "Zahnarzt",
-        linkedin: "https://www.linkedin.com/in/szabolcs-peresztegi-nagy-b16a3a23",
+        linkedin:
+          "https://www.linkedin.com/in/szabolcs-peresztegi-nagy-b16a3a23",
       },
       {
         image: assistantImg,
@@ -48,4 +51,3 @@ export const data = {
     ],
   },
 }
-  

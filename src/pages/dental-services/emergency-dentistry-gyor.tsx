@@ -1,35 +1,48 @@
 import ServicePage from "@components/service-page"
+import { markdownContent } from "lib/markdown"
+
 import toothache from "../../../public/img/toothache.jpg"
 
 const data = {
   en: {
     title: "Emergency Dentistry in Gyor | Perident Dentistry",
-    meta_description: "If you're in pain and need emergency dentistry, we can help. We offer emergency dental services for when you need it most. Call us today!",
+    meta_description:
+      "If you're in pain and need emergency dentistry, we can help. We offer emergency dental services for when you need it most. Call us today!",
   },
   hu: {
     title: "Azonnali Fogorvos Győrben | Perident Fogászat",
-    meta_description: "Ha fájdalmai vannak, és azonnal sürgősségi fogászatra van szüksége, tudunk segíteni. Azonnali sürgősségi fogászati szolgáltatásunk segít, amikor a legnagyobb szüksége van rá. Hívjon minket még ma!",
+    meta_description:
+      "Ha fájdalmai vannak, és azonnal sürgősségi fogászatra van szüksége, tudunk segíteni. Azonnali sürgősségi fogászati szolgáltatásunk segít, amikor a legnagyobb szüksége van rá. Hívjon minket még ma!",
   },
   de: {
     title: "Notfallzahnmedizin in Györ | Zahnarztpraxis Perident",
-    meta_description: "Wenn Sie Schmerzen haben und eine zahnärztliche Notfallbehandlung benötigen, können wir Ihnen helfen. Wir bieten einen zahnärztlichen Notdienst an, wenn Sie ihn am dringendsten benötigen. Ruf uns heute an!",
+    meta_description:
+      "Wenn Sie Schmerzen haben und eine zahnärztliche Notfallbehandlung benötigen, können wir Ihnen helfen. Wir bieten einen zahnärztlichen Notdienst an, wenn Sie ihn am dringendsten benötigen. Ruf uns heute an!",
   },
 }
 
-export default function Home({markdown, locale}) {
-  const content = data[locale];
+export default function Home({ markdown, locale }) {
+  const content = data[locale]
   return (
-    <ServicePage title={content.title} markdown={markdown} meta_description={content.meta_description} image={toothache}/>
+    <ServicePage
+      title={content.title}
+      markdown={markdown}
+      meta_description={content.meta_description}
+      image={toothache}
+    />
   )
 }
 
-export async function getStaticProps({locale}) {
-  const markdown = await require(`@markdowns/${locale}/dental-services/emergency-dentistry.md`).default;
-    return {
+export async function getStaticProps({ locale }) {
+  const markdown = markdownContent(
+    await require(
+      `@markdowns/${locale}/dental-services/emergency-dentistry.md`,
+    ),
+  )
+  return {
     props: {
       markdown: markdown,
       locale: locale,
     },
   }
 }
-

@@ -3,14 +3,15 @@ import React from "react"
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import Image from "next/image"
-
-import Container from "./container"
 import { useRouter } from "next/router"
+
 import { data } from "@content/components/team"
 
+import Container from "./container"
+
 export default function Team(props) {
-  const { locale } = useRouter();
-  const content = data[locale];
+  const { locale } = useRouter()
+  const content = data[locale]
 
   return (
     <>
@@ -32,11 +33,16 @@ export default function Team(props) {
 }
 
 function TeamMember({ image, name, title, linkedinLink }) {
-  const imageCss = { width: '100%', height: 'auto' }
+  const imageCss = { width: "100%", height: "auto" }
 
   return (
     <li className="3xl:basis-1/4 w-full basis-1/2 rounded-lg bg-white shadow hover:shadow-md lg:basis-1/4 xl:basis-1/4">
-      <Image src={image} sizes="100vw" alt={name + " inside Perident"} style={imageCss} />
+      <Image
+        src={image}
+        sizes="100vw"
+        alt={name + " inside Perident"}
+        style={imageCss}
+      />
 
       <div className="relative p-4">
         <h3 className="text-base font-medium text-gray-800 md:text-xl">
@@ -47,7 +53,12 @@ function TeamMember({ image, name, title, linkedinLink }) {
           {linkedinLink === null || typeof linkedinLink === "undefined" ? (
             ""
           ) : (
-            <a title="LinkedIn" target="_blank" href={linkedinLink} rel="noopener noreferrer">
+            <a
+              title="LinkedIn"
+              target="_blank"
+              href={linkedinLink}
+              rel="noopener noreferrer"
+            >
               {React.cloneElement(<FontAwesomeIcon icon={faLinkedin} />, {
                 className: "w-6 h-6 text-blue-600 mr-2",
               })}

@@ -1,13 +1,11 @@
-
+import { ImageSlider } from "./image-slider"
 import szabolcsImg from "../../public/img/dr-peresztegi-szabolcs-fogorvosi-szek.jpeg"
-import assistantImg from "../../public/img/kinga-asszisztens.jpeg"
+import insideImg from "../../public/img/fogaszati-rendelo-kulter.jpeg"
+import outsideImg from "../../public/img/fogorvosi-rendelo-belter.jpeg"
+import inside2Img from "../../public/img/fogorvosi-rendelo-varo.jpeg"
 import gyorImg from "../../public/img/gyor-fogorvos.jpeg"
 import gyor2Img from "../../public/img/gyor.jpeg"
-import insideImg from "../../public/img/fogaszati-rendelo-kulter.jpeg"
-import inside2Img from "../../public/img/fogorvosi-rendelo-varo.jpeg"
-import outsideImg from "../../public/img/fogorvosi-rendelo-belter.jpeg"
-
-import { ImageSlider } from "./image-slider";
+import assistantImg from "../../public/img/kinga-asszisztens.jpeg"
 
 const images = [
   { image: outsideImg, priority: false },
@@ -20,7 +18,14 @@ const images = [
 ]
 
 export default function Gallery() {
-    return <div className="w-full lg:w-1/3 mx-auto">
-        <ImageSlider images={images} indicators={false} slide={false} objectFit="contain"/>
+  return (
+    <div className="w-full lg:w-1/3 mx-auto">
+      <ImageSlider
+        images={images}
+        indicators={false}
+        slide={false}
+        objectFit="contain"
+      />
     </div>
+  )
 }
