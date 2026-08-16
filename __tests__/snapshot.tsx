@@ -1,8 +1,9 @@
-import { render } from "@testing-library/react"
+import { render, screen } from "@testing-library/react"
 
 import Home from "../src/pages/index"
 
-it("renders homepage unchanged", () => {
-  const { container } = render(<Home />)
-  expect(container).toMatchSnapshot()
+it("renders homepage content", () => {
+  render(<Home />)
+
+  expect(screen.getByRole("heading", { name: "Fogászati kezeléseink" })).toBeInTheDocument()
 })

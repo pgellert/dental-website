@@ -49,11 +49,13 @@ export function Content({ markdown }) {
             </Link>)
           );
         },
-        p: (paragraph: { children?: boolean; node?: any}) => {
+        p: (paragraph) => {
           const { node } = paragraph
         
-          if (node.children[0].tagName === "img") {
-            const image = node.children[0]
+          const firstChild = node.children[0] as any
+
+          if (firstChild.tagName === "img") {
+            const image = firstChild
             const metastring = image.properties.alt
             const alt = metastring?.replace(/ *\{[^)]*\} */g, "")
             const metaWidth = metastring.match(/{([^}]+)x/)

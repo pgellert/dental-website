@@ -3,12 +3,15 @@ import { render, screen } from "@testing-library/react"
 import Home from "../src/pages/index"
 
 describe("Home", () => {
-  it("cta opens github", () => {
+  it("renders the primary phone CTA", () => {
     render(<Home />)
 
-    expect(screen.getByText("Copy Template from GitHub")).toHaveAttribute(
+    expect(
+      screen.getByRole("heading", { name: "Magán Fogorvos Győrben" })
+    ).toBeInTheDocument()
+    expect(screen.getAllByRole("link", { name: "Hívjon minket" })[0]).toHaveAttribute(
       "href",
-      "https://github.com/agcty/nextjs-advanced-starter"
+      "tel:+36205675678"
     )
   })
 })

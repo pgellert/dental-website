@@ -10,9 +10,11 @@ const customJestConfig = {
   setupFilesAfterEnv: ["<rootDir>/jest.setup.js"],
   moduleNameMapper: {
     // Handle module aliases (this will be automatically configured for you soon)
-    "^@/components/(.*)$": "<rootDir>/components/$1",
-    "^@/markdown/(.*)$": "<rootDir>/markdown/$1",
-    "^@/pages/(.*)$": "<rootDir>/pages/$1",
+    "^@components/(.*)$": "<rootDir>/src/components/$1",
+    "^@content/(.*)$": "<rootDir>/src/content/$1",
+    "^@markdowns/(.*)$": "<rootDir>/src/markdown/$1",
+    "^flag-icons$": "<rootDir>/__mocks__/styleMock.js",
+    "\\.(css|sass|scss)$": "<rootDir>/__mocks__/styleMock.js",
   },
   testEnvironment: "jest-environment-jsdom",
 }
